@@ -1,0 +1,67 @@
+[
+ {
+  "nama": "Woodpecker Electro",
+  "bonus2": "ATK +10%",
+  "bonus4": "Setelah serangan critical, ATK bertambah untuk sementara."
+ },
+ {
+  "nama": "Hormone Punk",
+  "bonus2": "ATK +10%",
+  "bonus4": "ATK bertambah saat agent masuk ke arena (Quick Assist, Defensive Assist, Perfect Assist)."
+ },
+ {
+  "nama": "Puffer Electro",
+  "bonus2": "PEN Ratio +8%",
+  "bonus4": "Menambah damage ultimate dan efek PEN Ratio lewat EX Special."
+ },
+ {
+  "nama": "Chaotic Metal",
+  "bonus2": "Ether DMG +10%",
+  "bonus4": "Menambah Crit DMG saat musuh mengalami anomali, cocok untuk agent Ether."
+ },
+ {
+  "nama": "Polar Metal",
+  "bonus2": "Ice DMG +10%",
+  "bonus4": "Menambah damage serangan dasar dan Dash Attack, cocok untuk agent Ice."
+ },
+ {
+  "nama": "Thunder Metal",
+  "bonus2": "Electric DMG +10%",
+  "bonus4": "Menambah damage listrik setelah musuh terkena efek Shock."
+ },
+ {
+  "nama": "Inferno Metal",
+  "bonus2": "Fire DMG +10%",
+  "bonus4": "Menambah Crit Rate pada musuh yang terkena Burn."
+ },
+ {
+  "nama": "Fanged Metal",
+  "bonus2": "Physical DMG +10%",
+  "bonus4": "Menambah damage fisik setelah musuh mengalami anomali."
+ },
+ {
+  "nama": "Freedom Blues",
+  "bonus2": "Anomaly Proficiency +30",
+  "bonus4": "Mengurangi resistansi elemen musuh setelah anomali."
+ },
+ {
+  "nama": "Swing Jazz",
+  "bonus2": "Energy Regen +20%",
+  "bonus4": "Menambah damage skill setelah Chain Attack atau Ultimate."
+ },
+ {
+  "nama": "Shockstar Disco",
+  "bonus2": "Impact +6%",
+  "bonus4": "Menambah damage serangan dasar dan Dash Attack."
+ },
+ {
+  "nama": "Proto Punk",
+  "bonus2": "Shield +15%",
+  "bonus4": "Menambah damage tim saat agent memberi shield."
+ },
+ {
+  "nama": "Soul Rock",
+  "bonus2": "DEF +16%",
+  "bonus4": "Mengurangi damage yang diterima saat bertahan."
+ }
+]

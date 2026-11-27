@@ -1,0 +1,177 @@
+[
+ {
+  "nama": "Blade of Despair",
+  "tipe": "Attack",
+  "info": "Damage fisik sangat besar, cocok untuk build akhir."
+ },
+ {
+  "nama": "Demon Hunter Sword",
+  "tipe": "Attack",
+  "info": "Menambah damage dasar dan damage persentase HP musuh."
+ },
+ {
+  "nama": "Blade of the Heptaseas",
+  "tipe": "Attack",
+  "info": "Menambah damage fisik dan memberi cadangan serangan."
+ },
+ {
+  "nama": "Windtalker",
+  "tipe": "Attack",
+  "info": "Menambah kecepatan serang dan efek kilat pada serangan dasar."
+ },
+ {
+  "nama": "Berserker's Fury",
+  "tipe": "Attack",
+  "info": "Menambah crit dan damage fisik."
+ },
+ {
+  "nama": "Golden Staff",
+  "tipe": "Attack",
+  "info": "Menambah kecepatan serang dan menghancurkan HP musuh."
+ },
+ {
+  "nama": "Endless Battle",
+  "tipe": "Attack",
+  "info": "Menambah damage dan lifesteal, cocok untuk fighter."
+ },
+ {
+  "nama": "Haas's Claws",
+  "tipe": "Attack",
+  "info": "Lifesteal untuk jangka panjang."
+ },
+ {
+  "nama": "Malefic Roar",
+  "tipe": "Attack",
+  "info": "Menambah penetrasi armor untuk melawan tank."
+ },
+ {
+  "nama": "Scarlet Phantom",
+  "tipe": "Attack",
+  "info": "Menambah kecepatan serang dan crit."
+ },
+ {
+  "nama": "Corrosion Scythe",
+  "tipe": "Attack",
+  "info": "Menambah kecepatan serang dan efek perlambatan."
+ },
+ {
+  "nama": "Lightning Truncheon",
+  "tipe": "Magic",
+  "info": "Menambah damage sihir dan burst berantai."
+ },
+ {
+  "nama": "Holy Crystal",
+  "tipe": "Magic",
+  "info": "Menambah damage sihir besar."
+ },
+ {
+  "nama": "Divine Glaive",
+  "tipe": "Magic",
+  "info": "Menambah penetrasi sihir untuk melawan tank."
+ },
+ {
+  "nama": "Genius Wand",
+  "tipe": "Magic",
+  "info": "Mengurangi resistensi sihir musuh."
+ },
+ {
+  "nama": "Glowing Wand",
+  "tipe": "Magic",
+  "info": "Memberi damage berkelanjutan (burn) pada musuh."
+ },
+ {
+  "nama": "Clock of Destiny",
+  "tipe": "Magic",
+  "info": "Menambah mana dan HP, stat bertambah seiring waktu."
+ },
+ {
+  "nama": "Concentrated Energy",
+  "tipe": "Magic",
+  "info": "Menambah damage sihir dan HP."
+ },
+ {
+  "nama": "Blood Wings",
+  "tipe": "Magic",
+  "info": "Menambah damage dan shield saat HP rendah."
+ },
+ {
+  "nama": "Immortality",
+  "tipe": "Defense",
+  "info": "Hidup kembali setelah mati dengan HP sebagian."
+ },
+ {
+  "nama": "Athena's Shield",
+  "tipe": "Defense",
+  "info": "Menambah resistensi sihir dan shield saat menerima damage sihir."
+ },
+ {
+  "nama": "Antique Cuirass",
+  "tipe": "Defense",
+  "info": "Menambah armor dan mengurangi serangan dasar musuh."
+ },
+ {
+  "nama": "Brute Force Breastplate",
+  "tipe": "Defense",
+  "info": "Menambah armor dan HP serta memberi damage balik."
+ },
+ {
+  "nama": "Radiant Armor",
+  "tipe": "Defense",
+  "info": "Menambah resistensi sihir dan menembus damage sihir."
+ },
+ {
+  "nama": "Twilight Armor",
+  "tipe": "Defense",
+  "info": "Mengurangi damage berlebih dari serangan fatal."
+ },
+ {
+  "nama": "Oracle",
+  "tipe": "Defense",
+  "info": "Menambah efek heal dan shield untuk tim."
+ },
+ {
+  "nama": "Dominance Ice",
+  "tipe": "Defense",
+  "info": "Mengurangi kecepatan serang musuh di sekitar."
+ },
+ {
+  "nama": "Cursed Helmet",
+  "tipe": "Defense",
+  "info": "Memberi damage area sihir dan HP."
+ },
+ {
+  "nama": "Guardian Helmet",
+  "tipe": "Defense",
+  "info": "Menambah HP dan regenerasi HP."
+ },
+ {
+  "nama": "Rapid Boots",
+  "tipe": "Movement",
+  "info": "Sepatu kecepatan gerak dasar."
+ },
+ {
+  "nama": "Tough Boots",
+  "tipe": "Movement",
+  "info": "Mengurangi lamanya crowd control."
+ },
+ {
+  "nama": "Magic Shoes",
+  "tipe": "Movement",
+  "info": "Mengurangi cooldown skill untuk mage dan support."
+ },
+ {
+  "nama": "Arcane Boots",
+  "tipe": "Movement",
+  "info": "Menambah penetrasi sihir."
+ },
+ {
+  "nama": "Warrior Boots",
+  "tipe": "Movement",
+  "info": "Menambah armor untuk tank dan fighter."
+ },
+ {
+  "nama": "Demon Shoes",
+  "tipe": "Movement",
+  "info": "Menambah mana dan sihir."
+ }
+]

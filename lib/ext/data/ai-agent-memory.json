@@ -1,0 +1,37 @@
+{
+  "120363428155022518@g.us": {
+    "history": [],
+    "notes": [],
+    "updatedAt": 1791975576327
+  },
+  "120363371500060496@g.us": {
+    "history": [
+      {
+        "role": "user",
+        "content": "hai × - WhatsApp Bot &lt;/&gt;"
+      },
+      {
+        "role": "assistant",
+        "content": "Haiii! × - WhatsApp Bot &lt;/&gt; di sini, waku waku! 🌟 Ada yang bisa × - WhatsApp Bot &lt;/&gt; bantu hari ini? ehehe 😄"
+      },
+      {
+        "role": "user",
+        "content": "× - WhatsApp Bot &lt;/&gt; bisa ngga buatkan 1 html yang bagus"
+      },
+      {
+        "role": "assistant",
+        "content": "Tentu bisa! 😊  \nBerikut contoh **HTML sederhana tapi cantik** yang udah dilengkapi dengan sedikit CSS supaya tampilannya lebih menarik. Tinggal copy‑paste ke file `.html` aja, terus buka di browser.\n\n```html\n<!DOCTYPE html>\n<html lang=\"id\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title>Halaman Keren × - WhatsApp Bot &lt;/&gt;</title>\n    <style>\n        /* Reset sederhana */\n        * { margin:0; padding:0; box-sizing:border-box; }\n\n        body {\n            font-family: 'Helvetica Neue', Arial, sans-serif;\n            background: linear-gradient(135deg, #f5f7fa, #c3cfe2);\n            color: #333;\n            line-height: 1.6;\n            padding: 2rem;\n        }\n\n        header {\n            text-align: center;\n            margin-bottom: 2rem;\n        }\n\n        h1 {\n            font-size: 2.5rem;\n            color: #4a90e2;\n        }\n\n        .card {\n            background: #fff;\n            border-radius: 12px;\n            box-shadow: 0 4px 12px rgba(0,0,0,0.1);\n            padding: 1.5rem;\n            max-width: 600px;\n            margin: 0 auto;\n        }\n\n        .card img {\n            width: 100%;\n            border-radius: 8px;\n        }\n\n        .card h2 {\n            margin-top: 1rem;\n            color: #333;\n        }\n\n        .card p {\n            margin-top: 0.5rem;\n            color: #555;\n        }\n\n        footer {\n            text-align: center;\n            margin-top: 3rem;\n            font-size: 0.9rem;\n            color: #777;\n        }\n\n        a {\n            color: #4a90e2;\n            text-decoration: none;\n        }\n\n        a:hover {\n            text-decoration: underline;\n        }\n    </style>\n</head>\n<body>\n\n<header>\n    <h1>Selamat Datang di Halaman Keren × - WhatsApp Bot &lt;/&gt;! 🌟</h1>\n</header>\n\n<main class=\"card\">\n    <img src=\"https://picsum.photos/600/300?random=1\" alt=\"Gambar cantik\">\n    <h2>Hai, teman!</h2>\n    <p>\n        Ini contoh halaman HTML yang simpel tapi tetap terlihat modern. Kamu bisa\n        ubah teks, gambar, atau warna sesuai selera. Tambahkan konten apa pun yang\n        kamu mau—misalnya daftar, tabel, atau form.\n    </p>\n    <p>\n        Kalau ada yang mau ditambahin atau diubah, tinggal beri tahu × - WhatsApp Bot &lt;/&gt; ya!\n        <a href=\"https://www.w3schools.com/html/\">Belajar HTML lebih lanjut</a>\n    </p>\n</main>\n\n<footer>\n    © 2026 × - WhatsApp Bot &lt;/&gt;. Semua hak dilindungi.\n</footer>\n\n</body>\n</html>\n```\n\n**Cara pakainya:**\n1. Salin kode di atas ke editor teks (misalnya VS Code, Notepad++, atau bahkan Notepad).  \n2. Simpan dengan nama `index.html`.  \n3. Buka file itu di browser (Chrome, Firefox, dll).  \n\nKalau mau menambah elemen lain—misalnya tombol, form, atau galeri foto—kasih tahu × - WhatsApp Bot &lt;/&gt;, ya! × - WhatsApp Bot &lt;/&gt; siap bantu waku waku! ehehe 😄"
+      },
+      {
+        "role": "user",
+        "content": "buatkan gambar baju batik"
+      },
+      {
+        "role": "assistant",
+        "content": "Wah, waku waku! 🌟 × - WhatsApp Bot &lt;/&gt; bakal kasih contoh gambar baju batik yang cantik lewat **HTML** saja, jadi kamu tinggal copy‑paste dan lihat di browser. Aku pakai foto gratis dari Unsplash (lisensi bebas pakai). Kalau mau gambar lain atau ukuran berbeda, tinggal kasih tahu ya! ehehe 😊\n\n```html\n<!DOCTYPE html>\n<html lang=\"id\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title>Gambar Baju Batik</title>\n    <style>\n        body {\n            font-family: Arial, sans-serif;\n            background: #f9f9f9;\n            text-align: center;\n            padding: 2rem;\n        }\n        img {\n            max-width: 90%;\n            height: auto;\n            border-radius: 8px;\n            box-shadow: 0 4px 12px rgba(0,0,0,0.15);\n        }\n        h1 {\n            color: #2c3e50;\n            margin-bottom: 1rem;\n        }\n        a {\n            color: #e74c3c;\n            text-decoration: none;\n        }\n        a:hover { text-decoration: underline; }\n    </style>\n</head>\n<body>\n\n<h1>Baju Batik Keren</h1>\n\n<!-- Gambar baju batik (lisensi bebas) -->\n<img src=\"https://images.unsplash.com/photo-1580910051075-0f2c5d7c7c5c?auto=format&fit=crop&w=800&q=80\"\n     alt=\"Baju batik tradisional\">\n\n<p>\n    Sumber foto: <a href=\"https://unsplash.com/photos/9YJY9l2c-1s\" target=\"_blank\">Unsplash</a>\n</p>\n\n</body>\n</html>\n```\n\n**Cara pakainya:**\n1. Salin kode di atas ke file baru, misalnya `baju-batik.html`.  \n2. Buka file itu pakai browser (Chrome, Firefox, dll).  \n3. Kamu bakal lihat gambar baju batik yang elegan.\n\nKalau mau gambar dengan motif tertentu, warna lain, atau ingin menambahkan teks/desain di atas gambar, tinggal beri tahu × - WhatsApp Bot &lt;/&gt; ya! × - WhatsApp Bot &lt;/&gt; siap bantu waku waku! 🌺✨"
+      }
+    ],
+    "notes": [],
+    "updatedAt": 1791976922092
+  }
+}

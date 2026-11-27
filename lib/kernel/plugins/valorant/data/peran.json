@@ -1,0 +1,22 @@
+[
+ {
+  "nama": "Duelist",
+  "info": "Pembuka serangan yang mencari kill dan membuka jalan bagi tim.",
+  "agent": "Jett, Phoenix, Reyna, Raze, Yoru, Neon, Iso, Waylay"
+ },
+ {
+  "nama": "Initiator",
+  "info": "Membuka pertarungan dengan info, flash, dan crowd control untuk masuk ke bomb site.",
+  "agent": "Sova, Breach, Skye, KAY/O, Fade, Gekko, Tejo"
+ },
+ {
+  "nama": "Controller",
+  "info": "Mengatur pandangan dengan smoke dan kontrol area untuk tim.",
+  "agent": "Brimstone, Viper, Omen, Astra, Harbor, Clove"
+ },
+ {
+  "nama": "Sentinel",
+  "info": "Menjaga area dan flank dengan perangkap dan pertahanan.",
+  "agent": "Sage, Cypher, Killjoy, Chamber, Deadlock, Vyse, Veto"
+ }
+]

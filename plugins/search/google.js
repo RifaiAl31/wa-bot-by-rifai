@@ -1,0 +1,106 @@
+// search/google — satu file: metadata + kode fitur (gabungan dari engine3/plugins/search/google.js)
+const __vx = require("../../lib/adapter/e3.js")
+const __meta = {
+  "name": "google",
+  "command": [
+    "google",
+    "gsearch",
+    "googlenews"
+  ],
+  "category": "search",
+  "desc": "Cari berita di Google News",
+  "usage": ".google <query>",
+  "owner": false,
+  "group": false,
+  "private": false,
+  "premium": false,
+  "admin": false,
+  "botAdmin": false,
+  "cooldown": 5,
+  "energi": 0,
+  "needs": {
+    "apikeys": [],
+    "scrapers": [],
+    "assets": []
+  }
+}
+const __vdir = require('path').join(__dirname, "../../lib/ext/plugins/search").split('\\').join('/')
+module.exports = __vx.plugin("search/google", __meta, async function () {
+  const __dirname = __vdir, __filename = __vdir + '/google.js'
+  const __vxExports = {};
+  const { GoogleSearch } = require("../../lib/ext/src/scraper/google.js");
+  
+  const pluginConfig = {
+    name: "google",
+    alias: ["gsearch", "googlenews"],
+    category: "search",
+    description: "Cari berita di Google News",
+    usage: ".google <query>",
+    example: ".google gempa hari ini",
+    isOwner: false,
+    isPremium: false,
+    isGroup: false,
+    isPrivate: false,
+    cooldown: 5,
+    energi: 0,
+    isEnabled: true,
+  };
+  
+  async function handler(m) {
+    const query = m.text?.trim();
+  
+    if (!query) {
+      m.react("❌");
+      return m.reply(
+        `🔍 *Google News*\n\n` +
+          `Cari berita terbaru dari Google News.\n\n` +
+          `*PENGGUNAAN:*\n` +
+          `> *${m.prefix}google <topik>*\n\n` +
+          `*CONTOH:*\n` +
+          `> *${m.prefix}google gempa hari ini*\n` +
+          `> *${m.prefix}google teknologi terbaru*`,
+      );
+    }
+  
+    m.react("🕕");
+  
+    try {
+      const result = await GoogleSearch(query);
+  
+      if (!result.status) {
+        m.react("☢");
+        return m.reply(`❌ *Google Gagal*\n\n> ${result.error}`);
+      }
+  
+      const items = result.results.slice(0, 10);
+  
+      if (items.length === 0) {
+        m.react("☢");
+        return m.reply(`❌ Nggak nemu hasil buat: *${query}*`);
+      }
+  
+      let txt = `🔍 *Google News*\n\n`;
+      txt += `> Pencarian: *${query}*\n\n`;
+  
+      items.forEach((item) => {
+        txt += `*${item.index_node}.* ${item.resource_title}\n`;
+        txt += `   ├ 📰 ${item.origin_node}\n`;
+        txt += `   ├ 🕐 ${item.temporal_stamp}\n`;
+        txt += `   └ 🔗 ${item.resolved_endpoint}\n\n`;
+      });
+  
+      m.reply(txt.trim());
+      m.react("✅");
+    } catch (e) {
+      console.error(e);
+      m.react("☢");
+      m.reply("❌ Gagal mencari di Google, coba lagi nanti");
+    }
+  }
+  
+  
+  
+  Object.defineProperty(__vxExports, "config", { enumerable: true, get: () => pluginConfig });
+  Object.defineProperty(__vxExports, "handler", { enumerable: true, get: () => handler });
+  return __vxExports
+})

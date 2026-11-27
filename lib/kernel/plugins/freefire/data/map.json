@@ -1,0 +1,15 @@
+{
+ "Battle Royale":[
+  {"nama":"Bermuda","info":"Map klasik pertama dengan kota Peak, Factory, Clock Tower, dan Mill."},
+  {"nama":"Purgatory","info":"Pulau-pulau terpisah yang dihubungkan jembatan, ukuran lebih kecil."},
+  {"nama":"Kalahari","info":"Map gurun dengan area terbuka luas dan banyak kendaraan."},
+  {"nama":"Alpine","info":"Map bersalju dengan tempat tinggi dan lembah."},
+  {"nama":"NeXTerra","info":"Map futuristik dengan area teknologi."},
+  {"nama":"Solara","info":"Map bertema kota dan lahan terbuka bersuasana hangat."}
+ ],
+ "Clash Squad":[
+  {"nama":"Factory","info":"Arena kecil dalam pabrik, duel cepat jarak dekat."},
+  {"nama":"Bimasakti Strip","info":"Arena bertema kota malam dengan banyak sudut dan perlindungan."},
+  {"nama":"Mars Electric","info":"Arena bertema listrik dan teknologi."}
+ ]
+}

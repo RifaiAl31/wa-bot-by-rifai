@@ -1,0 +1,2502 @@
+[
+  {
+    "timestamp": "2026-11-19T19:54:41.820Z",
+    "file": "debugenergi.js",
+    "message": "[debug] updateEnergi result: 0"
+  },
+  {
+    "timestamp": "2026-11-19T19:54:41.830Z",
+    "file": "debugenergi.js",
+    "message": "[debug] raw after: -1"
+  },
+  {
+    "timestamp": "2026-11-19T19:54:41.937Z",
+    "file": "debugenergi.js",
+    "message": "[debugenergi] save result: true"
+  },
+  {
+    "timestamp": "2026-11-19T19:56:10.360Z",
+    "file": "dmsg.js",
+    "message": "[dmsg:target] {}"
+  },
+  {
+    "timestamp": "2026-11-19T19:56:10.361Z",
+    "file": "dmsg.js",
+    "message": "[dmsg:target] {}"
+  },
+  {
+    "timestamp": "2026-11-19T19:56:47.630Z",
+    "file": "restart-vanxone.js",
+    "message": "[Restart] Command triggered by: 62812@s.whatsapp.net"
+  },
+  {
+    "timestamp": "2026-11-19T19:56:47.656Z",
+    "file": "restart-vanxone.js",
+    "message": "[Restart] Initiating graceful restart..."
+  },
+  {
+    "timestamp": "2026-11-19T19:56:47.674Z",
+    "file": "restart-vanxone.js",
+    "message": "[Restart] Command triggered by: 62812@s.whatsapp.net"
+  },
+  {
+    "timestamp": "2026-11-19T19:56:47.689Z",
+    "file": "restart-vanxone.js",
+    "message": "[Restart] Initiating graceful restart..."
+  },
+  {
+    "timestamp": "2026-11-19T19:56:57.201Z",
+    "file": "restart-vanxone.js",
+    "message": "[Restart] New process spawned, exiting current process..."
+  },
+  {
+    "timestamp": "2026-11-19T19:56:57.464Z",
+    "file": "restart-vanxone.js",
+    "message": "[Restart] New process spawned, exiting current process..."
+  },
+  {
+    "timestamp": "2026-11-19T19:56:57.869Z",
+    "file": "speedtest.js",
+    "message": "[SpeedTest] Error: getaddrinfo ENOTFOUND speed.cloudflare.com"
+  },
+  {
+    "timestamp": "2026-11-19T19:56:57.889Z",
+    "file": "speedtest.js",
+    "message": "[SpeedTest] Error: getaddrinfo ENOTFOUND speed.cloudflare.com"
+  },
+  {
+    "timestamp": "2026-11-19T19:56:57.938Z",
+    "file": "stop.js",
+    "message": "Stopping via command..."
+  },
+  {
+    "timestamp": "2026-11-19T19:56:58.029Z",
+    "file": "stop.js",
+    "message": "Stopping via command..."
+  },
+  {
+    "timestamp": "2026-11-19T19:58:54.390Z",
+    "file": "mcpedl.js",
+    "message": "{}"
+  },
+  {
+    "timestamp": "2026-11-19T19:58:54.659Z",
+    "file": "pin2-2.js",
+    "message": "[PINDLRICH] Search: test | Count: 5"
+  },
+  {
+    "timestamp": "2026-11-19T19:58:54.701Z",
+    "file": "pin2-2.js",
+    "message": "[PINDLRICH] Results: stub"
+  },
+  {
+    "timestamp": "2026-11-19T19:58:55.041Z",
+    "file": "playcall.js",
+    "message": "[PlayCall] API azbry gagal: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T19:58:55.850Z",
+    "file": "playcall.js",
+    "message": "[YTDLP] gagal memasang otomatis: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T19:58:55.866Z",
+    "file": "playcall.js",
+    "message": "[MEDIADL] semua mesin gagal:  | yt-dlp belum terpasang dan tidak bisa dipasang otomatis di sistem ini. Pasang manual: https://github.com/yt-dlp/yt-dlp#installation\n(Pemasangan otomatis gagal: ERR_INVALID_ARG_TYPE)"
+  },
+  {
+    "timestamp": "2026-11-19T19:58:56.008Z",
+    "file": "playtiktok.js",
+    "message": "{}"
+  },
+  {
+    "timestamp": "2026-11-19T19:58:56.497Z",
+    "file": "o-robloxstalk.js",
+    "message": "[WhatsApp Bot:robloxstalk] fetch failed  @ at node:internal/deps/undici/undici:15456:13 | at process.processTicksAndRejections (node:internal/process/task_queues:103:5)"
+  },
+  {
+    "timestamp": "2026-11-19T19:58:56.610Z",
+    "file": "o-wastalk.js",
+    "message": "stub"
+  },
+  {
+    "timestamp": "2026-11-19T19:58:56.611Z",
+    "file": "o-wastalk.js",
+    "message": "stub"
+  },
+  {
+    "timestamp": "2026-11-19T19:58:56.685Z",
+    "file": "attp.js",
+    "message": "[WhatsApp Bot:attp] Gagal mengunduh sticker dari server  @ at Object.handler (/home/claude/bot/update_vanxone_premium/plugins/sticker/attp.js:82:34) | at process.processTicksAndRejections (node:internal/process/task_queues:103:5)"
+  },
+  {
+    "timestamp": "2026-11-19T19:58:56.693Z",
+    "file": "attp.js",
+    "message": "[WhatsApp Bot:attp] Gagal mengunduh sticker dari server  @ at Object.handler (/home/claude/bot/update_vanxone_premium/plugins/sticker/attp.js:82:34) | at process.processTicksAndRejections (node:internal/process/task_queues:103:5)"
+  },
+  {
+    "timestamp": "2026-11-19T19:58:59.721Z",
+    "file": "brat.js",
+    "message": "[BRAT] render gagal: {\"code\":\"ERR_MODULE_NOT_FOUND\"}"
+  },
+  {
+    "timestamp": "2026-11-19T19:58:59.722Z",
+    "file": "brat.js",
+    "message": "[BRAT] render gagal: {\"code\":\"ERR_MODULE_NOT_FOUND\"}"
+  },
+  {
+    "timestamp": "2026-11-19T19:58:59.727Z",
+    "file": "bratextra.js",
+    "message": "[WhatsApp Bot:bratextra] Template tidak ditemukan  @ at Object.handler (/home/claude/bot/update_vanxone_premium/plugins/sticker/bratextra.js:261:15) | at async Object.run (/home/claude/bot/update_vanxone_premium/lib/adapter/e3.js:362:9)"
+  },
+  {
+    "timestamp": "2026-11-19T19:59:00.597Z",
+    "file": "bratvid.js",
+    "message": "[BRAT] render gagal: {\"code\":\"ERR_MODULE_NOT_FOUND\"}"
+  },
+  {
+    "timestamp": "2026-11-19T19:59:00.609Z",
+    "file": "bratvid.js",
+    "message": "[BRATVID] render lokal gagal: Modul @napi-rs/canvas belum terpasang. Owner perlu menjalankan npm install lalu restart bot."
+  },
+  {
+    "timestamp": "2026-11-19T19:59:00.637Z",
+    "file": "bratvid.js",
+    "message": "[BRAT] render gagal: {\"code\":\"ERR_MODULE_NOT_FOUND\"}"
+  },
+  {
+    "timestamp": "2026-11-19T19:59:00.640Z",
+    "file": "bratvid.js",
+    "message": "[BRATVID] render lokal gagal: Modul @napi-rs/canvas belum terpasang. Owner perlu menjalankan npm install lalu restart bot."
+  },
+  {
+    "timestamp": "2026-11-19T19:59:00.663Z",
+    "file": "img2sp.js",
+    "message": "[img2sp] DEBUG quoted mentah: {\"chatId\":\"62812@s.whatsapp.net\",\"parentSender\":\"stub\",\"quotedKey\":{\"remoteJid\":\"62812@s.whatsapp.net\",\"fromMe\":false},\"quotedSender\":\"stub\",\"quotedType\":\"fillStyle\"}"
+  },
+  {
+    "timestamp": "2026-11-19T19:59:00.705Z",
+    "file": "img2sp.js",
+    "message": "[img2sp] DEBUG quoted mentah: {\"chatId\":\"62812@s.whatsapp.net\",\"parentSender\":\"stub\",\"quotedKey\":{\"remoteJid\":\"62812@s.whatsapp.net\",\"fromMe\":false},\"quotedSender\":\"stub\",\"quotedType\":\"fillStyle\"}"
+  },
+  {
+    "timestamp": "2026-11-19T19:59:00.827Z",
+    "file": "o-stickerpack.js",
+    "message": "[WhatsApp Bot:stickerpack] axios.post(...).then is not a function  @ at StickerAPI.search (/home/claude/bot/update_vanxone_premium/plugins/sticker/o-stickerpack.js:68:12) | at Object.handler (/home/claude/bot/update_vanxone_premium/plugins/sticker/o-stickerpack.js:143:"
+  },
+  {
+    "timestamp": "2026-11-19T19:59:00.970Z",
+    "file": "sticker.js",
+    "message": "[STIKER] Unsupported input 'stub' of type function when also providing options of type object"
+  },
+  {
+    "timestamp": "2026-11-19T19:59:01.045Z",
+    "file": "sticker.js",
+    "message": "[STIKER] Unsupported input 'stub' of type function when also providing options of type object"
+  },
+  {
+    "timestamp": "2026-11-19T19:59:01.128Z",
+    "file": "toimg.js",
+    "message": "[TOIMG] Unsupported input 'stub' of type function when also providing options of type object"
+  },
+  {
+    "timestamp": "2026-11-19T19:59:01.161Z",
+    "file": "toimg.js",
+    "message": "[TOIMG] Unsupported input 'stub' of type function when also providing options of type object"
+  },
+  {
+    "timestamp": "2026-11-19T19:59:01.175Z",
+    "file": "tovideo.js",
+    "message": "[TOVIDEO] Unsupported input 'stub' of type function when also providing options of type object"
+  },
+  {
+    "timestamp": "2026-11-19T19:59:01.216Z",
+    "file": "tovideo.js",
+    "message": "[TOVIDEO] Unsupported input 'stub' of type function when also providing options of type object"
+  },
+  {
+    "timestamp": "2026-11-19T19:59:01.223Z",
+    "file": "aonokos.js",
+    "message": "[NOKOS] nokos HTTP stub"
+  },
+  {
+    "timestamp": "2026-11-19T19:59:01.278Z",
+    "file": "aonokos.js",
+    "message": "[NOKOS] nokos HTTP stub"
+  },
+  {
+    "timestamp": "2026-11-19T19:59:01.768Z",
+    "file": "antide.js",
+    "message": "========== [antide] DEBUG m.quoted =========="
+  },
+  {
+    "timestamp": "2026-11-19T19:59:01.793Z",
+    "file": "antide.js",
+    "message": "{\n  \"key\": {\n    \"remoteJid\": \"62812@s.whatsapp.net\",\n    \"fromMe\": false\n  },\n  \"chat\": \"62812@s.whatsapp.net\",\n  \"sender\": \"stub\",\n  \"mtype\": \"fillStyle\",\n  \"mediaType\": \"fillStyle\",\n  \"isBaileys\": false,\n  \"pushName\": \"\",\n  \"fakeObj\": {\n    \"key\": {\n      \"remoteJid\": \"62812@s.whatsapp.net\",\n      \"fromMe\": false\n    }\n  },\n  \"type\": \"fillStyle\",\n  \"isImage\": false,\n  \"isVideo\": false,\n  \"isAudio\": false,\n  \"isSticker\": false,\n  \"isDocument\": false,\n  \"isMedia\": false,\n  \"quotedBody\": \"\"\n}"
+  },
+  {
+    "timestamp": "2026-11-19T19:59:01.805Z",
+    "file": "antide.js",
+    "message": "========== [antide] keys of m.quoted.message (jika ada) =========="
+  },
+  {
+    "timestamp": "2026-11-19T19:59:01.821Z",
+    "file": "antide.js",
+    "message": "[\"fillStyle\",\"globalAlpha\",\"strokeStyle\",\"lineWidth\",\"font\",\"textAlign\",\"shadowColor\",\"shadowBlur\",\"sharp\",\"textBaseline\",\"lineCap\",\"shadowOffsetY\",\"letterSpacing\",\"engine\",\"globalCompositeOperation\",\"lineJoin\"]"
+  },
+  {
+    "timestamp": "2026-11-19T19:59:01.825Z",
+    "file": "antide.js",
+    "message": "=============================================="
+  },
+  {
+    "timestamp": "2026-11-19T19:59:01.833Z",
+    "file": "antide.js",
+    "message": "========== [antide] DEBUG m.quoted =========="
+  },
+  {
+    "timestamp": "2026-11-19T19:59:01.841Z",
+    "file": "antide.js",
+    "message": "{\n  \"key\": {\n    \"remoteJid\": \"62812@s.whatsapp.net\",\n    \"fromMe\": false\n  },\n  \"chat\": \"62812@s.whatsapp.net\",\n  \"sender\": \"stub\",\n  \"mtype\": \"fillStyle\",\n  \"mediaType\": \"fillStyle\",\n  \"isBaileys\": false,\n  \"pushName\": \"\",\n  \"fakeObj\": {\n    \"key\": {\n      \"remoteJid\": \"62812@s.whatsapp.net\",\n      \"fromMe\": false\n    }\n  },\n  \"type\": \"fillStyle\",\n  \"isImage\": false,\n  \"isVideo\": false,\n  \"isAudio\": false,\n  \"isSticker\": false,\n  \"isDocument\": false,\n  \"isMedia\": false,\n  \"quotedBody\": \"\"\n}"
+  },
+  {
+    "timestamp": "2026-11-19T19:59:01.853Z",
+    "file": "antide.js",
+    "message": "========== [antide] keys of m.quoted.message (jika ada) =========="
+  },
+  {
+    "timestamp": "2026-11-19T19:59:01.858Z",
+    "file": "antide.js",
+    "message": "[\"fillStyle\",\"globalAlpha\",\"strokeStyle\",\"lineWidth\",\"font\",\"textAlign\",\"shadowColor\",\"shadowBlur\",\"sharp\",\"textBaseline\",\"lineCap\",\"shadowOffsetY\",\"letterSpacing\",\"engine\",\"globalCompositeOperation\",\"lineJoin\"]"
+  },
+  {
+    "timestamp": "2026-11-19T19:59:01.873Z",
+    "file": "antide.js",
+    "message": "=============================================="
+  },
+  {
+    "timestamp": "2026-11-19T19:59:02.045Z",
+    "file": "bulat.js",
+    "message": "[BULAT] Unsupported input 'stub' of type function when also providing options of type object"
+  },
+  {
+    "timestamp": "2026-11-19T19:59:02.102Z",
+    "file": "bulat.js",
+    "message": "[BULAT] Unsupported input 'stub' of type function when also providing options of type object"
+  },
+  {
+    "timestamp": "2026-11-19T19:59:02.254Z",
+    "file": "compress.js",
+    "message": "[COMPRESS] Unsupported input 'stub' of type function when also providing options of type object"
+  },
+  {
+    "timestamp": "2026-11-19T19:59:02.281Z",
+    "file": "compress.js",
+    "message": "[COMPRESS] Unsupported input 'stub' of type function when also providing options of type object"
+  },
+  {
+    "timestamp": "2026-11-19T19:59:02.376Z",
+    "file": "emojitoanimasi.js",
+    "message": "[WhatsApp Bot:emojitoanimasi] The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub  @ at Function.from (node:buffer:328:9) | at Object.handler (/home/claude/bot/update_vanxone_premium/plugins/tools/emojitoanimasi.js:80:33)"
+  },
+  {
+    "timestamp": "2026-11-19T19:59:02.604Z",
+    "file": "hd.js",
+    "message": "[HD] Unsupported input 'stub' of type function when also providing options of type object"
+  },
+  {
+    "timestamp": "2026-11-19T19:59:02.617Z",
+    "file": "hd.js",
+    "message": "[HD] Unsupported input 'stub' of type function when also providing options of type object"
+  },
+  {
+    "timestamp": "2026-11-19T19:59:02.629Z",
+    "file": "hdvid.js",
+    "message": "[HDVID] The \"data\" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T19:59:02.649Z",
+    "file": "hdvid.js",
+    "message": "[HDVID] The \"data\" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T19:59:02.743Z",
+    "file": "igstalk.js",
+    "message": "[IGSTALK] stub profil tidak ditemukan atau terproteksi"
+  },
+  {
+    "timestamp": "2026-11-19T19:59:02.789Z",
+    "file": "igstalk.js",
+    "message": "[IGSTALK] test profil tidak ditemukan atau terproteksi"
+  },
+  {
+    "timestamp": "2026-11-19T19:59:03.550Z",
+    "file": "imgtopdf.js",
+    "message": "[imgtopdf] DEBUG album: {\"chatId\":\"62812@s.whatsapp.net\",\"parentSender\":\"stub\"}"
+  },
+  {
+    "timestamp": "2026-11-19T19:59:03.575Z",
+    "file": "imgtopdf.js",
+    "message": "[imgtopdf] DEBUG album: {\"chatId\":\"62812@s.whatsapp.net\",\"parentSender\":\"stub\"}"
+  },
+  {
+    "timestamp": "2026-11-19T19:59:05.685Z",
+    "file": "instalookup.js",
+    "message": "[INSTALOOKUP] test getaddrinfo ENOTFOUND insta-stories-viewer.com"
+  },
+  {
+    "timestamp": "2026-11-19T19:59:09.803Z",
+    "file": "o-qwa.js",
+    "message": "[WhatsApp Bot:qwa] The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub  @ at Function.from (node:buffer:328:9) | at Object.handler (/home/claude/bot/update_vanxone_premium/plugins/tools/o-qwa.js:152:29)"
+  },
+  {
+    "timestamp": "2026-11-19T19:59:09.837Z",
+    "file": "o-qwa.js",
+    "message": "[WhatsApp Bot:qwa] The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub  @ at Function.from (node:buffer:328:9) | at Object.handler (/home/claude/bot/update_vanxone_premium/plugins/tools/o-qwa.js:152:29)"
+  },
+  {
+    "timestamp": "2026-11-19T19:59:09.851Z",
+    "file": "o-videotranscribe.js",
+    "message": "[WhatsApp Bot:videotranscribe] URL kosong / tidak valid  @ at transcriber (/home/claude/bot/update_vanxone_premium/plugins/tools/o-videotranscribe.js:105:13) | at Object.handler (/home/claude/bot/update_vanxone_premium/plugins/tools/o-videotranscribe.js:142:2"
+  },
+  {
+    "timestamp": "2026-11-19T19:59:13.930Z",
+    "file": "ssweb-3hasil.js",
+    "message": "[SSWeb3] Failed to download fillStyle: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T19:59:13.931Z",
+    "file": "ssweb-3hasil.js",
+    "message": "[SSWeb3] Failed to download globalAlpha: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T19:59:13.936Z",
+    "file": "ssweb-3hasil.js",
+    "message": "[SSWeb3] Failed to download strokeStyle: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T19:59:13.941Z",
+    "file": "ssweb-3hasil.js",
+    "message": "[SSWeb3] Failed to download lineWidth: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T19:59:13.944Z",
+    "file": "ssweb-3hasil.js",
+    "message": "[SSWeb3] Failed to download font: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T19:59:13.947Z",
+    "file": "ssweb-3hasil.js",
+    "message": "[SSWeb3] Failed to download textAlign: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T19:59:13.956Z",
+    "file": "ssweb-3hasil.js",
+    "message": "[SSWeb3] Failed to download shadowColor: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T19:59:13.973Z",
+    "file": "ssweb-3hasil.js",
+    "message": "[SSWeb3] Failed to download shadowBlur: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T19:59:13.988Z",
+    "file": "ssweb-3hasil.js",
+    "message": "[SSWeb3] Failed to download sharp: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T19:59:13.994Z",
+    "file": "ssweb-3hasil.js",
+    "message": "[SSWeb3] Failed to download textBaseline: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T19:59:14.016Z",
+    "file": "ssweb-3hasil.js",
+    "message": "[SSWeb3] Failed to download lineCap: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T19:59:14.024Z",
+    "file": "ssweb-3hasil.js",
+    "message": "[SSWeb3] Failed to download shadowOffsetY: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T19:59:14.032Z",
+    "file": "ssweb-3hasil.js",
+    "message": "[SSWeb3] Failed to download letterSpacing: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T19:59:14.054Z",
+    "file": "ssweb-3hasil.js",
+    "message": "[SSWeb3] Failed to download engine: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T19:59:14.057Z",
+    "file": "ssweb-3hasil.js",
+    "message": "[SSWeb3] Failed to download globalCompositeOperation: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T19:59:14.069Z",
+    "file": "ssweb-3hasil.js",
+    "message": "[SSWeb3] Failed to download lineJoin: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:01:38.568Z",
+    "file": "debugenergi.js",
+    "message": "[debug] targetJid: "
+  },
+  {
+    "timestamp": "2026-11-19T20:01:38.609Z",
+    "file": "debugenergi.js",
+    "message": "[debug] cleanJid: "
+  },
+  {
+    "timestamp": "2026-11-19T20:01:38.620Z",
+    "file": "debugenergi.js",
+    "message": "[debug] keys in db: [\"62812\",\"stub\"]"
+  },
+  {
+    "timestamp": "2026-11-19T20:01:38.645Z",
+    "file": "debugenergi.js",
+    "message": "[debug] raw before: -1"
+  },
+  {
+    "timestamp": "2026-11-19T20:01:38.657Z",
+    "file": "debugenergi.js",
+    "message": "[debug] updateEnergi result: 0"
+  },
+  {
+    "timestamp": "2026-11-19T20:01:38.673Z",
+    "file": "debugenergi.js",
+    "message": "[debug] raw after: -1"
+  },
+  {
+    "timestamp": "2026-11-19T20:01:38.748Z",
+    "file": "debugenergi.js",
+    "message": "[debugenergi] save result: true"
+  },
+  {
+    "timestamp": "2026-11-19T20:01:38.765Z",
+    "file": "debugenergi.js",
+    "message": "[debug] targetJid: "
+  },
+  {
+    "timestamp": "2026-11-19T20:01:38.781Z",
+    "file": "debugenergi.js",
+    "message": "[debug] cleanJid: "
+  },
+  {
+    "timestamp": "2026-11-19T20:01:38.799Z",
+    "file": "debugenergi.js",
+    "message": "[debug] keys in db: [\"62812\",\"stub\"]"
+  },
+  {
+    "timestamp": "2026-11-19T20:01:38.805Z",
+    "file": "debugenergi.js",
+    "message": "[debug] raw before: -1"
+  },
+  {
+    "timestamp": "2026-11-19T20:01:38.828Z",
+    "file": "debugenergi.js",
+    "message": "[debug] updateEnergi result: 0"
+  },
+  {
+    "timestamp": "2026-11-19T20:01:38.833Z",
+    "file": "debugenergi.js",
+    "message": "[debug] raw after: -1"
+  },
+  {
+    "timestamp": "2026-11-19T20:01:38.896Z",
+    "file": "debugenergi.js",
+    "message": "[debugenergi] save result: true"
+  },
+  {
+    "timestamp": "2026-11-19T20:01:55.722Z",
+    "file": "dmsg.js",
+    "message": "[dmsg:target] {}"
+  },
+  {
+    "timestamp": "2026-11-19T20:01:55.734Z",
+    "file": "dmsg.js",
+    "message": "[dmsg:target] {}"
+  },
+  {
+    "timestamp": "2026-11-19T20:02:03.271Z",
+    "file": "restart-vanxone.js",
+    "message": "[Restart] Command triggered by: 62812@s.whatsapp.net"
+  },
+  {
+    "timestamp": "2026-11-19T20:02:03.284Z",
+    "file": "restart-vanxone.js",
+    "message": "[Restart] Initiating graceful restart..."
+  },
+  {
+    "timestamp": "2026-11-19T20:02:03.297Z",
+    "file": "restart-vanxone.js",
+    "message": "[Restart] Command triggered by: 62812@s.whatsapp.net"
+  },
+  {
+    "timestamp": "2026-11-19T20:02:03.299Z",
+    "file": "restart-vanxone.js",
+    "message": "[Restart] Initiating graceful restart..."
+  },
+  {
+    "timestamp": "2026-11-19T20:02:05.096Z",
+    "file": "speedtest.js",
+    "message": "[SpeedTest] Error: getaddrinfo ENOTFOUND speed.cloudflare.com"
+  },
+  {
+    "timestamp": "2026-11-19T20:02:06.868Z",
+    "file": "restart-vanxone.js",
+    "message": "[Restart] New process spawned, exiting current process..."
+  },
+  {
+    "timestamp": "2026-11-19T20:02:06.996Z",
+    "file": "restart-vanxone.js",
+    "message": "[Restart] New process spawned, exiting current process..."
+  },
+  {
+    "timestamp": "2026-11-19T20:02:07.001Z",
+    "file": "speedtest.js",
+    "message": "[SpeedTest] Error: getaddrinfo ENOTFOUND speed.cloudflare.com"
+  },
+  {
+    "timestamp": "2026-11-19T20:02:07.010Z",
+    "file": "stop.js",
+    "message": "Stopping via command..."
+  },
+  {
+    "timestamp": "2026-11-19T20:02:07.045Z",
+    "file": "stop.js",
+    "message": "Stopping via command..."
+  },
+  {
+    "timestamp": "2026-11-19T20:02:53.854Z",
+    "file": "mcpedl.js",
+    "message": "{}"
+  },
+  {
+    "timestamp": "2026-11-19T20:02:54.126Z",
+    "file": "pin2-2.js",
+    "message": "[PINDLRICH] Search: test | Count: 5"
+  },
+  {
+    "timestamp": "2026-11-19T20:02:54.137Z",
+    "file": "pin2-2.js",
+    "message": "[PINDLRICH] Results: stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:02:54.291Z",
+    "file": "playcall.js",
+    "message": "[PlayCall] API azbry gagal: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:02:55.105Z",
+    "file": "playcall.js",
+    "message": "[YTDLP] gagal memasang otomatis: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:02:55.117Z",
+    "file": "playcall.js",
+    "message": "[MEDIADL] semua mesin gagal:  | yt-dlp belum terpasang dan tidak bisa dipasang otomatis di sistem ini. Pasang manual: https://github.com/yt-dlp/yt-dlp#installation\n(Pemasangan otomatis gagal: ERR_INVALID_ARG_TYPE)"
+  },
+  {
+    "timestamp": "2026-11-19T20:02:55.170Z",
+    "file": "playtiktok.js",
+    "message": "{}"
+  },
+  {
+    "timestamp": "2026-11-19T20:02:55.771Z",
+    "file": "o-robloxstalk.js",
+    "message": "[WhatsApp Bot:robloxstalk] fetch failed  @ at node:internal/deps/undici/undici:15456:13 | at process.processTicksAndRejections (node:internal/process/task_queues:103:5)"
+  },
+  {
+    "timestamp": "2026-11-19T20:02:55.913Z",
+    "file": "o-wastalk.js",
+    "message": "stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:02:55.921Z",
+    "file": "o-wastalk.js",
+    "message": "stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:02:56.044Z",
+    "file": "attp.js",
+    "message": "[WhatsApp Bot:attp] Gagal mengunduh sticker dari server  @ at Object.handler (/home/claude/bot/update_vanxone_premium/plugins/sticker/attp.js:82:34) | at process.processTicksAndRejections (node:internal/process/task_queues:103:5)"
+  },
+  {
+    "timestamp": "2026-11-19T20:02:56.069Z",
+    "file": "attp.js",
+    "message": "[WhatsApp Bot:attp] Gagal mengunduh sticker dari server  @ at Object.handler (/home/claude/bot/update_vanxone_premium/plugins/sticker/attp.js:82:34) | at process.processTicksAndRejections (node:internal/process/task_queues:103:5)"
+  },
+  {
+    "timestamp": "2026-11-19T20:02:59.088Z",
+    "file": "brat.js",
+    "message": "[BRAT] render gagal: {\"code\":\"ERR_MODULE_NOT_FOUND\"}"
+  },
+  {
+    "timestamp": "2026-11-19T20:02:59.108Z",
+    "file": "brat.js",
+    "message": "[BRAT] render gagal: {\"code\":\"ERR_MODULE_NOT_FOUND\"}"
+  },
+  {
+    "timestamp": "2026-11-19T20:02:59.117Z",
+    "file": "bratextra.js",
+    "message": "[WhatsApp Bot:bratextra] Template tidak ditemukan  @ at Object.handler (/home/claude/bot/update_vanxone_premium/plugins/sticker/bratextra.js:261:15) | at async Object.run (/home/claude/bot/update_vanxone_premium/lib/adapter/e3.js:362:9)"
+  },
+  {
+    "timestamp": "2026-11-19T20:03:00.974Z",
+    "file": "bratvid.js",
+    "message": "[BRAT] render gagal: {\"code\":\"ERR_MODULE_NOT_FOUND\"}"
+  },
+  {
+    "timestamp": "2026-11-19T20:03:00.976Z",
+    "file": "bratvid.js",
+    "message": "[BRATVID] render lokal gagal: Modul @napi-rs/canvas belum terpasang. Owner perlu menjalankan npm install lalu restart bot."
+  },
+  {
+    "timestamp": "2026-11-19T20:03:00.985Z",
+    "file": "bratvid.js",
+    "message": "[BRAT] render gagal: {\"code\":\"ERR_MODULE_NOT_FOUND\"}"
+  },
+  {
+    "timestamp": "2026-11-19T20:03:00.998Z",
+    "file": "bratvid.js",
+    "message": "[BRATVID] render lokal gagal: Modul @napi-rs/canvas belum terpasang. Owner perlu menjalankan npm install lalu restart bot."
+  },
+  {
+    "timestamp": "2026-11-19T20:03:01.044Z",
+    "file": "img2sp.js",
+    "message": "[img2sp] DEBUG quoted mentah: {\"chatId\":\"62812@s.whatsapp.net\",\"parentSender\":\"stub\",\"quotedKey\":{\"remoteJid\":\"62812@s.whatsapp.net\",\"fromMe\":false},\"quotedSender\":\"stub\",\"quotedType\":\"fillStyle\"}"
+  },
+  {
+    "timestamp": "2026-11-19T20:03:01.069Z",
+    "file": "img2sp.js",
+    "message": "[img2sp] DEBUG quoted mentah: {\"chatId\":\"62812@s.whatsapp.net\",\"parentSender\":\"stub\",\"quotedKey\":{\"remoteJid\":\"62812@s.whatsapp.net\",\"fromMe\":false},\"quotedSender\":\"stub\",\"quotedType\":\"fillStyle\"}"
+  },
+  {
+    "timestamp": "2026-11-19T20:03:01.150Z",
+    "file": "o-stickerpack.js",
+    "message": "[WhatsApp Bot:stickerpack] axios.post(...).then is not a function  @ at StickerAPI.search (/home/claude/bot/update_vanxone_premium/plugins/sticker/o-stickerpack.js:68:12) | at Object.handler (/home/claude/bot/update_vanxone_premium/plugins/sticker/o-stickerpack.js:143:"
+  },
+  {
+    "timestamp": "2026-11-19T20:03:01.274Z",
+    "file": "sticker.js",
+    "message": "[STIKER] Unsupported input 'stub' of type function when also providing options of type object"
+  },
+  {
+    "timestamp": "2026-11-19T20:03:01.282Z",
+    "file": "sticker.js",
+    "message": "[STIKER] Unsupported input 'stub' of type function when also providing options of type object"
+  },
+  {
+    "timestamp": "2026-11-19T20:03:01.363Z",
+    "file": "toimg.js",
+    "message": "[TOIMG] Unsupported input 'stub' of type function when also providing options of type object"
+  },
+  {
+    "timestamp": "2026-11-19T20:03:01.376Z",
+    "file": "toimg.js",
+    "message": "[TOIMG] Unsupported input 'stub' of type function when also providing options of type object"
+  },
+  {
+    "timestamp": "2026-11-19T20:03:01.406Z",
+    "file": "tovideo.js",
+    "message": "[TOVIDEO] Unsupported input 'stub' of type function when also providing options of type object"
+  },
+  {
+    "timestamp": "2026-11-19T20:03:01.433Z",
+    "file": "tovideo.js",
+    "message": "[TOVIDEO] Unsupported input 'stub' of type function when also providing options of type object"
+  },
+  {
+    "timestamp": "2026-11-19T20:03:01.452Z",
+    "file": "aonokos.js",
+    "message": "[NOKOS] nokos HTTP stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:03:01.481Z",
+    "file": "aonokos.js",
+    "message": "[NOKOS] nokos HTTP stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:03:01.857Z",
+    "file": "antide.js",
+    "message": "========== [antide] DEBUG m.quoted =========="
+  },
+  {
+    "timestamp": "2026-11-19T20:03:01.876Z",
+    "file": "antide.js",
+    "message": "{\n  \"key\": {\n    \"remoteJid\": \"62812@s.whatsapp.net\",\n    \"fromMe\": false\n  },\n  \"chat\": \"62812@s.whatsapp.net\",\n  \"sender\": \"stub\",\n  \"mtype\": \"fillStyle\",\n  \"mediaType\": \"fillStyle\",\n  \"isBaileys\": false,\n  \"pushName\": \"\",\n  \"fakeObj\": {\n    \"key\": {\n      \"remoteJid\": \"62812@s.whatsapp.net\",\n      \"fromMe\": false\n    }\n  },\n  \"type\": \"fillStyle\",\n  \"isImage\": false,\n  \"isVideo\": false,\n  \"isAudio\": false,\n  \"isSticker\": false,\n  \"isDocument\": false,\n  \"isMedia\": false,\n  \"quotedBody\": \"\"\n}"
+  },
+  {
+    "timestamp": "2026-11-19T20:03:01.884Z",
+    "file": "antide.js",
+    "message": "========== [antide] keys of m.quoted.message (jika ada) =========="
+  },
+  {
+    "timestamp": "2026-11-19T20:03:01.896Z",
+    "file": "antide.js",
+    "message": "[\"fillStyle\",\"globalAlpha\",\"strokeStyle\",\"lineWidth\",\"font\",\"textAlign\",\"shadowColor\",\"shadowBlur\",\"sharp\",\"textBaseline\",\"lineCap\",\"shadowOffsetY\",\"letterSpacing\",\"engine\",\"globalCompositeOperation\",\"lineJoin\"]"
+  },
+  {
+    "timestamp": "2026-11-19T20:03:01.911Z",
+    "file": "antide.js",
+    "message": "=============================================="
+  },
+  {
+    "timestamp": "2026-11-19T20:03:01.913Z",
+    "file": "antide.js",
+    "message": "========== [antide] DEBUG m.quoted =========="
+  },
+  {
+    "timestamp": "2026-11-19T20:03:01.949Z",
+    "file": "antide.js",
+    "message": "{\n  \"key\": {\n    \"remoteJid\": \"62812@s.whatsapp.net\",\n    \"fromMe\": false\n  },\n  \"chat\": \"62812@s.whatsapp.net\",\n  \"sender\": \"stub\",\n  \"mtype\": \"fillStyle\",\n  \"mediaType\": \"fillStyle\",\n  \"isBaileys\": false,\n  \"pushName\": \"\",\n  \"fakeObj\": {\n    \"key\": {\n      \"remoteJid\": \"62812@s.whatsapp.net\",\n      \"fromMe\": false\n    }\n  },\n  \"type\": \"fillStyle\",\n  \"isImage\": false,\n  \"isVideo\": false,\n  \"isAudio\": false,\n  \"isSticker\": false,\n  \"isDocument\": false,\n  \"isMedia\": false,\n  \"quotedBody\": \"\"\n}"
+  },
+  {
+    "timestamp": "2026-11-19T20:03:01.964Z",
+    "file": "antide.js",
+    "message": "========== [antide] keys of m.quoted.message (jika ada) =========="
+  },
+  {
+    "timestamp": "2026-11-19T20:03:01.977Z",
+    "file": "antide.js",
+    "message": "[\"fillStyle\",\"globalAlpha\",\"strokeStyle\",\"lineWidth\",\"font\",\"textAlign\",\"shadowColor\",\"shadowBlur\",\"sharp\",\"textBaseline\",\"lineCap\",\"shadowOffsetY\",\"letterSpacing\",\"engine\",\"globalCompositeOperation\",\"lineJoin\"]"
+  },
+  {
+    "timestamp": "2026-11-19T20:03:01.980Z",
+    "file": "antide.js",
+    "message": "=============================================="
+  },
+  {
+    "timestamp": "2026-11-19T20:03:02.091Z",
+    "file": "bulat.js",
+    "message": "[BULAT] Unsupported input 'stub' of type function when also providing options of type object"
+  },
+  {
+    "timestamp": "2026-11-19T20:03:02.129Z",
+    "file": "bulat.js",
+    "message": "[BULAT] Unsupported input 'stub' of type function when also providing options of type object"
+  },
+  {
+    "timestamp": "2026-11-19T20:03:02.261Z",
+    "file": "compress.js",
+    "message": "[COMPRESS] Unsupported input 'stub' of type function when also providing options of type object"
+  },
+  {
+    "timestamp": "2026-11-19T20:03:02.289Z",
+    "file": "compress.js",
+    "message": "[COMPRESS] Unsupported input 'stub' of type function when also providing options of type object"
+  },
+  {
+    "timestamp": "2026-11-19T20:03:02.375Z",
+    "file": "emojitoanimasi.js",
+    "message": "[WhatsApp Bot:emojitoanimasi] The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub  @ at Function.from (node:buffer:328:9) | at Object.handler (/home/claude/bot/update_vanxone_premium/plugins/tools/emojitoanimasi.js:80:33)"
+  },
+  {
+    "timestamp": "2026-11-19T20:03:02.695Z",
+    "file": "hd.js",
+    "message": "[HD] Unsupported input 'stub' of type function when also providing options of type object"
+  },
+  {
+    "timestamp": "2026-11-19T20:03:02.713Z",
+    "file": "hd.js",
+    "message": "[HD] Unsupported input 'stub' of type function when also providing options of type object"
+  },
+  {
+    "timestamp": "2026-11-19T20:03:02.749Z",
+    "file": "hdvid.js",
+    "message": "[HDVID] The \"data\" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:03:02.759Z",
+    "file": "hdvid.js",
+    "message": "[HDVID] The \"data\" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:03:02.873Z",
+    "file": "igstalk.js",
+    "message": "[IGSTALK] stub profil tidak ditemukan atau terproteksi"
+  },
+  {
+    "timestamp": "2026-11-19T20:03:02.887Z",
+    "file": "igstalk.js",
+    "message": "[IGSTALK] test profil tidak ditemukan atau terproteksi"
+  },
+  {
+    "timestamp": "2026-11-19T20:03:03.749Z",
+    "file": "imgtopdf.js",
+    "message": "[imgtopdf] DEBUG album: {\"chatId\":\"62812@s.whatsapp.net\",\"parentSender\":\"stub\"}"
+  },
+  {
+    "timestamp": "2026-11-19T20:03:03.755Z",
+    "file": "imgtopdf.js",
+    "message": "[imgtopdf] DEBUG album: {\"chatId\":\"62812@s.whatsapp.net\",\"parentSender\":\"stub\"}"
+  },
+  {
+    "timestamp": "2026-11-19T20:03:03.882Z",
+    "file": "instalookup.js",
+    "message": "[INSTALOOKUP] test getaddrinfo ENOTFOUND insta-stories-viewer.com"
+  },
+  {
+    "timestamp": "2026-11-19T20:03:08.536Z",
+    "file": "o-qwa.js",
+    "message": "[WhatsApp Bot:qwa] The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub  @ at Function.from (node:buffer:328:9) | at Object.handler (/home/claude/bot/update_vanxone_premium/plugins/tools/o-qwa.js:152:29)"
+  },
+  {
+    "timestamp": "2026-11-19T20:03:08.557Z",
+    "file": "o-qwa.js",
+    "message": "[WhatsApp Bot:qwa] The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub  @ at Function.from (node:buffer:328:9) | at Object.handler (/home/claude/bot/update_vanxone_premium/plugins/tools/o-qwa.js:152:29)"
+  },
+  {
+    "timestamp": "2026-11-19T20:03:08.586Z",
+    "file": "o-videotranscribe.js",
+    "message": "[WhatsApp Bot:videotranscribe] URL kosong / tidak valid  @ at transcriber (/home/claude/bot/update_vanxone_premium/plugins/tools/o-videotranscribe.js:105:13) | at Object.handler (/home/claude/bot/update_vanxone_premium/plugins/tools/o-videotranscribe.js:142:2"
+  },
+  {
+    "timestamp": "2026-11-19T20:03:12.359Z",
+    "file": "ssweb-3hasil.js",
+    "message": "[SSWeb3] Failed to download fillStyle: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:03:12.404Z",
+    "file": "ssweb-3hasil.js",
+    "message": "[SSWeb3] Failed to download globalAlpha: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:03:12.412Z",
+    "file": "ssweb-3hasil.js",
+    "message": "[SSWeb3] Failed to download strokeStyle: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:03:12.425Z",
+    "file": "ssweb-3hasil.js",
+    "message": "[SSWeb3] Failed to download lineWidth: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:03:12.435Z",
+    "file": "ssweb-3hasil.js",
+    "message": "[SSWeb3] Failed to download font: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:03:12.454Z",
+    "file": "ssweb-3hasil.js",
+    "message": "[SSWeb3] Failed to download textAlign: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:03:12.461Z",
+    "file": "ssweb-3hasil.js",
+    "message": "[SSWeb3] Failed to download shadowColor: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:03:12.483Z",
+    "file": "ssweb-3hasil.js",
+    "message": "[SSWeb3] Failed to download shadowBlur: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:03:12.501Z",
+    "file": "ssweb-3hasil.js",
+    "message": "[SSWeb3] Failed to download sharp: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:03:12.566Z",
+    "file": "ssweb-3hasil.js",
+    "message": "[SSWeb3] Failed to download textBaseline: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:03:12.572Z",
+    "file": "ssweb-3hasil.js",
+    "message": "[SSWeb3] Failed to download lineCap: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:03:12.581Z",
+    "file": "ssweb-3hasil.js",
+    "message": "[SSWeb3] Failed to download shadowOffsetY: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:03:12.610Z",
+    "file": "ssweb-3hasil.js",
+    "message": "[SSWeb3] Failed to download letterSpacing: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:03:12.648Z",
+    "file": "ssweb-3hasil.js",
+    "message": "[SSWeb3] Failed to download engine: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:03:12.650Z",
+    "file": "ssweb-3hasil.js",
+    "message": "[SSWeb3] Failed to download globalCompositeOperation: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:03:12.685Z",
+    "file": "ssweb-3hasil.js",
+    "message": "[SSWeb3] Failed to download lineJoin: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:03:46.511Z",
+    "file": "brat.js",
+    "message": "[BRAT] render gagal: {\"code\":\"ERR_MODULE_NOT_FOUND\"}"
+  },
+  {
+    "timestamp": "2026-11-19T20:03:46.824Z",
+    "file": "compress.js",
+    "message": "[COMPRESS] Unsupported input 'stub' of type function when also providing options of type object"
+  },
+  {
+    "timestamp": "2026-11-19T20:03:47.046Z",
+    "file": "hdvid.js",
+    "message": "[HDVID] The \"data\" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:03:49.753Z",
+    "file": "debugenergi.js",
+    "message": "[debug] targetJid: "
+  },
+  {
+    "timestamp": "2026-11-19T20:03:49.936Z",
+    "file": "debugenergi.js",
+    "message": "[debug] cleanJid: "
+  },
+  {
+    "timestamp": "2026-11-19T20:03:49.940Z",
+    "file": "debugenergi.js",
+    "message": "[debug] keys in db: [\"62812\",\"stub\"]"
+  },
+  {
+    "timestamp": "2026-11-19T20:03:49.956Z",
+    "file": "debugenergi.js",
+    "message": "[debug] raw before: -1"
+  },
+  {
+    "timestamp": "2026-11-19T20:03:49.960Z",
+    "file": "debugenergi.js",
+    "message": "[debug] updateEnergi result: 0"
+  },
+  {
+    "timestamp": "2026-11-19T20:03:49.968Z",
+    "file": "debugenergi.js",
+    "message": "[debug] raw after: -1"
+  },
+  {
+    "timestamp": "2026-11-19T20:03:50.009Z",
+    "file": "debugenergi.js",
+    "message": "[debugenergi] save result: true"
+  },
+  {
+    "timestamp": "2026-11-19T20:03:50.013Z",
+    "file": "debugenergi.js",
+    "message": "[debug] targetJid: "
+  },
+  {
+    "timestamp": "2026-11-19T20:03:50.029Z",
+    "file": "debugenergi.js",
+    "message": "[debug] cleanJid: "
+  },
+  {
+    "timestamp": "2026-11-19T20:03:50.040Z",
+    "file": "debugenergi.js",
+    "message": "[debug] keys in db: [\"62812\",\"stub\"]"
+  },
+  {
+    "timestamp": "2026-11-19T20:03:50.048Z",
+    "file": "debugenergi.js",
+    "message": "[debug] raw before: -1"
+  },
+  {
+    "timestamp": "2026-11-19T20:03:50.059Z",
+    "file": "debugenergi.js",
+    "message": "[debug] updateEnergi result: 0"
+  },
+  {
+    "timestamp": "2026-11-19T20:03:50.068Z",
+    "file": "debugenergi.js",
+    "message": "[debug] raw after: -1"
+  },
+  {
+    "timestamp": "2026-11-19T20:03:50.140Z",
+    "file": "debugenergi.js",
+    "message": "[debugenergi] save result: true"
+  },
+  {
+    "timestamp": "2026-11-19T20:04:13.546Z",
+    "file": "dmsg.js",
+    "message": "[dmsg:target] {}"
+  },
+  {
+    "timestamp": "2026-11-19T20:04:13.553Z",
+    "file": "dmsg.js",
+    "message": "[dmsg:target] {}"
+  },
+  {
+    "timestamp": "2026-11-19T20:04:14.526Z",
+    "file": "debugenergi.js",
+    "message": "[debug] targetJid: "
+  },
+  {
+    "timestamp": "2026-11-19T20:04:14.531Z",
+    "file": "debugenergi.js",
+    "message": "[debug] cleanJid: "
+  },
+  {
+    "timestamp": "2026-11-19T20:04:14.537Z",
+    "file": "debugenergi.js",
+    "message": "[debug] keys in db: [\"62812\",\"stub\"]"
+  },
+  {
+    "timestamp": "2026-11-19T20:04:14.542Z",
+    "file": "debugenergi.js",
+    "message": "[debug] raw before: -1"
+  },
+  {
+    "timestamp": "2026-11-19T20:04:14.549Z",
+    "file": "debugenergi.js",
+    "message": "[debug] updateEnergi result: 0"
+  },
+  {
+    "timestamp": "2026-11-19T20:04:14.561Z",
+    "file": "debugenergi.js",
+    "message": "[debug] raw after: -1"
+  },
+  {
+    "timestamp": "2026-11-19T20:04:14.586Z",
+    "file": "debugenergi.js",
+    "message": "[debugenergi] save result: true"
+  },
+  {
+    "timestamp": "2026-11-19T20:04:14.587Z",
+    "file": "debugenergi.js",
+    "message": "[debug] targetJid: "
+  },
+  {
+    "timestamp": "2026-11-19T20:04:14.602Z",
+    "file": "debugenergi.js",
+    "message": "[debug] cleanJid: "
+  },
+  {
+    "timestamp": "2026-11-19T20:04:14.604Z",
+    "file": "debugenergi.js",
+    "message": "[debug] keys in db: [\"62812\",\"stub\"]"
+  },
+  {
+    "timestamp": "2026-11-19T20:04:14.607Z",
+    "file": "debugenergi.js",
+    "message": "[debug] raw before: -1"
+  },
+  {
+    "timestamp": "2026-11-19T20:04:14.610Z",
+    "file": "debugenergi.js",
+    "message": "[debug] updateEnergi result: 0"
+  },
+  {
+    "timestamp": "2026-11-19T20:04:14.612Z",
+    "file": "debugenergi.js",
+    "message": "[debug] raw after: -1"
+  },
+  {
+    "timestamp": "2026-11-19T20:04:14.664Z",
+    "file": "debugenergi.js",
+    "message": "[debugenergi] save result: true"
+  },
+  {
+    "timestamp": "2026-11-19T20:04:29.500Z",
+    "file": "dmsg.js",
+    "message": "[dmsg:target] {}"
+  },
+  {
+    "timestamp": "2026-11-19T20:04:29.525Z",
+    "file": "dmsg.js",
+    "message": "[dmsg:target] {}"
+  },
+  {
+    "timestamp": "2026-11-19T20:04:37.134Z",
+    "file": "restart-vanxone.js",
+    "message": "[Restart] Command triggered by: 62812@s.whatsapp.net"
+  },
+  {
+    "timestamp": "2026-11-19T20:04:37.149Z",
+    "file": "restart-vanxone.js",
+    "message": "[Restart] Initiating graceful restart..."
+  },
+  {
+    "timestamp": "2026-11-19T20:04:37.161Z",
+    "file": "restart-vanxone.js",
+    "message": "[Restart] Command triggered by: 62812@s.whatsapp.net"
+  },
+  {
+    "timestamp": "2026-11-19T20:04:37.169Z",
+    "file": "restart-vanxone.js",
+    "message": "[Restart] Initiating graceful restart..."
+  },
+  {
+    "timestamp": "2026-11-19T20:04:38.837Z",
+    "file": "speedtest.js",
+    "message": "[SpeedTest] Error: getaddrinfo ENOTFOUND speed.cloudflare.com"
+  },
+  {
+    "timestamp": "2026-11-19T20:04:40.392Z",
+    "file": "restart-vanxone.js",
+    "message": "[Restart] New process spawned, exiting current process..."
+  },
+  {
+    "timestamp": "2026-11-19T20:04:40.542Z",
+    "file": "restart-vanxone.js",
+    "message": "[Restart] New process spawned, exiting current process..."
+  },
+  {
+    "timestamp": "2026-11-19T20:04:40.549Z",
+    "file": "speedtest.js",
+    "message": "[SpeedTest] Error: getaddrinfo ENOTFOUND speed.cloudflare.com"
+  },
+  {
+    "timestamp": "2026-11-19T20:04:40.586Z",
+    "file": "stop.js",
+    "message": "Stopping via command..."
+  },
+  {
+    "timestamp": "2026-11-19T20:04:40.617Z",
+    "file": "stop.js",
+    "message": "Stopping via command..."
+  },
+  {
+    "timestamp": "2026-11-19T20:04:51.377Z",
+    "file": "debugenergi.js",
+    "message": "[debug] targetJid: "
+  },
+  {
+    "timestamp": "2026-11-19T20:04:51.387Z",
+    "file": "debugenergi.js",
+    "message": "[debug] cleanJid: "
+  },
+  {
+    "timestamp": "2026-11-19T20:04:51.406Z",
+    "file": "debugenergi.js",
+    "message": "[debug] keys in db: [\"62812\",\"stub\"]"
+  },
+  {
+    "timestamp": "2026-11-19T20:04:51.416Z",
+    "file": "debugenergi.js",
+    "message": "[debug] raw before: -1"
+  },
+  {
+    "timestamp": "2026-11-19T20:04:51.428Z",
+    "file": "debugenergi.js",
+    "message": "[debug] updateEnergi result: 0"
+  },
+  {
+    "timestamp": "2026-11-19T20:04:51.432Z",
+    "file": "debugenergi.js",
+    "message": "[debug] raw after: -1"
+  },
+  {
+    "timestamp": "2026-11-19T20:04:51.492Z",
+    "file": "debugenergi.js",
+    "message": "[debugenergi] save result: true"
+  },
+  {
+    "timestamp": "2026-11-19T20:04:51.501Z",
+    "file": "debugenergi.js",
+    "message": "[debug] targetJid: "
+  },
+  {
+    "timestamp": "2026-11-19T20:04:51.508Z",
+    "file": "debugenergi.js",
+    "message": "[debug] cleanJid: "
+  },
+  {
+    "timestamp": "2026-11-19T20:04:51.525Z",
+    "file": "debugenergi.js",
+    "message": "[debug] keys in db: [\"62812\",\"stub\"]"
+  },
+  {
+    "timestamp": "2026-11-19T20:04:51.528Z",
+    "file": "debugenergi.js",
+    "message": "[debug] raw before: -1"
+  },
+  {
+    "timestamp": "2026-11-19T20:04:51.548Z",
+    "file": "debugenergi.js",
+    "message": "[debug] updateEnergi result: 0"
+  },
+  {
+    "timestamp": "2026-11-19T20:04:51.563Z",
+    "file": "debugenergi.js",
+    "message": "[debug] raw after: -1"
+  },
+  {
+    "timestamp": "2026-11-19T20:04:51.593Z",
+    "file": "debugenergi.js",
+    "message": "[debugenergi] save result: true"
+  },
+  {
+    "timestamp": "2026-11-19T20:05:05.733Z",
+    "file": "dmsg.js",
+    "message": "[dmsg:target] {}"
+  },
+  {
+    "timestamp": "2026-11-19T20:05:05.748Z",
+    "file": "dmsg.js",
+    "message": "[dmsg:target] {}"
+  },
+  {
+    "timestamp": "2026-11-19T20:05:12.878Z",
+    "file": "restart-vanxone.js",
+    "message": "[Restart] Command triggered by: 62812@s.whatsapp.net"
+  },
+  {
+    "timestamp": "2026-11-19T20:05:12.880Z",
+    "file": "restart-vanxone.js",
+    "message": "[Restart] Initiating graceful restart..."
+  },
+  {
+    "timestamp": "2026-11-19T20:05:12.884Z",
+    "file": "restart-vanxone.js",
+    "message": "[Restart] Command triggered by: 62812@s.whatsapp.net"
+  },
+  {
+    "timestamp": "2026-11-19T20:05:12.892Z",
+    "file": "restart-vanxone.js",
+    "message": "[Restart] Initiating graceful restart..."
+  },
+  {
+    "timestamp": "2026-11-19T20:05:14.422Z",
+    "file": "speedtest.js",
+    "message": "[SpeedTest] Error: getaddrinfo ENOTFOUND speed.cloudflare.com"
+  },
+  {
+    "timestamp": "2026-11-19T20:05:16.146Z",
+    "file": "restart-vanxone.js",
+    "message": "[Restart] New process spawned, exiting current process..."
+  },
+  {
+    "timestamp": "2026-11-19T20:05:16.264Z",
+    "file": "restart-vanxone.js",
+    "message": "[Restart] New process spawned, exiting current process..."
+  },
+  {
+    "timestamp": "2026-11-19T20:05:16.269Z",
+    "file": "speedtest.js",
+    "message": "[SpeedTest] Error: getaddrinfo ENOTFOUND speed.cloudflare.com"
+  },
+  {
+    "timestamp": "2026-11-19T20:05:16.283Z",
+    "file": "stop.js",
+    "message": "Stopping via command..."
+  },
+  {
+    "timestamp": "2026-11-19T20:05:16.301Z",
+    "file": "stop.js",
+    "message": "Stopping via command..."
+  },
+  {
+    "timestamp": "2026-11-19T20:05:59.284Z",
+    "file": "mcpedl.js",
+    "message": "{}"
+  },
+  {
+    "timestamp": "2026-11-19T20:05:59.343Z",
+    "file": "pin2-2.js",
+    "message": "[PINDLRICH] Search: test | Count: 5"
+  },
+  {
+    "timestamp": "2026-11-19T20:05:59.353Z",
+    "file": "pin2-2.js",
+    "message": "[PINDLRICH] Results: stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:05:59.396Z",
+    "file": "playcall.js",
+    "message": "[PlayCall] API azbry gagal: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:05:59.777Z",
+    "file": "playcall.js",
+    "message": "[YTDLP] gagal memasang otomatis: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:05:59.789Z",
+    "file": "playcall.js",
+    "message": "[MEDIADL] semua mesin gagal:  | yt-dlp belum terpasang dan tidak bisa dipasang otomatis di sistem ini. Pasang manual: https://github.com/yt-dlp/yt-dlp#installation\n(Pemasangan otomatis gagal: ERR_INVALID_ARG_TYPE)"
+  },
+  {
+    "timestamp": "2026-11-19T20:05:59.814Z",
+    "file": "playtiktok.js",
+    "message": "{}"
+  },
+  {
+    "timestamp": "2026-11-19T20:06:00.045Z",
+    "file": "o-robloxstalk.js",
+    "message": "[WhatsApp Bot:robloxstalk] fetch failed  @ at node:internal/deps/undici/undici:15456:13 | at process.processTicksAndRejections (node:internal/process/task_queues:103:5)"
+  },
+  {
+    "timestamp": "2026-11-19T20:06:00.123Z",
+    "file": "o-wastalk.js",
+    "message": "stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:06:00.123Z",
+    "file": "o-wastalk.js",
+    "message": "stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:06:00.275Z",
+    "file": "attp.js",
+    "message": "[WhatsApp Bot:attp] Gagal mengunduh sticker dari server  @ at Object.handler (/home/claude/bot/update_vanxone_premium/plugins/sticker/attp.js:82:34) | at process.processTicksAndRejections (node:internal/process/task_queues:103:5)"
+  },
+  {
+    "timestamp": "2026-11-19T20:06:00.302Z",
+    "file": "attp.js",
+    "message": "[WhatsApp Bot:attp] Gagal mengunduh sticker dari server  @ at Object.handler (/home/claude/bot/update_vanxone_premium/plugins/sticker/attp.js:82:34) | at process.processTicksAndRejections (node:internal/process/task_queues:103:5)"
+  },
+  {
+    "timestamp": "2026-11-19T20:06:03.339Z",
+    "file": "brat.js",
+    "message": "[BRAT] render gagal: {\"code\":\"ERR_MODULE_NOT_FOUND\"}"
+  },
+  {
+    "timestamp": "2026-11-19T20:06:03.341Z",
+    "file": "brat.js",
+    "message": "[BRAT] render gagal: {\"code\":\"ERR_MODULE_NOT_FOUND\"}"
+  },
+  {
+    "timestamp": "2026-11-19T20:06:03.371Z",
+    "file": "bratextra.js",
+    "message": "[WhatsApp Bot:bratextra] Template tidak ditemukan  @ at Object.handler (/home/claude/bot/update_vanxone_premium/plugins/sticker/bratextra.js:261:15) | at async Object.run (/home/claude/bot/update_vanxone_premium/lib/adapter/e3.js:362:9)"
+  },
+  {
+    "timestamp": "2026-11-19T20:06:04.121Z",
+    "file": "bratvid.js",
+    "message": "[BRAT] render gagal: {\"code\":\"ERR_MODULE_NOT_FOUND\"}"
+  },
+  {
+    "timestamp": "2026-11-19T20:06:04.132Z",
+    "file": "bratvid.js",
+    "message": "[BRATVID] render lokal gagal: Modul @napi-rs/canvas belum terpasang. Owner perlu menjalankan npm install lalu restart bot."
+  },
+  {
+    "timestamp": "2026-11-19T20:06:04.137Z",
+    "file": "bratvid.js",
+    "message": "[BRAT] render gagal: {\"code\":\"ERR_MODULE_NOT_FOUND\"}"
+  },
+  {
+    "timestamp": "2026-11-19T20:06:04.148Z",
+    "file": "bratvid.js",
+    "message": "[BRATVID] render lokal gagal: Modul @napi-rs/canvas belum terpasang. Owner perlu menjalankan npm install lalu restart bot."
+  },
+  {
+    "timestamp": "2026-11-19T20:06:04.177Z",
+    "file": "img2sp.js",
+    "message": "[img2sp] DEBUG quoted mentah: {\"chatId\":\"62812@s.whatsapp.net\",\"parentSender\":\"stub\",\"quotedKey\":{\"remoteJid\":\"62812@s.whatsapp.net\",\"fromMe\":false},\"quotedSender\":\"stub\",\"quotedType\":\"fillStyle\"}"
+  },
+  {
+    "timestamp": "2026-11-19T20:06:04.189Z",
+    "file": "img2sp.js",
+    "message": "[img2sp] DEBUG quoted mentah: {\"chatId\":\"62812@s.whatsapp.net\",\"parentSender\":\"stub\",\"quotedKey\":{\"remoteJid\":\"62812@s.whatsapp.net\",\"fromMe\":false},\"quotedSender\":\"stub\",\"quotedType\":\"fillStyle\"}"
+  },
+  {
+    "timestamp": "2026-11-19T20:06:04.301Z",
+    "file": "o-stickerpack.js",
+    "message": "[WhatsApp Bot:stickerpack] axios.post(...).then is not a function  @ at StickerAPI.search (/home/claude/bot/update_vanxone_premium/plugins/sticker/o-stickerpack.js:68:12) | at Object.handler (/home/claude/bot/update_vanxone_premium/plugins/sticker/o-stickerpack.js:143:"
+  },
+  {
+    "timestamp": "2026-11-19T20:06:04.366Z",
+    "file": "sticker.js",
+    "message": "[STIKER] Unsupported input 'stub' of type function when also providing options of type object"
+  },
+  {
+    "timestamp": "2026-11-19T20:06:04.373Z",
+    "file": "sticker.js",
+    "message": "[STIKER] Unsupported input 'stub' of type function when also providing options of type object"
+  },
+  {
+    "timestamp": "2026-11-19T20:06:04.758Z",
+    "file": "toimg.js",
+    "message": "[TOIMG] Unsupported input 'stub' of type function when also providing options of type object"
+  },
+  {
+    "timestamp": "2026-11-19T20:06:04.771Z",
+    "file": "toimg.js",
+    "message": "[TOIMG] Unsupported input 'stub' of type function when also providing options of type object"
+  },
+  {
+    "timestamp": "2026-11-19T20:06:04.793Z",
+    "file": "tovideo.js",
+    "message": "[TOVIDEO] Unsupported input 'stub' of type function when also providing options of type object"
+  },
+  {
+    "timestamp": "2026-11-19T20:06:04.808Z",
+    "file": "tovideo.js",
+    "message": "[TOVIDEO] Unsupported input 'stub' of type function when also providing options of type object"
+  },
+  {
+    "timestamp": "2026-11-19T20:06:04.873Z",
+    "file": "aonokos.js",
+    "message": "[NOKOS] nokos HTTP stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:06:04.877Z",
+    "file": "aonokos.js",
+    "message": "[NOKOS] nokos HTTP stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:06:05.174Z",
+    "file": "antide.js",
+    "message": "========== [antide] DEBUG m.quoted =========="
+  },
+  {
+    "timestamp": "2026-11-19T20:06:05.201Z",
+    "file": "antide.js",
+    "message": "{\n  \"key\": {\n    \"remoteJid\": \"62812@s.whatsapp.net\",\n    \"fromMe\": false\n  },\n  \"chat\": \"62812@s.whatsapp.net\",\n  \"sender\": \"stub\",\n  \"mtype\": \"fillStyle\",\n  \"mediaType\": \"fillStyle\",\n  \"isBaileys\": false,\n  \"pushName\": \"\",\n  \"fakeObj\": {\n    \"key\": {\n      \"remoteJid\": \"62812@s.whatsapp.net\",\n      \"fromMe\": false\n    }\n  },\n  \"type\": \"fillStyle\",\n  \"isImage\": false,\n  \"isVideo\": false,\n  \"isAudio\": false,\n  \"isSticker\": false,\n  \"isDocument\": false,\n  \"isMedia\": false,\n  \"quotedBody\": \"\"\n}"
+  },
+  {
+    "timestamp": "2026-11-19T20:06:05.273Z",
+    "file": "antide.js",
+    "message": "========== [antide] keys of m.quoted.message (jika ada) =========="
+  },
+  {
+    "timestamp": "2026-11-19T20:06:05.320Z",
+    "file": "antide.js",
+    "message": "[\"fillStyle\",\"globalAlpha\",\"strokeStyle\",\"lineWidth\",\"font\",\"textAlign\",\"shadowColor\",\"shadowBlur\",\"sharp\",\"textBaseline\",\"lineCap\",\"shadowOffsetY\",\"letterSpacing\",\"engine\",\"globalCompositeOperation\",\"lineJoin\"]"
+  },
+  {
+    "timestamp": "2026-11-19T20:06:05.329Z",
+    "file": "antide.js",
+    "message": "=============================================="
+  },
+  {
+    "timestamp": "2026-11-19T20:06:05.333Z",
+    "file": "antide.js",
+    "message": "========== [antide] DEBUG m.quoted =========="
+  },
+  {
+    "timestamp": "2026-11-19T20:06:05.351Z",
+    "file": "antide.js",
+    "message": "{\n  \"key\": {\n    \"remoteJid\": \"62812@s.whatsapp.net\",\n    \"fromMe\": false\n  },\n  \"chat\": \"62812@s.whatsapp.net\",\n  \"sender\": \"stub\",\n  \"mtype\": \"fillStyle\",\n  \"mediaType\": \"fillStyle\",\n  \"isBaileys\": false,\n  \"pushName\": \"\",\n  \"fakeObj\": {\n    \"key\": {\n      \"remoteJid\": \"62812@s.whatsapp.net\",\n      \"fromMe\": false\n    }\n  },\n  \"type\": \"fillStyle\",\n  \"isImage\": false,\n  \"isVideo\": false,\n  \"isAudio\": false,\n  \"isSticker\": false,\n  \"isDocument\": false,\n  \"isMedia\": false,\n  \"quotedBody\": \"\"\n}"
+  },
+  {
+    "timestamp": "2026-11-19T20:06:05.351Z",
+    "file": "antide.js",
+    "message": "========== [antide] keys of m.quoted.message (jika ada) =========="
+  },
+  {
+    "timestamp": "2026-11-19T20:06:05.359Z",
+    "file": "antide.js",
+    "message": "[\"fillStyle\",\"globalAlpha\",\"strokeStyle\",\"lineWidth\",\"font\",\"textAlign\",\"shadowColor\",\"shadowBlur\",\"sharp\",\"textBaseline\",\"lineCap\",\"shadowOffsetY\",\"letterSpacing\",\"engine\",\"globalCompositeOperation\",\"lineJoin\"]"
+  },
+  {
+    "timestamp": "2026-11-19T20:06:05.393Z",
+    "file": "antide.js",
+    "message": "=============================================="
+  },
+  {
+    "timestamp": "2026-11-19T20:06:05.436Z",
+    "file": "bulat.js",
+    "message": "[BULAT] Unsupported input 'stub' of type function when also providing options of type object"
+  },
+  {
+    "timestamp": "2026-11-19T20:06:05.453Z",
+    "file": "bulat.js",
+    "message": "[BULAT] Unsupported input 'stub' of type function when also providing options of type object"
+  },
+  {
+    "timestamp": "2026-11-19T20:06:05.536Z",
+    "file": "compress.js",
+    "message": "[COMPRESS] Unsupported input 'stub' of type function when also providing options of type object"
+  },
+  {
+    "timestamp": "2026-11-19T20:06:05.561Z",
+    "file": "compress.js",
+    "message": "[COMPRESS] Unsupported input 'stub' of type function when also providing options of type object"
+  },
+  {
+    "timestamp": "2026-11-19T20:06:05.650Z",
+    "file": "emojitoanimasi.js",
+    "message": "[WhatsApp Bot:emojitoanimasi] The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub  @ at Function.from (node:buffer:328:9) | at Object.handler (/home/claude/bot/update_vanxone_premium/plugins/tools/emojitoanimasi.js:80:33)"
+  },
+  {
+    "timestamp": "2026-11-19T20:06:05.797Z",
+    "file": "hd.js",
+    "message": "[HD] Unsupported input 'stub' of type function when also providing options of type object"
+  },
+  {
+    "timestamp": "2026-11-19T20:06:05.809Z",
+    "file": "hd.js",
+    "message": "[HD] Unsupported input 'stub' of type function when also providing options of type object"
+  },
+  {
+    "timestamp": "2026-11-19T20:06:05.817Z",
+    "file": "hdvid.js",
+    "message": "[HDVID] The \"data\" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:06:05.825Z",
+    "file": "hdvid.js",
+    "message": "[HDVID] The \"data\" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:06:05.870Z",
+    "file": "igstalk.js",
+    "message": "[IGSTALK] stub profil tidak ditemukan atau terproteksi"
+  },
+  {
+    "timestamp": "2026-11-19T20:06:05.877Z",
+    "file": "igstalk.js",
+    "message": "[IGSTALK] test profil tidak ditemukan atau terproteksi"
+  },
+  {
+    "timestamp": "2026-11-19T20:06:06.429Z",
+    "file": "imgtopdf.js",
+    "message": "[imgtopdf] DEBUG album: {\"chatId\":\"62812@s.whatsapp.net\",\"parentSender\":\"stub\"}"
+  },
+  {
+    "timestamp": "2026-11-19T20:06:06.441Z",
+    "file": "imgtopdf.js",
+    "message": "[imgtopdf] DEBUG album: {\"chatId\":\"62812@s.whatsapp.net\",\"parentSender\":\"stub\"}"
+  },
+  {
+    "timestamp": "2026-11-19T20:06:06.481Z",
+    "file": "instalookup.js",
+    "message": "[INSTALOOKUP] test getaddrinfo ENOTFOUND insta-stories-viewer.com"
+  },
+  {
+    "timestamp": "2026-11-19T20:06:11.082Z",
+    "file": "o-qwa.js",
+    "message": "[WhatsApp Bot:qwa] The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub  @ at Function.from (node:buffer:328:9) | at Object.handler (/home/claude/bot/update_vanxone_premium/plugins/tools/o-qwa.js:152:29)"
+  },
+  {
+    "timestamp": "2026-11-19T20:06:11.093Z",
+    "file": "o-qwa.js",
+    "message": "[WhatsApp Bot:qwa] The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub  @ at Function.from (node:buffer:328:9) | at Object.handler (/home/claude/bot/update_vanxone_premium/plugins/tools/o-qwa.js:152:29)"
+  },
+  {
+    "timestamp": "2026-11-19T20:06:11.106Z",
+    "file": "o-videotranscribe.js",
+    "message": "[WhatsApp Bot:videotranscribe] URL kosong / tidak valid  @ at transcriber (/home/claude/bot/update_vanxone_premium/plugins/tools/o-videotranscribe.js:105:13) | at Object.handler (/home/claude/bot/update_vanxone_premium/plugins/tools/o-videotranscribe.js:142:2"
+  },
+  {
+    "timestamp": "2026-11-19T20:06:14.969Z",
+    "file": "ssweb-3hasil.js",
+    "message": "[SSWeb3] Failed to download fillStyle: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:06:14.984Z",
+    "file": "ssweb-3hasil.js",
+    "message": "[SSWeb3] Failed to download globalAlpha: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:06:14.988Z",
+    "file": "ssweb-3hasil.js",
+    "message": "[SSWeb3] Failed to download strokeStyle: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:06:14.996Z",
+    "file": "ssweb-3hasil.js",
+    "message": "[SSWeb3] Failed to download lineWidth: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:06:15.008Z",
+    "file": "ssweb-3hasil.js",
+    "message": "[SSWeb3] Failed to download font: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:06:15.016Z",
+    "file": "ssweb-3hasil.js",
+    "message": "[SSWeb3] Failed to download textAlign: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:06:15.024Z",
+    "file": "ssweb-3hasil.js",
+    "message": "[SSWeb3] Failed to download shadowColor: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:06:15.032Z",
+    "file": "ssweb-3hasil.js",
+    "message": "[SSWeb3] Failed to download shadowBlur: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:06:15.040Z",
+    "file": "ssweb-3hasil.js",
+    "message": "[SSWeb3] Failed to download sharp: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:06:15.050Z",
+    "file": "ssweb-3hasil.js",
+    "message": "[SSWeb3] Failed to download textBaseline: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:06:15.059Z",
+    "file": "ssweb-3hasil.js",
+    "message": "[SSWeb3] Failed to download lineCap: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:06:15.068Z",
+    "file": "ssweb-3hasil.js",
+    "message": "[SSWeb3] Failed to download shadowOffsetY: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:06:15.078Z",
+    "file": "ssweb-3hasil.js",
+    "message": "[SSWeb3] Failed to download letterSpacing: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:06:15.088Z",
+    "file": "ssweb-3hasil.js",
+    "message": "[SSWeb3] Failed to download engine: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:06:15.100Z",
+    "file": "ssweb-3hasil.js",
+    "message": "[SSWeb3] Failed to download globalCompositeOperation: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:06:15.112Z",
+    "file": "ssweb-3hasil.js",
+    "message": "[SSWeb3] Failed to download lineJoin: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:11:44.859Z",
+    "file": "debugenergi.js",
+    "message": "[debug] targetJid: "
+  },
+  {
+    "timestamp": "2026-11-19T20:11:44.870Z",
+    "file": "debugenergi.js",
+    "message": "[debug] cleanJid: "
+  },
+  {
+    "timestamp": "2026-11-19T20:11:44.876Z",
+    "file": "debugenergi.js",
+    "message": "[debug] keys in db: [\"62812\",\"stub\"]"
+  },
+  {
+    "timestamp": "2026-11-19T20:11:44.905Z",
+    "file": "debugenergi.js",
+    "message": "[debug] raw before: -1"
+  },
+  {
+    "timestamp": "2026-11-19T20:11:44.935Z",
+    "file": "debugenergi.js",
+    "message": "[debug] updateEnergi result: 0"
+  },
+  {
+    "timestamp": "2026-11-19T20:11:44.967Z",
+    "file": "debugenergi.js",
+    "message": "[debug] raw after: -1"
+  },
+  {
+    "timestamp": "2026-11-19T20:11:45.143Z",
+    "file": "debugenergi.js",
+    "message": "[debugenergi] save result: true"
+  },
+  {
+    "timestamp": "2026-11-19T20:11:45.157Z",
+    "file": "debugenergi.js",
+    "message": "[debug] targetJid: "
+  },
+  {
+    "timestamp": "2026-11-19T20:11:45.198Z",
+    "file": "debugenergi.js",
+    "message": "[debug] cleanJid: "
+  },
+  {
+    "timestamp": "2026-11-19T20:11:45.239Z",
+    "file": "debugenergi.js",
+    "message": "[debug] keys in db: [\"62812\",\"stub\"]"
+  },
+  {
+    "timestamp": "2026-11-19T20:11:45.239Z",
+    "file": "debugenergi.js",
+    "message": "[debug] raw before: -1"
+  },
+  {
+    "timestamp": "2026-11-19T20:11:45.279Z",
+    "file": "debugenergi.js",
+    "message": "[debug] updateEnergi result: 0"
+  },
+  {
+    "timestamp": "2026-11-19T20:11:45.280Z",
+    "file": "debugenergi.js",
+    "message": "[debug] raw after: -1"
+  },
+  {
+    "timestamp": "2026-11-19T20:11:45.546Z",
+    "file": "debugenergi.js",
+    "message": "[debugenergi] save result: true"
+  },
+  {
+    "timestamp": "2026-11-19T20:11:46.091Z",
+    "file": "debugenergi.js",
+    "message": "[debug] targetJid: "
+  },
+  {
+    "timestamp": "2026-11-19T20:11:46.164Z",
+    "file": "debugenergi.js",
+    "message": "[debug] cleanJid: "
+  },
+  {
+    "timestamp": "2026-11-19T20:11:46.169Z",
+    "file": "debugenergi.js",
+    "message": "[debug] keys in db: [\"62812\",\"stub\"]"
+  },
+  {
+    "timestamp": "2026-11-19T20:11:46.173Z",
+    "file": "debugenergi.js",
+    "message": "[debug] raw before: -1"
+  },
+  {
+    "timestamp": "2026-11-19T20:11:46.179Z",
+    "file": "debugenergi.js",
+    "message": "[debug] updateEnergi result: 0"
+  },
+  {
+    "timestamp": "2026-11-19T20:11:46.181Z",
+    "file": "debugenergi.js",
+    "message": "[debug] raw after: -1"
+  },
+  {
+    "timestamp": "2026-11-19T20:11:46.215Z",
+    "file": "debugenergi.js",
+    "message": "[debugenergi] save result: true"
+  },
+  {
+    "timestamp": "2026-11-19T20:11:46.219Z",
+    "file": "debugenergi.js",
+    "message": "[debug] targetJid: "
+  },
+  {
+    "timestamp": "2026-11-19T20:11:46.247Z",
+    "file": "debugenergi.js",
+    "message": "[debug] cleanJid: "
+  },
+  {
+    "timestamp": "2026-11-19T20:11:46.291Z",
+    "file": "debugenergi.js",
+    "message": "[debug] keys in db: [\"62812\",\"stub\"]"
+  },
+  {
+    "timestamp": "2026-11-19T20:11:46.324Z",
+    "file": "debugenergi.js",
+    "message": "[debug] raw before: -1"
+  },
+  {
+    "timestamp": "2026-11-19T20:11:46.334Z",
+    "file": "debugenergi.js",
+    "message": "[debug] updateEnergi result: 0"
+  },
+  {
+    "timestamp": "2026-11-19T20:11:46.340Z",
+    "file": "debugenergi.js",
+    "message": "[debug] raw after: -1"
+  },
+  {
+    "timestamp": "2026-11-19T20:11:46.400Z",
+    "file": "debugenergi.js",
+    "message": "[debugenergi] save result: true"
+  },
+  {
+    "timestamp": "2026-11-19T20:11:48.683Z",
+    "file": "debugenergi.js",
+    "message": "[debug] targetJid: "
+  },
+  {
+    "timestamp": "2026-11-19T20:11:48.690Z",
+    "file": "debugenergi.js",
+    "message": "[debug] cleanJid: "
+  },
+  {
+    "timestamp": "2026-11-19T20:11:48.692Z",
+    "file": "debugenergi.js",
+    "message": "[debug] keys in db: [\"62812\",\"stub\"]"
+  },
+  {
+    "timestamp": "2026-11-19T20:11:48.700Z",
+    "file": "debugenergi.js",
+    "message": "[debug] raw before: -1"
+  },
+  {
+    "timestamp": "2026-11-19T20:11:48.704Z",
+    "file": "debugenergi.js",
+    "message": "[debug] updateEnergi result: 0"
+  },
+  {
+    "timestamp": "2026-11-19T20:11:48.708Z",
+    "file": "debugenergi.js",
+    "message": "[debug] raw after: -1"
+  },
+  {
+    "timestamp": "2026-11-19T20:11:48.726Z",
+    "file": "debugenergi.js",
+    "message": "[debugenergi] save result: true"
+  },
+  {
+    "timestamp": "2026-11-19T20:11:48.728Z",
+    "file": "debugenergi.js",
+    "message": "[debug] targetJid: "
+  },
+  {
+    "timestamp": "2026-11-19T20:11:48.732Z",
+    "file": "debugenergi.js",
+    "message": "[debug] cleanJid: "
+  },
+  {
+    "timestamp": "2026-11-19T20:11:48.734Z",
+    "file": "debugenergi.js",
+    "message": "[debug] keys in db: [\"62812\",\"stub\"]"
+  },
+  {
+    "timestamp": "2026-11-19T20:11:48.736Z",
+    "file": "debugenergi.js",
+    "message": "[debug] raw before: -1"
+  },
+  {
+    "timestamp": "2026-11-19T20:11:48.748Z",
+    "file": "debugenergi.js",
+    "message": "[debug] updateEnergi result: 0"
+  },
+  {
+    "timestamp": "2026-11-19T20:11:48.772Z",
+    "file": "debugenergi.js",
+    "message": "[debug] raw after: -1"
+  },
+  {
+    "timestamp": "2026-11-19T20:11:48.792Z",
+    "file": "debugenergi.js",
+    "message": "[debugenergi] save result: true"
+  },
+  {
+    "timestamp": "2026-11-19T20:11:48.857Z",
+    "file": "debugenergi.js",
+    "message": "[debug] targetJid: "
+  },
+  {
+    "timestamp": "2026-11-19T20:11:48.860Z",
+    "file": "debugenergi.js",
+    "message": "[debug] cleanJid: "
+  },
+  {
+    "timestamp": "2026-11-19T20:11:48.863Z",
+    "file": "debugenergi.js",
+    "message": "[debug] keys in db: [\"62812\",\"stub\"]"
+  },
+  {
+    "timestamp": "2026-11-19T20:11:48.868Z",
+    "file": "debugenergi.js",
+    "message": "[debug] raw before: -1"
+  },
+  {
+    "timestamp": "2026-11-19T20:11:48.873Z",
+    "file": "debugenergi.js",
+    "message": "[debug] updateEnergi result: 0"
+  },
+  {
+    "timestamp": "2026-11-19T20:11:48.880Z",
+    "file": "debugenergi.js",
+    "message": "[debug] raw after: -1"
+  },
+  {
+    "timestamp": "2026-11-19T20:11:48.903Z",
+    "file": "debugenergi.js",
+    "message": "[debugenergi] save result: true"
+  },
+  {
+    "timestamp": "2026-11-19T20:11:48.904Z",
+    "file": "debugenergi.js",
+    "message": "[debug] targetJid: "
+  },
+  {
+    "timestamp": "2026-11-19T20:11:48.906Z",
+    "file": "debugenergi.js",
+    "message": "[debug] cleanJid: "
+  },
+  {
+    "timestamp": "2026-11-19T20:11:48.906Z",
+    "file": "debugenergi.js",
+    "message": "[debug] keys in db: [\"62812\",\"stub\"]"
+  },
+  {
+    "timestamp": "2026-11-19T20:11:48.908Z",
+    "file": "debugenergi.js",
+    "message": "[debug] raw before: -1"
+  },
+  {
+    "timestamp": "2026-11-19T20:11:48.909Z",
+    "file": "debugenergi.js",
+    "message": "[debug] updateEnergi result: 0"
+  },
+  {
+    "timestamp": "2026-11-19T20:11:48.910Z",
+    "file": "debugenergi.js",
+    "message": "[debug] raw after: -1"
+  },
+  {
+    "timestamp": "2026-11-19T20:11:48.916Z",
+    "file": "debugenergi.js",
+    "message": "[debugenergi] save result: true"
+  },
+  {
+    "timestamp": "2026-11-19T20:11:49.239Z",
+    "file": "debugenergi.js",
+    "message": "[debug] targetJid: "
+  },
+  {
+    "timestamp": "2026-11-19T20:11:49.244Z",
+    "file": "debugenergi.js",
+    "message": "[debug] cleanJid: "
+  },
+  {
+    "timestamp": "2026-11-19T20:11:49.247Z",
+    "file": "debugenergi.js",
+    "message": "[debug] keys in db: [\"62812\",\"stub\"]"
+  },
+  {
+    "timestamp": "2026-11-19T20:11:49.248Z",
+    "file": "debugenergi.js",
+    "message": "[debug] raw before: -1"
+  },
+  {
+    "timestamp": "2026-11-19T20:11:49.254Z",
+    "file": "debugenergi.js",
+    "message": "[debug] updateEnergi result: 0"
+  },
+  {
+    "timestamp": "2026-11-19T20:11:49.257Z",
+    "file": "debugenergi.js",
+    "message": "[debug] raw after: -1"
+  },
+  {
+    "timestamp": "2026-11-19T20:11:49.270Z",
+    "file": "debugenergi.js",
+    "message": "[debugenergi] save result: true"
+  },
+  {
+    "timestamp": "2026-11-19T20:11:49.271Z",
+    "file": "debugenergi.js",
+    "message": "[debug] targetJid: "
+  },
+  {
+    "timestamp": "2026-11-19T20:11:49.274Z",
+    "file": "debugenergi.js",
+    "message": "[debug] cleanJid: "
+  },
+  {
+    "timestamp": "2026-11-19T20:11:49.277Z",
+    "file": "debugenergi.js",
+    "message": "[debug] keys in db: [\"62812\",\"stub\"]"
+  },
+  {
+    "timestamp": "2026-11-19T20:11:49.277Z",
+    "file": "debugenergi.js",
+    "message": "[debug] raw before: -1"
+  },
+  {
+    "timestamp": "2026-11-19T20:11:49.279Z",
+    "file": "debugenergi.js",
+    "message": "[debug] updateEnergi result: 0"
+  },
+  {
+    "timestamp": "2026-11-19T20:11:49.286Z",
+    "file": "debugenergi.js",
+    "message": "[debug] raw after: -1"
+  },
+  {
+    "timestamp": "2026-11-19T20:11:49.294Z",
+    "file": "debugenergi.js",
+    "message": "[debugenergi] save result: true"
+  },
+  {
+    "timestamp": "2026-11-19T20:11:49.967Z",
+    "file": "debugenergi.js",
+    "message": "[debug] targetJid: "
+  },
+  {
+    "timestamp": "2026-11-19T20:11:49.971Z",
+    "file": "debugenergi.js",
+    "message": "[debug] cleanJid: "
+  },
+  {
+    "timestamp": "2026-11-19T20:11:49.977Z",
+    "file": "debugenergi.js",
+    "message": "[debug] keys in db: [\"62812\",\"stub\"]"
+  },
+  {
+    "timestamp": "2026-11-19T20:11:49.979Z",
+    "file": "debugenergi.js",
+    "message": "[debug] raw before: -1"
+  },
+  {
+    "timestamp": "2026-11-19T20:11:49.981Z",
+    "file": "debugenergi.js",
+    "message": "[debug] updateEnergi result: 0"
+  },
+  {
+    "timestamp": "2026-11-19T20:11:49.984Z",
+    "file": "debugenergi.js",
+    "message": "[debug] raw after: -1"
+  },
+  {
+    "timestamp": "2026-11-19T20:11:49.991Z",
+    "file": "debugenergi.js",
+    "message": "[debugenergi] save result: true"
+  },
+  {
+    "timestamp": "2026-11-19T20:11:49.994Z",
+    "file": "debugenergi.js",
+    "message": "[debug] targetJid: "
+  },
+  {
+    "timestamp": "2026-11-19T20:11:49.996Z",
+    "file": "debugenergi.js",
+    "message": "[debug] cleanJid: "
+  },
+  {
+    "timestamp": "2026-11-19T20:11:49.998Z",
+    "file": "debugenergi.js",
+    "message": "[debug] keys in db: [\"62812\",\"stub\"]"
+  },
+  {
+    "timestamp": "2026-11-19T20:11:49.999Z",
+    "file": "debugenergi.js",
+    "message": "[debug] raw before: -1"
+  },
+  {
+    "timestamp": "2026-11-19T20:11:50.007Z",
+    "file": "debugenergi.js",
+    "message": "[debug] updateEnergi result: 0"
+  },
+  {
+    "timestamp": "2026-11-19T20:11:50.009Z",
+    "file": "debugenergi.js",
+    "message": "[debug] raw after: -1"
+  },
+  {
+    "timestamp": "2026-11-19T20:11:50.016Z",
+    "file": "debugenergi.js",
+    "message": "[debugenergi] save result: true"
+  },
+  {
+    "timestamp": "2026-11-19T20:11:56.248Z",
+    "file": "dmsg.js",
+    "message": "[dmsg:target] {}"
+  },
+  {
+    "timestamp": "2026-11-19T20:11:56.253Z",
+    "file": "dmsg.js",
+    "message": "[dmsg:target] {}"
+  },
+  {
+    "timestamp": "2026-11-19T20:13:12.950Z",
+    "file": "restart-vanxone.js",
+    "message": "[Restart] Command triggered by: 62812@s.whatsapp.net"
+  },
+  {
+    "timestamp": "2026-11-19T20:13:12.958Z",
+    "file": "restart-vanxone.js",
+    "message": "[Restart] Initiating graceful restart..."
+  },
+  {
+    "timestamp": "2026-11-19T20:13:12.962Z",
+    "file": "restart-vanxone.js",
+    "message": "[Restart] Command triggered by: 62812@s.whatsapp.net"
+  },
+  {
+    "timestamp": "2026-11-19T20:13:12.964Z",
+    "file": "restart-vanxone.js",
+    "message": "[Restart] Initiating graceful restart..."
+  },
+  {
+    "timestamp": "2026-11-19T20:13:13.714Z",
+    "file": "speedtest.js",
+    "message": "[SpeedTest] Error: getaddrinfo ENOTFOUND speed.cloudflare.com"
+  },
+  {
+    "timestamp": "2026-11-19T20:13:19.546Z",
+    "file": "stop.js",
+    "message": "Stopping via command..."
+  },
+  {
+    "timestamp": "2026-11-19T20:13:19.581Z",
+    "file": "stop.js",
+    "message": "Stopping via command..."
+  },
+  {
+    "timestamp": "2026-11-19T20:13:43.239Z",
+    "file": "restart-vanxone.js",
+    "message": "[Restart] New process spawned, exiting current process..."
+  },
+  {
+    "timestamp": "2026-11-19T20:13:43.293Z",
+    "file": "restart-vanxone.js",
+    "message": "[Restart] New process spawned, exiting current process..."
+  },
+  {
+    "timestamp": "2026-11-19T20:13:43.410Z",
+    "file": "speedtest.js",
+    "message": "[SpeedTest] Error: getaddrinfo ENOTFOUND speed.cloudflare.com"
+  },
+  {
+    "timestamp": "2026-11-19T20:14:25.458Z",
+    "file": "mcpedl.js",
+    "message": "{}"
+  },
+  {
+    "timestamp": "2026-11-19T20:14:25.470Z",
+    "file": "pin2-2.js",
+    "message": "[PINDLRICH] Search: test | Count: 5"
+  },
+  {
+    "timestamp": "2026-11-19T20:14:25.470Z",
+    "file": "pin2-2.js",
+    "message": "[PINDLRICH] Results: stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:14:25.479Z",
+    "file": "playcall.js",
+    "message": "[PlayCall] API azbry gagal: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:14:25.531Z",
+    "file": "playcall.js",
+    "message": "[YTDLP] gagal memasang otomatis: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:14:25.532Z",
+    "file": "playcall.js",
+    "message": "[MEDIADL] semua mesin gagal:  | yt-dlp belum terpasang dan tidak bisa dipasang otomatis di sistem ini. Pasang manual: https://github.com/yt-dlp/yt-dlp#installation\n(Pemasangan otomatis gagal: ERR_INVALID_ARG_TYPE)"
+  },
+  {
+    "timestamp": "2026-11-19T20:14:25.536Z",
+    "file": "playtiktok.js",
+    "message": "{}"
+  },
+  {
+    "timestamp": "2026-11-19T20:14:27.077Z",
+    "file": "o-robloxstalk.js",
+    "message": "[WhatsApp Bot:robloxstalk] fetch failed  @ at node:internal/deps/undici/undici:15456:13 | at process.processTicksAndRejections (node:internal/process/task_queues:103:5)"
+  },
+  {
+    "timestamp": "2026-11-19T20:14:27.083Z",
+    "file": "o-wastalk.js",
+    "message": "stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:14:27.084Z",
+    "file": "o-wastalk.js",
+    "message": "stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:14:27.106Z",
+    "file": "attp.js",
+    "message": "[WhatsApp Bot:attp] Gagal mengunduh sticker dari server  @ at Object.handler (/home/claude/bot/update_vanxone_premium/plugins/sticker/attp.js:82:34) | at process.processTicksAndRejections (node:internal/process/task_queues:103:5)"
+  },
+  {
+    "timestamp": "2026-11-19T20:14:27.107Z",
+    "file": "attp.js",
+    "message": "[WhatsApp Bot:attp] Gagal mengunduh sticker dari server  @ at Object.handler (/home/claude/bot/update_vanxone_premium/plugins/sticker/attp.js:82:34) | at process.processTicksAndRejections (node:internal/process/task_queues:103:5)"
+  },
+  {
+    "timestamp": "2026-11-19T20:14:30.113Z",
+    "file": "brat.js",
+    "message": "[BRAT] render gagal: {\"code\":\"ERR_MODULE_NOT_FOUND\"}"
+  },
+  {
+    "timestamp": "2026-11-19T20:14:30.114Z",
+    "file": "brat.js",
+    "message": "[BRAT] render gagal: {\"code\":\"ERR_MODULE_NOT_FOUND\"}"
+  },
+  {
+    "timestamp": "2026-11-19T20:14:30.120Z",
+    "file": "bratextra.js",
+    "message": "[WhatsApp Bot:bratextra] Template tidak ditemukan  @ at Object.handler (/home/claude/bot/update_vanxone_premium/plugins/sticker/bratextra.js:261:15) | at async Object.run (/home/claude/bot/update_vanxone_premium/lib/adapter/e3.js:362:9)"
+  },
+  {
+    "timestamp": "2026-11-19T20:14:30.180Z",
+    "file": "bratvid.js",
+    "message": "[BRAT] render gagal: {\"code\":\"ERR_MODULE_NOT_FOUND\"}"
+  },
+  {
+    "timestamp": "2026-11-19T20:14:30.181Z",
+    "file": "bratvid.js",
+    "message": "[BRATVID] render lokal gagal: Modul @napi-rs/canvas belum terpasang. Owner perlu menjalankan npm install lalu restart bot."
+  },
+  {
+    "timestamp": "2026-11-19T20:14:30.182Z",
+    "file": "bratvid.js",
+    "message": "[BRAT] render gagal: {\"code\":\"ERR_MODULE_NOT_FOUND\"}"
+  },
+  {
+    "timestamp": "2026-11-19T20:14:30.182Z",
+    "file": "bratvid.js",
+    "message": "[BRATVID] render lokal gagal: Modul @napi-rs/canvas belum terpasang. Owner perlu menjalankan npm install lalu restart bot."
+  },
+  {
+    "timestamp": "2026-11-19T20:14:30.187Z",
+    "file": "img2sp.js",
+    "message": "[img2sp] DEBUG quoted mentah: {\"chatId\":\"62812@s.whatsapp.net\",\"parentSender\":\"stub\",\"quotedKey\":{\"remoteJid\":\"62812@s.whatsapp.net\",\"fromMe\":false},\"quotedSender\":\"stub\",\"quotedType\":\"fillStyle\"}"
+  },
+  {
+    "timestamp": "2026-11-19T20:14:30.188Z",
+    "file": "img2sp.js",
+    "message": "[img2sp] DEBUG quoted mentah: {\"chatId\":\"62812@s.whatsapp.net\",\"parentSender\":\"stub\",\"quotedKey\":{\"remoteJid\":\"62812@s.whatsapp.net\",\"fromMe\":false},\"quotedSender\":\"stub\",\"quotedType\":\"fillStyle\"}"
+  },
+  {
+    "timestamp": "2026-11-19T20:14:30.194Z",
+    "file": "o-stickerpack.js",
+    "message": "[WhatsApp Bot:stickerpack] axios.post(...).then is not a function  @ at StickerAPI.search (/home/claude/bot/update_vanxone_premium/plugins/sticker/o-stickerpack.js:68:12) | at Object.handler (/home/claude/bot/update_vanxone_premium/plugins/sticker/o-stickerpack.js:143:"
+  },
+  {
+    "timestamp": "2026-11-19T20:14:30.202Z",
+    "file": "sticker.js",
+    "message": "[STIKER] Unsupported input 'stub' of type function when also providing options of type object"
+  },
+  {
+    "timestamp": "2026-11-19T20:14:30.203Z",
+    "file": "sticker.js",
+    "message": "[STIKER] Unsupported input 'stub' of type function when also providing options of type object"
+  },
+  {
+    "timestamp": "2026-11-19T20:14:30.210Z",
+    "file": "toimg.js",
+    "message": "[TOIMG] Unsupported input 'stub' of type function when also providing options of type object"
+  },
+  {
+    "timestamp": "2026-11-19T20:14:30.210Z",
+    "file": "toimg.js",
+    "message": "[TOIMG] Unsupported input 'stub' of type function when also providing options of type object"
+  },
+  {
+    "timestamp": "2026-11-19T20:14:30.212Z",
+    "file": "tovideo.js",
+    "message": "[TOVIDEO] Unsupported input 'stub' of type function when also providing options of type object"
+  },
+  {
+    "timestamp": "2026-11-19T20:14:30.212Z",
+    "file": "tovideo.js",
+    "message": "[TOVIDEO] Unsupported input 'stub' of type function when also providing options of type object"
+  },
+  {
+    "timestamp": "2026-11-19T20:14:30.215Z",
+    "file": "aonokos.js",
+    "message": "[NOKOS] nokos HTTP stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:14:30.216Z",
+    "file": "aonokos.js",
+    "message": "[NOKOS] nokos HTTP stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:14:30.247Z",
+    "file": "antide.js",
+    "message": "========== [antide] DEBUG m.quoted =========="
+  },
+  {
+    "timestamp": "2026-11-19T20:14:30.247Z",
+    "file": "antide.js",
+    "message": "{\n  \"key\": {\n    \"remoteJid\": \"62812@s.whatsapp.net\",\n    \"fromMe\": false\n  },\n  \"chat\": \"62812@s.whatsapp.net\",\n  \"sender\": \"stub\",\n  \"mtype\": \"fillStyle\",\n  \"mediaType\": \"fillStyle\",\n  \"isBaileys\": false,\n  \"pushName\": \"\",\n  \"fakeObj\": {\n    \"key\": {\n      \"remoteJid\": \"62812@s.whatsapp.net\",\n      \"fromMe\": false\n    }\n  },\n  \"type\": \"fillStyle\",\n  \"isImage\": false,\n  \"isVideo\": false,\n  \"isAudio\": false,\n  \"isSticker\": false,\n  \"isDocument\": false,\n  \"isMedia\": false,\n  \"quotedBody\": \"\"\n}"
+  },
+  {
+    "timestamp": "2026-11-19T20:14:30.248Z",
+    "file": "antide.js",
+    "message": "========== [antide] keys of m.quoted.message (jika ada) =========="
+  },
+  {
+    "timestamp": "2026-11-19T20:14:30.248Z",
+    "file": "antide.js",
+    "message": "[\"fillStyle\",\"globalAlpha\",\"strokeStyle\",\"lineWidth\",\"font\",\"textAlign\",\"shadowColor\",\"shadowBlur\",\"sharp\",\"textBaseline\",\"lineCap\",\"shadowOffsetY\",\"letterSpacing\",\"engine\",\"globalCompositeOperation\",\"lineJoin\"]"
+  },
+  {
+    "timestamp": "2026-11-19T20:14:30.248Z",
+    "file": "antide.js",
+    "message": "=============================================="
+  },
+  {
+    "timestamp": "2026-11-19T20:14:30.249Z",
+    "file": "antide.js",
+    "message": "========== [antide] DEBUG m.quoted =========="
+  },
+  {
+    "timestamp": "2026-11-19T20:14:30.250Z",
+    "file": "antide.js",
+    "message": "{\n  \"key\": {\n    \"remoteJid\": \"62812@s.whatsapp.net\",\n    \"fromMe\": false\n  },\n  \"chat\": \"62812@s.whatsapp.net\",\n  \"sender\": \"stub\",\n  \"mtype\": \"fillStyle\",\n  \"mediaType\": \"fillStyle\",\n  \"isBaileys\": false,\n  \"pushName\": \"\",\n  \"fakeObj\": {\n    \"key\": {\n      \"remoteJid\": \"62812@s.whatsapp.net\",\n      \"fromMe\": false\n    }\n  },\n  \"type\": \"fillStyle\",\n  \"isImage\": false,\n  \"isVideo\": false,\n  \"isAudio\": false,\n  \"isSticker\": false,\n  \"isDocument\": false,\n  \"isMedia\": false,\n  \"quotedBody\": \"\"\n}"
+  },
+  {
+    "timestamp": "2026-11-19T20:14:30.250Z",
+    "file": "antide.js",
+    "message": "========== [antide] keys of m.quoted.message (jika ada) =========="
+  },
+  {
+    "timestamp": "2026-11-19T20:14:30.250Z",
+    "file": "antide.js",
+    "message": "[\"fillStyle\",\"globalAlpha\",\"strokeStyle\",\"lineWidth\",\"font\",\"textAlign\",\"shadowColor\",\"shadowBlur\",\"sharp\",\"textBaseline\",\"lineCap\",\"shadowOffsetY\",\"letterSpacing\",\"engine\",\"globalCompositeOperation\",\"lineJoin\"]"
+  },
+  {
+    "timestamp": "2026-11-19T20:14:30.251Z",
+    "file": "antide.js",
+    "message": "=============================================="
+  },
+  {
+    "timestamp": "2026-11-19T20:14:30.262Z",
+    "file": "bulat.js",
+    "message": "[BULAT] Unsupported input 'stub' of type function when also providing options of type object"
+  },
+  {
+    "timestamp": "2026-11-19T20:14:30.263Z",
+    "file": "bulat.js",
+    "message": "[BULAT] Unsupported input 'stub' of type function when also providing options of type object"
+  },
+  {
+    "timestamp": "2026-11-19T20:14:30.274Z",
+    "file": "compress.js",
+    "message": "[COMPRESS] Unsupported input 'stub' of type function when also providing options of type object"
+  },
+  {
+    "timestamp": "2026-11-19T20:14:30.274Z",
+    "file": "compress.js",
+    "message": "[COMPRESS] Unsupported input 'stub' of type function when also providing options of type object"
+  },
+  {
+    "timestamp": "2026-11-19T20:14:30.286Z",
+    "file": "emojitoanimasi.js",
+    "message": "[WhatsApp Bot:emojitoanimasi] The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub  @ at Function.from (node:buffer:328:9) | at Object.handler (/home/claude/bot/update_vanxone_premium/plugins/tools/emojitoanimasi.js:80:33)"
+  },
+  {
+    "timestamp": "2026-11-19T20:14:30.305Z",
+    "file": "hd.js",
+    "message": "[HD] Unsupported input 'stub' of type function when also providing options of type object"
+  },
+  {
+    "timestamp": "2026-11-19T20:14:30.306Z",
+    "file": "hd.js",
+    "message": "[HD] Unsupported input 'stub' of type function when also providing options of type object"
+  },
+  {
+    "timestamp": "2026-11-19T20:14:30.307Z",
+    "file": "hdvid.js",
+    "message": "[HDVID] The \"data\" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:14:30.309Z",
+    "file": "hdvid.js",
+    "message": "[HDVID] The \"data\" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:14:30.322Z",
+    "file": "igstalk.js",
+    "message": "[IGSTALK] stub profil tidak ditemukan atau terproteksi"
+  },
+  {
+    "timestamp": "2026-11-19T20:14:30.324Z",
+    "file": "igstalk.js",
+    "message": "[IGSTALK] test profil tidak ditemukan atau terproteksi"
+  },
+  {
+    "timestamp": "2026-11-19T20:14:30.391Z",
+    "file": "imgtopdf.js",
+    "message": "[imgtopdf] DEBUG album: {\"chatId\":\"62812@s.whatsapp.net\",\"parentSender\":\"stub\"}"
+  },
+  {
+    "timestamp": "2026-11-19T20:14:30.392Z",
+    "file": "imgtopdf.js",
+    "message": "[imgtopdf] DEBUG album: {\"chatId\":\"62812@s.whatsapp.net\",\"parentSender\":\"stub\"}"
+  },
+  {
+    "timestamp": "2026-11-19T20:14:30.397Z",
+    "file": "instalookup.js",
+    "message": "[INSTALOOKUP] test getaddrinfo ENOTFOUND insta-stories-viewer.com"
+  },
+  {
+    "timestamp": "2026-11-19T20:14:34.928Z",
+    "file": "o-qwa.js",
+    "message": "[WhatsApp Bot:qwa] The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub  @ at Function.from (node:buffer:328:9) | at Object.handler (/home/claude/bot/update_vanxone_premium/plugins/tools/o-qwa.js:152:29)"
+  },
+  {
+    "timestamp": "2026-11-19T20:14:34.930Z",
+    "file": "o-qwa.js",
+    "message": "[WhatsApp Bot:qwa] The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub  @ at Function.from (node:buffer:328:9) | at Object.handler (/home/claude/bot/update_vanxone_premium/plugins/tools/o-qwa.js:152:29)"
+  },
+  {
+    "timestamp": "2026-11-19T20:14:34.932Z",
+    "file": "o-videotranscribe.js",
+    "message": "[WhatsApp Bot:videotranscribe] URL kosong / tidak valid  @ at transcriber (/home/claude/bot/update_vanxone_premium/plugins/tools/o-videotranscribe.js:105:13) | at Object.handler (/home/claude/bot/update_vanxone_premium/plugins/tools/o-videotranscribe.js:142:2"
+  },
+  {
+    "timestamp": "2026-11-19T20:14:37.435Z",
+    "file": "ssweb-3hasil.js",
+    "message": "[SSWeb3] Failed to download fillStyle: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:14:37.436Z",
+    "file": "ssweb-3hasil.js",
+    "message": "[SSWeb3] Failed to download globalAlpha: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:14:37.437Z",
+    "file": "ssweb-3hasil.js",
+    "message": "[SSWeb3] Failed to download strokeStyle: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:14:37.438Z",
+    "file": "ssweb-3hasil.js",
+    "message": "[SSWeb3] Failed to download lineWidth: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:14:37.438Z",
+    "file": "ssweb-3hasil.js",
+    "message": "[SSWeb3] Failed to download font: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:14:37.439Z",
+    "file": "ssweb-3hasil.js",
+    "message": "[SSWeb3] Failed to download textAlign: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:14:37.440Z",
+    "file": "ssweb-3hasil.js",
+    "message": "[SSWeb3] Failed to download shadowColor: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:14:37.440Z",
+    "file": "ssweb-3hasil.js",
+    "message": "[SSWeb3] Failed to download shadowBlur: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:14:37.441Z",
+    "file": "ssweb-3hasil.js",
+    "message": "[SSWeb3] Failed to download sharp: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:14:37.441Z",
+    "file": "ssweb-3hasil.js",
+    "message": "[SSWeb3] Failed to download textBaseline: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:14:37.442Z",
+    "file": "ssweb-3hasil.js",
+    "message": "[SSWeb3] Failed to download lineCap: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:14:37.443Z",
+    "file": "ssweb-3hasil.js",
+    "message": "[SSWeb3] Failed to download shadowOffsetY: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:14:37.443Z",
+    "file": "ssweb-3hasil.js",
+    "message": "[SSWeb3] Failed to download letterSpacing: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:14:37.444Z",
+    "file": "ssweb-3hasil.js",
+    "message": "[SSWeb3] Failed to download engine: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:14:37.445Z",
+    "file": "ssweb-3hasil.js",
+    "message": "[SSWeb3] Failed to download globalCompositeOperation: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub"
+  },
+  {
+    "timestamp": "2026-11-19T20:14:37.445Z",
+    "file": "ssweb-3hasil.js",
+    "message": "[SSWeb3] Failed to download lineJoin: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received function stub"
+  }
+]

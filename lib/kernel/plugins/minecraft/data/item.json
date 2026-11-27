@@ -1,0 +1,110 @@
+[
+ {
+  "nama": "Diamond",
+  "info": "Ditemukan dengan menambang diamond ore di kedalaman rendah. Dipakai untuk alat, armor, dan enchanting table."
+ },
+ {
+  "nama": "Netherite Ingot",
+  "info": "Dibuat dari 4 netherite scrap dan 4 gold ingot. Upgrade dari alat/armor diamond di smithing table."
+ },
+ {
+  "nama": "Netherite Scrap",
+  "info": "Dilebur dari ancient debris yang ditemukan di Nether."
+ },
+ {
+  "nama": "Ancient Debris",
+  "info": "Ditambang di Nether pada kedalaman rendah dengan pickaxe diamond atau lebih."
+ },
+ {
+  "nama": "Emerald",
+  "info": "Ditemukan di biome gunung dan dari dagang dengan villager."
+ },
+ {
+  "nama": "Gold Ingot",
+  "info": "Hasil melebur gold ore atau raw gold. Dipakai untuk golden apple dan perdagangan piglin."
+ },
+ {
+  "nama": "Iron Ingot",
+  "info": "Hasil melebur iron ore atau raw iron. Bahan utama alat dan armor."
+ },
+ {
+  "nama": "Coal",
+  "info": "Diambil dari coal ore, dipakai untuk bahan bakar dan torch."
+ },
+ {
+  "nama": "Redstone",
+  "info": "Bahan sirkuit, didapat dari redstone ore. Dipakai juga untuk ramuan dan piston."
+ },
+ {
+  "nama": "Lapis Lazuli",
+  "info": "Dipakai untuk enchanting dan pewarna biru."
+ },
+ {
+  "nama": "Obsidian",
+  "info": "Terbentuk saat lava bertemu air. Dipakai untuk portal Nether dan enchanting table. Butuh pickaxe diamond."
+ },
+ {
+  "nama": "Ender Pearl",
+  "info": "Dijatuhkan enderman. Dipakai untuk teleportasi singkat dan bahan eye of ender."
+ },
+ {
+  "nama": "Eye of Ender",
+  "info": "Dibuat dari ender pearl dan blaze powder. Dipakai untuk mencari stronghold dan mengaktifkan portal End."
+ },
+ {
+  "nama": "Blaze Rod",
+  "info": "Dijatuhkan blaze di Nether. Dipakai untuk brewing stand dan blaze powder."
+ },
+ {
+  "nama": "Nether Star",
+  "info": "Dijatuhkan oleh Wither. Dipakai untuk membuat beacon."
+ },
+ {
+  "nama": "Elytra",
+  "info": "Ditemukan di End Ship. Bisa dipakai untuk terbang di udara bersama roket kembang api."
+ },
+ {
+  "nama": "Totem of Undying",
+  "info": "Dijatuhkan evoker. Menyelamatkan pemain dari kematian jika dipegang."
+ },
+ {
+  "nama": "Trident",
+  "info": "Dijatuhkan drowned. Senjata lempar yang bisa di-enchant."
+ },
+ {
+  "nama": "Heart of the Sea",
+  "info": "Ditemukan di harta karun terkubur. Dipakai untuk membuat Conduit."
+ },
+ {
+  "nama": "Shulker Shell",
+  "info": "Dijatuhkan shulker di End City. Dipakai untuk membuat shulker box."
+ },
+ {
+  "nama": "Dragon Egg",
+  "info": "Muncul setelah Ender Dragon kalah pertama kali. Tidak bisa dibuat."
+ },
+ {
+  "nama": "Slime Ball",
+  "info": "Dijatuhkan slime. Dipakai untuk sticky piston dan lead."
+ },
+ {
+  "nama": "Gunpowder",
+  "info": "Dijatuhkan creeper dan witch. Dipakai untuk TNT dan kembang api."
+ },
+ {
+  "nama": "Ghast Tear",
+  "info": "Dijatuhkan ghast. Dipakai untuk ramuan regeneration."
+ },
+ {
+  "nama": "Honey Bottle",
+  "info": "Diambil dari sarang lebah dengan botol kaca. Menyembuhkan keracunan."
+ },
+ {
+  "nama": "Amethyst Shard",
+  "info": "Didapat dari amethyst geode. Dipakai untuk teropong dan blok dekoratif."
+ },
+ {
+  "nama": "Echo Shard",
+  "info": "Ditemukan di Ancient City. Dipakai untuk membuat Recovery Compass."
+ }
+]

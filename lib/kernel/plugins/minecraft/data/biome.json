@@ -1,0 +1,82 @@
+[
+ {
+  "nama": "Plains",
+  "info": "Dataran luas, tempat desa sering muncul. Cocok untuk pertanian dan pemula."
+ },
+ {
+  "nama": "Forest",
+  "info": "Banyak pohon ek dan birch, serigala kadang muncul."
+ },
+ {
+  "nama": "Desert",
+  "info": "Gurun berpasir dengan kaktus, desert temple, dan desa."
+ },
+ {
+  "nama": "Jungle",
+  "info": "Pohon sangat tinggi, jungle temple, dan ocelot atau panda."
+ },
+ {
+  "nama": "Savanna",
+  "info": "Dataran kering dengan pohon acacia dan kuda."
+ },
+ {
+  "nama": "Taiga",
+  "info": "Hutan cemara dengan serigala dan rubah. Ada versi bersalju."
+ },
+ {
+  "nama": "Snowy Plains",
+  "info": "Dataran bersalju, ada igloo dan kelinci putih."
+ },
+ {
+  "nama": "Swamp",
+  "info": "Rawa dengan lily pad, witch hut, dan slime pada malam hari."
+ },
+ {
+  "nama": "Mushroom Fields",
+  "info": "Pulau jamur langka tanpa mob hostile. Tempat mooshroom."
+ },
+ {
+  "nama": "Ocean",
+  "info": "Laut dalam dan dangkal, ada Ocean Monument, shipwreck, dan reruntuhan."
+ },
+ {
+  "nama": "Badlands",
+  "info": "Dataran tanah liat berwarna dengan banyak emas dan mineshaft."
+ },
+ {
+  "nama": "Dark Forest",
+  "info": "Hutan lebat dengan Woodland Mansion dan jamur raksasa."
+ },
+ {
+  "nama": "Cherry Grove",
+  "info": "Biome gunung dengan pohon sakura merah muda."
+ },
+ {
+  "nama": "Deep Dark",
+  "info": "Biome gua dalam dengan Ancient City dan Warden."
+ },
+ {
+  "nama": "Nether Wastes",
+  "info": "Biome Nether klasik berisi lautan lava dan netherrack."
+ },
+ {
+  "nama": "Crimson Forest",
+  "info": "Hutan Nether merah dengan hoglin dan piglin."
+ },
+ {
+  "nama": "Warped Forest",
+  "info": "Hutan Nether biru dengan enderman dan warped fungus."
+ },
+ {
+  "nama": "Soul Sand Valley",
+  "info": "Lembah soul sand dengan skeleton dan ghast."
+ },
+ {
+  "nama": "Basalt Deltas",
+  "info": "Dataran basalt dan magma cube di Nether."
+ },
+ {
+  "nama": "The End",
+  "info": "Dimensi tempat Ender Dragon, End City, dan End Ship."
+ }
+]

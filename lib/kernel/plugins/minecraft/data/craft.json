@@ -1,0 +1,182 @@
+[
+ {
+  "nama": "Crafting Table",
+  "bahan": "4 papan kayu (planks)",
+  "cara": "Susun 2x2 papan kayu."
+ },
+ {
+  "nama": "Furnace",
+  "bahan": "8 cobblestone",
+  "cara": "Susun 8 cobblestone mengelilingi kotak tengah kosong di grid 3x3."
+ },
+ {
+  "nama": "Chest",
+  "bahan": "8 papan kayu",
+  "cara": "Susun 8 papan mengelilingi kotak tengah kosong di grid 3x3."
+ },
+ {
+  "nama": "Stick",
+  "bahan": "2 papan kayu",
+  "cara": "Susun 2 papan secara vertikal. Menghasilkan 4 stick."
+ },
+ {
+  "nama": "Torch",
+  "bahan": "1 stick + 1 coal/charcoal",
+  "cara": "Letakkan coal di atas stick. Menghasilkan 4 torch."
+ },
+ {
+  "nama": "Wooden Pickaxe",
+  "bahan": "3 papan kayu + 2 stick",
+  "cara": "Papan 3 di baris atas, stick 2 vertikal di tengah-bawah."
+ },
+ {
+  "nama": "Stone Pickaxe",
+  "bahan": "3 cobblestone + 2 stick",
+  "cara": "Sama seperti wooden pickaxe dengan cobblestone di baris atas."
+ },
+ {
+  "nama": "Iron Pickaxe",
+  "bahan": "3 iron ingot + 2 stick",
+  "cara": "Sama seperti wooden pickaxe dengan iron ingot di baris atas."
+ },
+ {
+  "nama": "Diamond Pickaxe",
+  "bahan": "3 diamond + 2 stick",
+  "cara": "Sama seperti wooden pickaxe dengan diamond di baris atas."
+ },
+ {
+  "nama": "Diamond Sword",
+  "bahan": "2 diamond + 1 stick",
+  "cara": "Diamond 2 vertikal di atas stick."
+ },
+ {
+  "nama": "Bow",
+  "bahan": "3 stick + 3 string",
+  "cara": "Stick di kiri, string di kanan, kolom tengah dari atas ke bawah membentuk busur."
+ },
+ {
+  "nama": "Arrow",
+  "bahan": "1 flint + 1 stick + 1 feather",
+  "cara": "Flint di atas, stick di tengah, feather di bawah. Menghasilkan 4 arrow."
+ },
+ {
+  "nama": "Shield",
+  "bahan": "6 papan kayu + 1 iron ingot",
+  "cara": "Papan membentuk huruf Y dan iron ingot di tengah atas."
+ },
+ {
+  "nama": "Bed",
+  "bahan": "3 wol (sejenis) + 3 papan kayu",
+  "cara": "Wol 3 di baris tengah, papan 3 di baris bawah."
+ },
+ {
+  "nama": "Bucket",
+  "bahan": "3 iron ingot",
+  "cara": "Susun membentuk V di grid 3x3."
+ },
+ {
+  "nama": "Compass",
+  "bahan": "4 iron ingot + 1 redstone",
+  "cara": "Iron ingot di atas, bawah, kiri, kanan dan redstone di tengah."
+ },
+ {
+  "nama": "Clock",
+  "bahan": "4 gold ingot + 1 redstone",
+  "cara": "Gold ingot di atas, bawah, kiri, kanan dan redstone di tengah."
+ },
+ {
+  "nama": "Anvil",
+  "bahan": "3 iron block + 4 iron ingot",
+  "cara": "Iron block 3 di baris atas, iron ingot di tengah-bawah dan baris bawah."
+ },
+ {
+  "nama": "Enchanting Table",
+  "bahan": "1 buku + 2 diamond + 4 obsidian",
+  "cara": "Buku di tengah atas, diamond di kiri-kanan tengah, obsidian di bawah."
+ },
+ {
+  "nama": "Brewing Stand",
+  "bahan": "1 blaze rod + 3 cobblestone",
+  "cara": "Blaze rod di tengah, cobblestone 3 di baris bawah."
+ },
+ {
+  "nama": "Beacon",
+  "bahan": "3 obsidian + 5 glass + 1 nether star",
+  "cara": "Nether star di tengah, glass mengelilingi atas, obsidian di bawah."
+ },
+ {
+  "nama": "Piston",
+  "bahan": "3 papan + 4 cobblestone + 1 iron + 1 redstone",
+  "cara": "Papan 3 di atas, cobblestone di kiri-kanan, iron di tengah, redstone di bawah."
+ },
+ {
+  "nama": "Hopper",
+  "bahan": "5 iron ingot + 1 chest",
+  "cara": "Iron ingot membentuk V dengan chest di tengah."
+ },
+ {
+  "nama": "TNT",
+  "bahan": "5 gunpowder + 4 sand",
+  "cara": "Gunpowder dan sand disusun selang-seling di grid 3x3."
+ },
+ {
+  "nama": "Bookshelf",
+  "bahan": "6 papan kayu + 3 buku",
+  "cara": "Papan di baris atas dan bawah, buku di baris tengah."
+ },
+ {
+  "nama": "Ender Chest",
+  "bahan": "8 obsidian + 1 eye of ender",
+  "cara": "Obsidian mengelilingi eye of ender di tengah."
+ },
+ {
+  "nama": "Golden Apple",
+  "bahan": "8 gold ingot + 1 apel",
+  "cara": "Gold ingot mengelilingi apel di tengah."
+ },
+ {
+  "nama": "Cake",
+  "bahan": "3 susu + 2 gula + 1 telur + 3 gandum",
+  "cara": "Susu di baris atas, gula-telur-gula di tengah, gandum di bawah."
+ },
+ {
+  "nama": "Bread",
+  "bahan": "3 gandum",
+  "cara": "Susun 3 gandum di satu baris."
+ },
+ {
+  "nama": "Flint and Steel",
+  "bahan": "1 iron ingot + 1 flint",
+  "cara": "Iron ingot dan flint disusun diagonal."
+ },
+ {
+  "nama": "Fishing Rod",
+  "bahan": "3 stick + 2 string",
+  "cara": "Stick diagonal dari kiri bawah ke kanan atas, string di kanan."
+ },
+ {
+  "nama": "Shears",
+  "bahan": "2 iron ingot",
+  "cara": "Susun diagonal."
+ },
+ {
+  "nama": "Ladder",
+  "bahan": "7 stick",
+  "cara": "Stick membentuk huruf H di grid 3x3. Menghasilkan 3 ladder."
+ },
+ {
+  "nama": "Rail",
+  "bahan": "6 iron ingot + 1 stick",
+  "cara": "Iron ingot di kiri-kanan, stick di tengah. Menghasilkan 16 rail."
+ },
+ {
+  "nama": "Minecart",
+  "bahan": "5 iron ingot",
+  "cara": "Iron ingot membentuk huruf U di grid 3x3."
+ },
+ {
+  "nama": "Jukebox",
+  "bahan": "8 papan kayu + 1 diamond",
+  "cara": "Papan mengelilingi diamond di tengah."
+ }
+]

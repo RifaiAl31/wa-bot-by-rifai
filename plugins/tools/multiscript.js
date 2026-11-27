@@ -1,0 +1,2 @@
+// fitur tambahan WhatsApp Bot (convert/multiscript)
+module.exports = require('../../lib/adapter/e9.js').plugin("convert/multiscript", {"command":["multiscript","js2jawa","js2sunda","js2indo","jawa2js","jawa2sunda","jawa2indo","sunda2js","sunda2jawa","sunda2indo","indo2js","indo2jawa","indo2sunda","msconvert","multiconvert","convertscript","jawa","sunda","runjawa","runsunda","runindo","multi"],"category":"tools","desc":"Fitur js2jawa <kode>","usage":".multiscript"})

@@ -1,0 +1,457 @@
+[
+ {
+  "nama": "Seele",
+  "bintang": 5,
+  "elemen": "Quantum",
+  "jalur": "Hunt",
+  "info": "Memburu satu target dengan damage tunggal tinggi dan serangan cepat."
+ },
+ {
+  "nama": "Jing Yuan",
+  "bintang": 5,
+  "elemen": "Lightning",
+  "jalur": "Erudition",
+  "info": "Menyerang banyak musuh sekaligus dengan damage area."
+ },
+ {
+  "nama": "Bronya",
+  "bintang": 5,
+  "elemen": "Wind",
+  "jalur": "Harmony",
+  "info": "Memberi buff ke tim, mempercepat giliran, dan menambah damage sekutu."
+ },
+ {
+  "nama": "Clara",
+  "bintang": 5,
+  "elemen": "Physical",
+  "jalur": "Destruction",
+  "info": "Fokus menerima dan menghasilkan damage besar, sering mengorbankan HP."
+ },
+ {
+  "nama": "Gepard",
+  "bintang": 5,
+  "elemen": "Ice",
+  "jalur": "Preservation",
+  "info": "Melindungi tim dengan shield dan menahan serangan."
+ },
+ {
+  "nama": "Bailu",
+  "bintang": 5,
+  "elemen": "Lightning",
+  "jalur": "Abundance",
+  "info": "Menyembuhkan tim dan menghapus efek buruk."
+ },
+ {
+  "nama": "Himeko",
+  "bintang": 5,
+  "elemen": "Fire",
+  "jalur": "Erudition",
+  "info": "Menyerang banyak musuh sekaligus dengan damage area."
+ },
+ {
+  "nama": "Welt",
+  "bintang": 5,
+  "elemen": "Imaginary",
+  "jalur": "Nihility",
+  "info": "Memberi debuff dan damage berkelanjutan (DoT) ke musuh."
+ },
+ {
+  "nama": "Yanqing",
+  "bintang": 5,
+  "elemen": "Ice",
+  "jalur": "Hunt",
+  "info": "Memburu satu target dengan damage tunggal tinggi dan serangan cepat."
+ },
+ {
+  "nama": "Blade",
+  "bintang": 5,
+  "elemen": "Wind",
+  "jalur": "Destruction",
+  "info": "Fokus menerima dan menghasilkan damage besar, sering mengorbankan HP."
+ },
+ {
+  "nama": "Kafka",
+  "bintang": 5,
+  "elemen": "Lightning",
+  "jalur": "Nihility",
+  "info": "Memberi debuff dan damage berkelanjutan (DoT) ke musuh."
+ },
+ {
+  "nama": "Silver Wolf",
+  "bintang": 5,
+  "elemen": "Quantum",
+  "jalur": "Nihility",
+  "info": "Memberi debuff dan damage berkelanjutan (DoT) ke musuh."
+ },
+ {
+  "nama": "Luocha",
+  "bintang": 5,
+  "elemen": "Imaginary",
+  "jalur": "Abundance",
+  "info": "Menyembuhkan tim dan menghapus efek buruk."
+ },
+ {
+  "nama": "Fu Xuan",
+  "bintang": 5,
+  "elemen": "Quantum",
+  "jalur": "Preservation",
+  "info": "Melindungi tim dengan shield dan menahan serangan."
+ },
+ {
+  "nama": "Dan Heng • Imbibitor Lunae",
+  "bintang": 5,
+  "elemen": "Imaginary",
+  "jalur": "Destruction",
+  "info": "Fokus menerima dan menghasilkan damage besar, sering mengorbankan HP."
+ },
+ {
+  "nama": "Jingliu",
+  "bintang": 5,
+  "elemen": "Ice",
+  "jalur": "Destruction",
+  "info": "Fokus menerima dan menghasilkan damage besar, sering mengorbankan HP."
+ },
+ {
+  "nama": "Topaz & Numby",
+  "bintang": 5,
+  "elemen": "Fire",
+  "jalur": "Hunt",
+  "info": "Memburu satu target dengan damage tunggal tinggi dan serangan cepat."
+ },
+ {
+  "nama": "Huohuo",
+  "bintang": 5,
+  "elemen": "Wind",
+  "jalur": "Abundance",
+  "info": "Menyembuhkan tim dan menghapus efek buruk."
+ },
+ {
+  "nama": "Argenti",
+  "bintang": 5,
+  "elemen": "Physical",
+  "jalur": "Erudition",
+  "info": "Menyerang banyak musuh sekaligus dengan damage area."
+ },
+ {
+  "nama": "Ruan Mei",
+  "bintang": 5,
+  "elemen": "Ice",
+  "jalur": "Harmony",
+  "info": "Memberi buff ke tim, mempercepat giliran, dan menambah damage sekutu."
+ },
+ {
+  "nama": "Dr. Ratio",
+  "bintang": 5,
+  "elemen": "Imaginary",
+  "jalur": "Hunt",
+  "info": "Memburu satu target dengan damage tunggal tinggi dan serangan cepat."
+ },
+ {
+  "nama": "Black Swan",
+  "bintang": 5,
+  "elemen": "Wind",
+  "jalur": "Nihility",
+  "info": "Memberi debuff dan damage berkelanjutan (DoT) ke musuh."
+ },
+ {
+  "nama": "Sparkle",
+  "bintang": 5,
+  "elemen": "Quantum",
+  "jalur": "Harmony",
+  "info": "Memberi buff ke tim, mempercepat giliran, dan menambah damage sekutu."
+ },
+ {
+  "nama": "Acheron",
+  "bintang": 5,
+  "elemen": "Lightning",
+  "jalur": "Nihility",
+  "info": "Memberi debuff dan damage berkelanjutan (DoT) ke musuh."
+ },
+ {
+  "nama": "Aventurine",
+  "bintang": 5,
+  "elemen": "Imaginary",
+  "jalur": "Preservation",
+  "info": "Melindungi tim dengan shield dan menahan serangan."
+ },
+ {
+  "nama": "Robin",
+  "bintang": 5,
+  "elemen": "Physical",
+  "jalur": "Harmony",
+  "info": "Memberi buff ke tim, mempercepat giliran, dan menambah damage sekutu."
+ },
+ {
+  "nama": "Boothill",
+  "bintang": 5,
+  "elemen": "Physical",
+  "jalur": "Hunt",
+  "info": "Memburu satu target dengan damage tunggal tinggi dan serangan cepat."
+ },
+ {
+  "nama": "Firefly",
+  "bintang": 5,
+  "elemen": "Fire",
+  "jalur": "Destruction",
+  "info": "Fokus menerima dan menghasilkan damage besar, sering mengorbankan HP."
+ },
+ {
+  "nama": "Jade",
+  "bintang": 5,
+  "elemen": "Quantum",
+  "jalur": "Erudition",
+  "info": "Menyerang banyak musuh sekaligus dengan damage area."
+ },
+ {
+  "nama": "Yunli",
+  "bintang": 5,
+  "elemen": "Physical",
+  "jalur": "Destruction",
+  "info": "Fokus menerima dan menghasilkan damage besar, sering mengorbankan HP."
+ },
+ {
+  "nama": "Jiaoqiu",
+  "bintang": 5,
+  "elemen": "Fire",
+  "jalur": "Nihility",
+  "info": "Memberi debuff dan damage berkelanjutan (DoT) ke musuh."
+ },
+ {
+  "nama": "Feixiao",
+  "bintang": 5,
+  "elemen": "Wind",
+  "jalur": "Hunt",
+  "info": "Memburu satu target dengan damage tunggal tinggi dan serangan cepat."
+ },
+ {
+  "nama": "Lingsha",
+  "bintang": 5,
+  "elemen": "Fire",
+  "jalur": "Abundance",
+  "info": "Menyembuhkan tim dan menghapus efek buruk."
+ },
+ {
+  "nama": "Rappa",
+  "bintang": 5,
+  "elemen": "Imaginary",
+  "jalur": "Erudition",
+  "info": "Menyerang banyak musuh sekaligus dengan damage area."
+ },
+ {
+  "nama": "Sunday",
+  "bintang": 5,
+  "elemen": "Imaginary",
+  "jalur": "Harmony",
+  "info": "Memberi buff ke tim, mempercepat giliran, dan menambah damage sekutu."
+ },
+ {
+  "nama": "Fugue",
+  "bintang": 5,
+  "elemen": "Fire",
+  "jalur": "Nihility",
+  "info": "Memberi debuff dan damage berkelanjutan (DoT) ke musuh."
+ },
+ {
+  "nama": "Aglaea",
+  "bintang": 5,
+  "elemen": "Lightning",
+  "jalur": "Remembrance",
+  "info": "Memanggil memosprite untuk membantu bertarung dan memberi dukungan."
+ },
+ {
+  "nama": "Tribbie",
+  "bintang": 5,
+  "elemen": "Quantum",
+  "jalur": "Harmony",
+  "info": "Memberi buff ke tim, mempercepat giliran, dan menambah damage sekutu."
+ },
+ {
+  "nama": "Mydei",
+  "bintang": 5,
+  "elemen": "Imaginary",
+  "jalur": "Destruction",
+  "info": "Fokus menerima dan menghasilkan damage besar, sering mengorbankan HP."
+ },
+ {
+  "nama": "Castorice",
+  "bintang": 5,
+  "elemen": "Quantum",
+  "jalur": "Remembrance",
+  "info": "Memanggil memosprite untuk membantu bertarung dan memberi dukungan."
+ },
+ {
+  "nama": "Anaxa",
+  "bintang": 5,
+  "elemen": "Wind",
+  "jalur": "Erudition",
+  "info": "Menyerang banyak musuh sekaligus dengan damage area."
+ },
+ {
+  "nama": "Dan Heng",
+  "bintang": 4,
+  "elemen": "Wind",
+  "jalur": "Hunt",
+  "info": "Memburu satu target dengan damage tunggal tinggi dan serangan cepat."
+ },
+ {
+  "nama": "March 7th",
+  "bintang": 4,
+  "elemen": "Ice",
+  "jalur": "Preservation",
+  "info": "Melindungi tim dengan shield dan menahan serangan."
+ },
+ {
+  "nama": "Herta",
+  "bintang": 4,
+  "elemen": "Ice",
+  "jalur": "Erudition",
+  "info": "Menyerang banyak musuh sekaligus dengan damage area."
+ },
+ {
+  "nama": "Asta",
+  "bintang": 4,
+  "elemen": "Fire",
+  "jalur": "Harmony",
+  "info": "Memberi buff ke tim, mempercepat giliran, dan menambah damage sekutu."
+ },
+ {
+  "nama": "Natasha",
+  "bintang": 4,
+  "elemen": "Physical",
+  "jalur": "Abundance",
+  "info": "Menyembuhkan tim dan menghapus efek buruk."
+ },
+ {
+  "nama": "Serval",
+  "bintang": 4,
+  "elemen": "Lightning",
+  "jalur": "Erudition",
+  "info": "Menyerang banyak musuh sekaligus dengan damage area."
+ },
+ {
+  "nama": "Sampo",
+  "bintang": 4,
+  "elemen": "Wind",
+  "jalur": "Nihility",
+  "info": "Memberi debuff dan damage berkelanjutan (DoT) ke musuh."
+ },
+ {
+  "nama": "Hook",
+  "bintang": 4,
+  "elemen": "Fire",
+  "jalur": "Destruction",
+  "info": "Fokus menerima dan menghasilkan damage besar, sering mengorbankan HP."
+ },
+ {
+  "nama": "Pela",
+  "bintang": 4,
+  "elemen": "Ice",
+  "jalur": "Nihility",
+  "info": "Memberi debuff dan damage berkelanjutan (DoT) ke musuh."
+ },
+ {
+  "nama": "Qingque",
+  "bintang": 4,
+  "elemen": "Quantum",
+  "jalur": "Erudition",
+  "info": "Menyerang banyak musuh sekaligus dengan damage area."
+ },
+ {
+  "nama": "Tingyun",
+  "bintang": 4,
+  "elemen": "Lightning",
+  "jalur": "Harmony",
+  "info": "Memberi buff ke tim, mempercepat giliran, dan menambah damage sekutu."
+ },
+ {
+  "nama": "Luka",
+  "bintang": 4,
+  "elemen": "Physical",
+  "jalur": "Nihility",
+  "info": "Memberi debuff dan damage berkelanjutan (DoT) ke musuh."
+ },
+ {
+  "nama": "Sushang",
+  "bintang": 4,
+  "elemen": "Physical",
+  "jalur": "Hunt",
+  "info": "Memburu satu target dengan damage tunggal tinggi dan serangan cepat."
+ },
+ {
+  "nama": "Yukong",
+  "bintang": 4,
+  "elemen": "Imaginary",
+  "jalur": "Harmony",
+  "info": "Memberi buff ke tim, mempercepat giliran, dan menambah damage sekutu."
+ },
+ {
+  "nama": "Gallagher",
+  "bintang": 4,
+  "elemen": "Fire",
+  "jalur": "Abundance",
+  "info": "Menyembuhkan tim dan menghapus efek buruk."
+ },
+ {
+  "nama": "Hanya",
+  "bintang": 4,
+  "elemen": "Physical",
+  "jalur": "Harmony",
+  "info": "Memberi buff ke tim, mempercepat giliran, dan menambah damage sekutu."
+ },
+ {
+  "nama": "Misha",
+  "bintang": 4,
+  "elemen": "Ice",
+  "jalur": "Destruction",
+  "info": "Fokus menerima dan menghasilkan damage besar, sering mengorbankan HP."
+ },
+ {
+  "nama": "Guinaifen",
+  "bintang": 4,
+  "elemen": "Fire",
+  "jalur": "Nihility",
+  "info": "Memberi debuff dan damage berkelanjutan (DoT) ke musuh."
+ },
+ {
+  "nama": "Xueyi",
+  "bintang": 4,
+  "elemen": "Quantum",
+  "jalur": "Destruction",
+  "info": "Fokus menerima dan menghasilkan damage besar, sering mengorbankan HP."
+ },
+ {
+  "nama": "Lynx",
+  "bintang": 4,
+  "elemen": "Quantum",
+  "jalur": "Abundance",
+  "info": "Menyembuhkan tim dan menghapus efek buruk."
+ },
+ {
+  "nama": "Moze",
+  "bintang": 4,
+  "elemen": "Lightning",
+  "jalur": "Hunt",
+  "info": "Memburu satu target dengan damage tunggal tinggi dan serangan cepat."
+ },
+ {
+  "nama": "Trailblazer (Physical)",
+  "bintang": 5,
+  "elemen": "Physical",
+  "jalur": "Destruction",
+  "info": "Fokus menerima dan menghasilkan damage besar, sering mengorbankan HP."
+ },
+ {
+  "nama": "Trailblazer (Fire)",
+  "bintang": 5,
+  "elemen": "Fire",
+  "jalur": "Preservation",
+  "info": "Melindungi tim dengan shield dan menahan serangan."
+ },
+ {
+  "nama": "Trailblazer (Imaginary)",
+  "bintang": 5,
+  "elemen": "Imaginary",
+  "jalur": "Harmony",
+  "info": "Memberi buff ke tim, mempercepat giliran, dan menambah damage sekutu."
+ }
+]

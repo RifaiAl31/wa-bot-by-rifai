@@ -1,0 +1,18 @@
+{
+  "120363433714114718@g.us": {
+    "nextId": 2,
+    "list": [
+      {
+        "id": "AN1",
+        "type": "mingguan",
+        "day": 1,
+        "dayName": "Senin",
+        "week": null,
+        "time": "08:00",
+        "title": "Jadwal Piket",
+        "content": "Jangan lupa piket kelas.",
+        "lastSentDate": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+[
+ {
+  "nama": "Broadblade",
+  "info": "Pedang lebar yang berat, serangan kuat dan jangkauan luas."
+ },
+ {
+  "nama": "Sword",
+  "info": "Pedang cepat dengan kombo serangan lincah."
+ },
+ {
+  "nama": "Pistols",
+  "info": "Dua pistol untuk serangan jarak jauh yang cepat."
+ },
+ {
+  "nama": "Gauntlets",
+  "info": "Sarung tangan untuk pertarungan jarak dekat yang agresif."
+ },
+ {
+  "nama": "Rectifier",
+  "info": "Alat penyalur energi untuk serangan jarak jauh dan dukungan."
+ }
+]

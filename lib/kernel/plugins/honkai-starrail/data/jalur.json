@@ -1,0 +1,34 @@
+[
+ {
+  "nama": "Destruction",
+  "info": "Fokus menerima dan menghasilkan damage besar, sering mengorbankan HP."
+ },
+ {
+  "nama": "Hunt",
+  "info": "Memburu satu target dengan damage tunggal tinggi dan serangan cepat."
+ },
+ {
+  "nama": "Erudition",
+  "info": "Menyerang banyak musuh sekaligus dengan damage area."
+ },
+ {
+  "nama": "Harmony",
+  "info": "Memberi buff ke tim, mempercepat giliran, dan menambah damage sekutu."
+ },
+ {
+  "nama": "Nihility",
+  "info": "Memberi debuff dan damage berkelanjutan (DoT) ke musuh."
+ },
+ {
+  "nama": "Preservation",
+  "info": "Melindungi tim dengan shield dan menahan serangan."
+ },
+ {
+  "nama": "Abundance",
+  "info": "Menyembuhkan tim dan menghapus efek buruk."
+ },
+ {
+  "nama": "Remembrance",
+  "info": "Memanggil memosprite untuk membantu bertarung dan memberi dukungan."
+ }
+]

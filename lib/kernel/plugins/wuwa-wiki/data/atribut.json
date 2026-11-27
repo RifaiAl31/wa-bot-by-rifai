@@ -1,0 +1,32 @@
+[
+ {
+  "nama": "Glacio",
+  "status": "Glacio Chafe",
+  "info": "Elemen es yang melambatkan dan menumpuk efek beku."
+ },
+ {
+  "nama": "Fusion",
+  "status": "Fusion Burst",
+  "info": "Elemen api yang memberi damage panas dan meledak."
+ },
+ {
+  "nama": "Electro",
+  "status": "Electro Flare",
+  "info": "Elemen listrik yang menumpuk sengatan."
+ },
+ {
+  "nama": "Aero",
+  "status": "Aero Erosion",
+  "info": "Elemen angin yang menumpuk erosi."
+ },
+ {
+  "nama": "Spectro",
+  "status": "Spectro Frazzle",
+  "info": "Elemen cahaya yang menumpuk Frazzle."
+ },
+ {
+  "nama": "Havoc",
+  "status": "Havoc Bane",
+  "info": "Elemen kegelapan yang menumpuk Havoc Bane."
+ }
+]

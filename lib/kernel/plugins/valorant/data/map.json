@@ -1,0 +1,57 @@
+[
+ {
+  "nama": "Ascent",
+  "site": "2 bomb site",
+  "info": "Map dengan pintu yang bisa ditutup oleh pemain di tengah."
+ },
+ {
+  "nama": "Bind",
+  "site": "2 bomb site",
+  "info": "Map dengan teleportasi satu arah antar area."
+ },
+ {
+  "nama": "Haven",
+  "site": "3 bomb site",
+  "info": "Map unik dengan tiga bomb site."
+ },
+ {
+  "nama": "Split",
+  "site": "2 bomb site",
+  "info": "Map dengan tali panjat dan area tengah yang vertikal."
+ },
+ {
+  "nama": "Icebox",
+  "site": "2 bomb site",
+  "info": "Map bersalju dengan banyak tali vertikal dan sudut sempit."
+ },
+ {
+  "nama": "Breeze",
+  "site": "2 bomb site",
+  "info": "Map tropis dengan area terbuka luas dan jarak pandang jauh."
+ },
+ {
+  "nama": "Fracture",
+  "site": "2 bomb site",
+  "info": "Penyerang muncul di dua sisi map."
+ },
+ {
+  "nama": "Pearl",
+  "site": "2 bomb site",
+  "info": "Map bawah laut dengan tata letak simetris."
+ },
+ {
+  "nama": "Lotus",
+  "site": "3 bomb site",
+  "info": "Map dengan tiga site, pintu putar, dan dinding yang bisa dihancurkan."
+ },
+ {
+  "nama": "Sunset",
+  "site": "2 bomb site",
+  "info": "Map bernuansa kota pantai dengan jalur tengah ramai."
+ },
+ {
+  "nama": "Abyss",
+  "site": "2 bomb site",
+  "info": "Map dengan sisi tanpa pagar, bisa jatuh dari tepi."
+ }
+]

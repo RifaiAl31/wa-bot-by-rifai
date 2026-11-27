@@ -1,0 +1,247 @@
+[
+ {
+  "nama": "Anby Demara",
+  "atribut": "Electric",
+  "peran": "Stun",
+  "rank": "A",
+  "info": "Mengumpulkan gauge stun musuh agar tim bisa menyerang dengan damage lebih besar."
+ },
+ {
+  "nama": "Nicole Demara",
+  "atribut": "Ether",
+  "peran": "Support",
+  "rank": "A",
+  "info": "Memberi buff dan membantu tim bertahan atau menyerang lebih kuat."
+ },
+ {
+  "nama": "Billy Kid",
+  "atribut": "Physical",
+  "peran": "Attack",
+  "rank": "A",
+  "info": "Penghasil damage utama di tim."
+ },
+ {
+  "nama": "Nekomata",
+  "atribut": "Physical",
+  "peran": "Attack",
+  "rank": "S",
+  "info": "Penghasil damage utama di tim."
+ },
+ {
+  "nama": "Soldier 11",
+  "atribut": "Fire",
+  "peran": "Attack",
+  "rank": "S",
+  "info": "Penghasil damage utama di tim."
+ },
+ {
+  "nama": "Corin Wickes",
+  "atribut": "Physical",
+  "peran": "Attack",
+  "rank": "A",
+  "info": "Penghasil damage utama di tim."
+ },
+ {
+  "nama": "Ellen Joe",
+  "atribut": "Ice",
+  "peran": "Attack",
+  "rank": "S",
+  "info": "Penghasil damage utama di tim."
+ },
+ {
+  "nama": "Lycaon",
+  "atribut": "Ice",
+  "peran": "Stun",
+  "rank": "S",
+  "info": "Mengumpulkan gauge stun musuh agar tim bisa menyerang dengan damage lebih besar."
+ },
+ {
+  "nama": "Grace Howard",
+  "atribut": "Electric",
+  "peran": "Anomaly",
+  "rank": "S",
+  "info": "Memicu dan menumpuk efek anomali elemen pada musuh."
+ },
+ {
+  "nama": "Koleda Belobog",
+  "atribut": "Fire",
+  "peran": "Stun",
+  "rank": "A",
+  "info": "Mengumpulkan gauge stun musuh agar tim bisa menyerang dengan damage lebih besar."
+ },
+ {
+  "nama": "Ben Bigger",
+  "atribut": "Fire",
+  "peran": "Defense",
+  "rank": "A",
+  "info": "Menjaga tim dan menahan serangan, juga bisa menyerap damage."
+ },
+ {
+  "nama": "Anton Ivanov",
+  "atribut": "Electric",
+  "peran": "Attack",
+  "rank": "A",
+  "info": "Penghasil damage utama di tim."
+ },
+ {
+  "nama": "Soukaku",
+  "atribut": "Ice",
+  "peran": "Support",
+  "rank": "S",
+  "info": "Memberi buff dan membantu tim bertahan atau menyerang lebih kuat."
+ },
+ {
+  "nama": "Lucy",
+  "atribut": "Fire",
+  "peran": "Support",
+  "rank": "A",
+  "info": "Memberi buff dan membantu tim bertahan atau menyerang lebih kuat."
+ },
+ {
+  "nama": "Piper Wheel",
+  "atribut": "Physical",
+  "peran": "Anomaly",
+  "rank": "A",
+  "info": "Memicu dan menumpuk efek anomali elemen pada musuh."
+ },
+ {
+  "nama": "Zhu Yuan",
+  "atribut": "Ether",
+  "peran": "Attack",
+  "rank": "S",
+  "info": "Penghasil damage utama di tim."
+ },
+ {
+  "nama": "Qingyi",
+  "atribut": "Electric",
+  "peran": "Stun",
+  "rank": "S",
+  "info": "Mengumpulkan gauge stun musuh agar tim bisa menyerang dengan damage lebih besar."
+ },
+ {
+  "nama": "Jane Doe",
+  "atribut": "Physical",
+  "peran": "Anomaly",
+  "rank": "S",
+  "info": "Memicu dan menumpuk efek anomali elemen pada musuh."
+ },
+ {
+  "nama": "Seth Lowell",
+  "atribut": "Electric",
+  "peran": "Defense",
+  "rank": "A",
+  "info": "Menjaga tim dan menahan serangan, juga bisa menyerap damage."
+ },
+ {
+  "nama": "Burnice White",
+  "atribut": "Fire",
+  "peran": "Anomaly",
+  "rank": "S",
+  "info": "Memicu dan menumpuk efek anomali elemen pada musuh."
+ },
+ {
+  "nama": "Caesar King",
+  "atribut": "Physical",
+  "peran": "Defense",
+  "rank": "S",
+  "info": "Menjaga tim dan menahan serangan, juga bisa menyerap damage."
+ },
+ {
+  "nama": "Lighter",
+  "atribut": "Fire",
+  "peran": "Stun",
+  "rank": "S",
+  "info": "Mengumpulkan gauge stun musuh agar tim bisa menyerang dengan damage lebih besar."
+ },
+ {
+  "nama": "Miyabi",
+  "atribut": "Frost",
+  "peran": "Anomaly",
+  "rank": "S",
+  "info": "Memicu dan menumpuk efek anomali elemen pada musuh."
+ },
+ {
+  "nama": "Harumasa",
+  "atribut": "Electric",
+  "peran": "Attack",
+  "rank": "S",
+  "info": "Penghasil damage utama di tim."
+ },
+ {
+  "nama": "Astra Yao",
+  "atribut": "Ether",
+  "peran": "Support",
+  "rank": "S",
+  "info": "Memberi buff dan membantu tim bertahan atau menyerang lebih kuat."
+ },
+ {
+  "nama": "Evelyn Chevalier",
+  "atribut": "Fire",
+  "peran": "Attack",
+  "rank": "S",
+  "info": "Penghasil damage utama di tim."
+ },
+ {
+  "nama": "Vivian Banshee",
+  "atribut": "Ether",
+  "peran": "Anomaly",
+  "rank": "S",
+  "info": "Memicu dan menumpuk efek anomali elemen pada musuh."
+ },
+ {
+  "nama": "Hugo Vlad",
+  "atribut": "Ice",
+  "peran": "Attack",
+  "rank": "S",
+  "info": "Penghasil damage utama di tim."
+ },
+ {
+  "nama": "Yixuan",
+  "atribut": "Auric Ink",
+  "peran": "Rupture",
+  "rank": "S",
+  "info": "Fokus pada damage besar berdasarkan HP, bukan serangan dasar."
+ },
+ {
+  "nama": "Trigger",
+  "atribut": "Electric",
+  "peran": "Stun",
+  "rank": "S",
+  "info": "Mengumpulkan gauge stun musuh agar tim bisa menyerang dengan damage lebih besar."
+ },
+ {
+  "nama": "Pulchra Fellini",
+  "atribut": "Physical",
+  "peran": "Stun",
+  "rank": "A",
+  "info": "Mengumpulkan gauge stun musuh agar tim bisa menyerang dengan damage lebih besar."
+ },
+ {
+  "nama": "Pan Yinhu",
+  "atribut": "Physical",
+  "peran": "Defense",
+  "rank": "A",
+  "info": "Menjaga tim dan menahan serangan, juga bisa menyerap damage."
+ },
+ {
+  "nama": "Ju Fufu",
+  "atribut": "Fire",
+  "peran": "Stun",
+  "rank": "S",
+  "info": "Mengumpulkan gauge stun musuh agar tim bisa menyerang dengan damage lebih besar."
+ },
+ {
+  "nama": "Yanagi",
+  "atribut": "Electric",
+  "peran": "Anomaly",
+  "rank": "S",
+  "info": "Memicu dan menumpuk efek anomali elemen pada musuh."
+ },
+ {
+  "nama": "Alice Thymefield",
+  "atribut": "Physical",
+  "peran": "Anomaly",
+  "rank": "S",
+  "info": "Memicu dan menumpuk efek anomali elemen pada musuh."
+ }
+]

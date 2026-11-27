@@ -1,0 +1,134 @@
+// owner/setwelcometype — satu file: metadata + kode fitur (gabungan dari engine3/plugins/owner/setwelcometype.js)
+const __vx = require("../../lib/adapter/e3.js")
+const __meta = {
+  "name": "setwelcometype",
+  "command": [
+    "setwelcometype",
+    "welcometype",
+    "welcomevariant",
+    "welcomestyle"
+  ],
+  "category": "owner",
+  "desc": "Mengatur variant tampilan welcome message",
+  "usage": ".setwelcometype",
+  "owner": true,
+  "group": false,
+  "private": false,
+  "premium": false,
+  "admin": false,
+  "botAdmin": false,
+  "cooldown": 3,
+  "energi": 0,
+  "needs": {
+    "apikeys": [],
+    "scrapers": [],
+    "assets": []
+  }
+}
+const __vdir = require('path').join(__dirname, "../../lib/ext/plugins/owner").split('\\').join('/')
+module.exports = __vx.plugin("owner/setwelcometype", __meta, async function () {
+  const __dirname = __vdir, __filename = __vdir + '/setwelcometype.js'
+  const __vxDef = (m) => (m && m.__esModule ? m.default : m);
+  const __vxExports = {};
+  const { getAssetBuffer } = require("../../lib/ext/src/lib/vanxone-asset-manager.js");
+  const fs = __vxDef(require("fs"));
+  const config = __vxDef(require("../../lib/ext/config.e3.js"));
+  const { getDatabase } = require("../../lib/ext/src/lib/vanxone-database.js");
+  const pluginConfig = {
+    name: "setwelcometype",
+    alias: ["welcometype", "welcomevariant", "welcomestyle"],
+    category: "owner",
+    description: "Mengatur variant tampilan welcome message",
+    usage: ".setwelcometype",
+    example: ".setwelcometype",
+    isOwner: true,
+    isPremium: false,
+    isGroup: false,
+    isPrivate: false,
+    cooldown: 3,
+    energi: 0,
+    isEnabled: true,
+  };
+  const VARIANTS = {
+    1: {
+      name: "Canvas Image",
+      desc: "Gambar canvas dengan foto profil",
+      emoji: "🎨",
+    },
+    2: {
+      name: "Carousel Cards",
+      desc: "Kartu carousel interaktif dengan tombol",
+      emoji: "🃏",
+    },
+    3: {
+      name: "Text Only",
+      desc: "Pesan teks minimalis tanpa gambar",
+      emoji: "📝",
+    },
+    4: { name: "Group", desc: "ContextInfo group style", emoji: "👥" },
+    5: { name: "Simple", desc: "Pesan teks simple + foto profile", emoji: "✨" },
+    6: { name: "Video", desc: "Kirim video perkenalan", emoji: "🎥" },
+    7: { name: "Interactive Quoted", desc: "Interactive message dengan fake quoted", emoji: "💬" },
+    8: { name: "Super Simple", desc: "Pesan teks sangat singkat tanpa hiasan", emoji: "👋" },
+  };
+  async function handler(m, { sock, db }) {
+    const args = m.args || [];
+    const variant = args[0]?.toLowerCase();
+    const current = db.setting("welcomeType") || 1;
+    if (variant && /^v?[1-8]$/.test(variant)) {
+      const id = parseInt(variant.replace("v", ""));
+      db.setting("welcomeType", id);
+      await db.save();
+      await m.reply(
+        `✅ *WELCOME TYPE DIUBAH*\n\n` +
+          `${VARIANTS[id].emoji} *V${id} — ${VARIANTS[id].name}*\n` +
+          `_${VARIANTS[id].desc}_`,
+      );
+      return;
+    }
+    const rows = [];
+    for (const [id, val] of Object.entries(VARIANTS)) {
+      const mark = parseInt(id) === current ? " ✓" : "";
+      rows.push({
+        title: `${val.emoji} V${id}${mark} — ${val.name}`,
+        description: val.desc,
+        id: `${m.prefix}setwelcometype v${id}`,
+      });
+    }
+    const buttons = [
+      {
+        name: "single_select",
+        buttonParamsJson: JSON.stringify({
+          title: "👋 Pilih Tipe Welcome",
+          sections: [{ title: "Daftar Tipe Welcome", rows }],
+        }),
+      },
+    ];
+    const bodyText =
+      `👋🎨 *WELCOME TYPE*\n\n` +
+      `Atur tampilan pesan welcome saat member baru masuk grup 🚪✨\n` +
+      `Tipe aktif saat ini: *V${current} — ${VARIANTS[current].name}* 🎯\n\n` +
+      `*PENJELASAN TIPE:*\n\n` +
+      `- *V1 Canvas Image* 🎨 — Bot membuat gambar canvas otomatis berisi foto profil dan nama member yang baru join, lalu dikirim sebagai gambar\n\n` +
+      `- *V2 Carousel Cards* 🃏 — Menampilkan kartu carousel interaktif yang bisa di-swipe lengkap dengan tombol action, cocok untuk grup yang ingin tampilan modern\n\n` +
+      `- *V3 Text Only* 📝 — Pesan teks biasa tanpa gambar sama sekali, ringan dan minimalis\n\n` +
+      `- *V4 Group* 👥 — Menggunakan contextInfo bergaya group forward, tampilan rapi dengan label newsletter\n\n` +
+      `- *V5 Simple* ✨ — Pesan teks sederhana disertai foto profile member yang join, tidak terlalu mencolok namun informatif\n\n` +
+      `- *V6 Video* 🎥 — Mengirimkan video sambutan menarik dilengkapi caption selamat datang untuk member\n\n` +
+      `- *V7 Interactive Quoted* 💬 — Mengirimkan pesan interaktif dan fake quoted dari orang yang join\n\n` +
+      `- *V8 Super Simple* 👋 — Pesan teks sangat singkat tanpa hiasan (Contoh: Hai @user, welcome to grup...)\n\n` +
+      `> Pilih tipe welcome dari tombol di bawah 👇`;
+    await sock.sendButton(
+      m.chat,
+      getAssetBuffer("WhatsApp Bot"),
+      bodyText,
+      m,
+      { buttons },
+    );
+  }
+  
+  
+  Object.defineProperty(__vxExports, "config", { enumerable: true, get: () => pluginConfig });
+  Object.defineProperty(__vxExports, "handler", { enumerable: true, get: () => handler });
+  return __vxExports
+})

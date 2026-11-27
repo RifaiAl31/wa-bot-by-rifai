@@ -1,0 +1,1432 @@
+[
+ {
+  "k": "geografi",
+  "q": "Apa ibu kota Jepang?",
+  "o": [
+   "Tokyo",
+   "Osaka",
+   "Kyoto",
+   "Nagoya"
+  ],
+  "a": 0
+ },
+ {
+  "k": "geografi",
+  "q": "Sungai terpanjang di Indonesia adalah?",
+  "o": [
+   "Kapuas",
+   "Mahakam",
+   "Musi",
+   "Barito"
+  ],
+  "a": 0
+ },
+ {
+  "k": "geografi",
+  "q": "Gunung tertinggi di dunia adalah?",
+  "o": [
+   "Everest",
+   "K2",
+   "Kilimanjaro",
+   "Fuji"
+  ],
+  "a": 0
+ },
+ {
+  "k": "geografi",
+  "q": "Danau terbesar di Indonesia adalah?",
+  "o": [
+   "Toba",
+   "Singkarak",
+   "Poso",
+   "Tempe"
+  ],
+  "a": 0
+ },
+ {
+  "k": "geografi",
+  "q": "Apa ibu kota Korea Selatan?",
+  "o": [
+   "Seoul",
+   "Busan",
+   "Incheon",
+   "Daegu"
+  ],
+  "a": 0
+ },
+ {
+  "k": "geografi",
+  "q": "Selat yang memisahkan Pulau Jawa dan Sumatra adalah?",
+  "o": [
+   "Selat Sunda",
+   "Selat Malaka",
+   "Selat Bali",
+   "Selat Makassar"
+  ],
+  "a": 0
+ },
+ {
+  "k": "geografi",
+  "q": "Gunung tertinggi di Indonesia adalah?",
+  "o": [
+   "Puncak Jaya",
+   "Gunung Kerinci",
+   "Gunung Rinjani",
+   "Gunung Semeru"
+  ],
+  "a": 0
+ },
+ {
+  "k": "geografi",
+  "q": "Negara terkecil di dunia adalah?",
+  "o": [
+   "Vatikan",
+   "Monako",
+   "San Marino",
+   "Liechtenstein"
+  ],
+  "a": 0
+ },
+ {
+  "k": "geografi",
+  "q": "Benua terluas di dunia adalah?",
+  "o": [
+   "Asia",
+   "Afrika",
+   "Amerika Utara",
+   "Eropa"
+  ],
+  "a": 0
+ },
+ {
+  "k": "geografi",
+  "q": "Apa ibu kota Turki?",
+  "o": [
+   "Ankara",
+   "Istanbul",
+   "Izmir",
+   "Antalya"
+  ],
+  "a": 0
+ },
+ {
+  "k": "geografi",
+  "q": "Samudra terluas di dunia adalah?",
+  "o": [
+   "Pasifik",
+   "Atlantik",
+   "Hindia",
+   "Arktik"
+  ],
+  "a": 0
+ },
+ {
+  "k": "geografi",
+  "q": "Apa ibu kota Thailand?",
+  "o": [
+   "Bangkok",
+   "Chiang Mai",
+   "Phuket",
+   "Pattaya"
+  ],
+  "a": 0
+ },
+ {
+  "k": "geografi",
+  "q": "Candi Borobudur terletak di kabupaten?",
+  "o": [
+   "Magelang",
+   "Sleman",
+   "Klaten",
+   "Boyolali"
+  ],
+  "a": 0
+ },
+ {
+  "k": "geografi",
+  "q": "Kota yang dijuluki Kota Pelajar adalah?",
+  "o": [
+   "Yogyakarta",
+   "Bandung",
+   "Malang",
+   "Semarang"
+  ],
+  "a": 0
+ },
+ {
+  "k": "geografi",
+  "q": "Negara dengan julukan Negeri Gingseng adalah?",
+  "o": [
+   "Korea Selatan",
+   "Jepang",
+   "Tiongkok",
+   "Vietnam"
+  ],
+  "a": 0
+ },
+ {
+  "k": "geografi",
+  "q": "Apa ibu kota Australia?",
+  "o": [
+   "Canberra",
+   "Sydney",
+   "Melbourne",
+   "Perth"
+  ],
+  "a": 0
+ },
+ {
+  "k": "geografi",
+  "q": "Kota yang dijuluki Kota Seribu Sungai adalah?",
+  "o": [
+   "Banjarmasin",
+   "Palembang",
+   "Pontianak",
+   "Samarinda"
+  ],
+  "a": 0
+ },
+ {
+  "k": "geografi",
+  "q": "Negara dengan penduduk terbanyak di dunia saat ini adalah?",
+  "o": [
+   "India",
+   "Tiongkok",
+   "Amerika Serikat",
+   "Indonesia"
+  ],
+  "a": 0
+ },
+ {
+  "k": "geografi",
+  "q": "Menara Eiffel terletak di kota?",
+  "o": [
+   "Paris",
+   "Lyon",
+   "Roma",
+   "London"
+  ],
+  "a": 0
+ },
+ {
+  "k": "geografi",
+  "q": "Patung Liberty terletak di negara?",
+  "o": [
+   "Amerika Serikat",
+   "Prancis",
+   "Inggris",
+   "Kanada"
+  ],
+  "a": 0
+ },
+ {
+  "k": "geografi",
+  "q": "Pulau terbesar di Indonesia adalah?",
+  "o": [
+   "Kalimantan",
+   "Sumatra",
+   "Papua",
+   "Jawa"
+  ],
+  "a": 0
+ },
+ {
+  "k": "sains",
+  "q": "Planet yang paling dekat dengan Matahari adalah?",
+  "o": [
+   "Merkurius",
+   "Venus",
+   "Mars",
+   "Bumi"
+  ],
+  "a": 0
+ },
+ {
+  "k": "sains",
+  "q": "Rumus kimia air adalah?",
+  "o": [
+   "H2O",
+   "CO2",
+   "O2",
+   "NaCl"
+  ],
+  "a": 0
+ },
+ {
+  "k": "sains",
+  "q": "Jumlah tulang manusia dewasa adalah?",
+  "o": [
+   "206",
+   "212",
+   "180",
+   "300"
+  ],
+  "a": 0
+ },
+ {
+  "k": "sains",
+  "q": "Planet terbesar di tata surya adalah?",
+  "o": [
+   "Jupiter",
+   "Saturnus",
+   "Neptunus",
+   "Uranus"
+  ],
+  "a": 0
+ },
+ {
+  "k": "sains",
+  "q": "Satuan gaya dalam SI adalah?",
+  "o": [
+   "Newton",
+   "Joule",
+   "Watt",
+   "Pascal"
+  ],
+  "a": 0
+ },
+ {
+  "k": "sains",
+  "q": "Hewan darat tercepat di dunia adalah?",
+  "o": [
+   "Cheetah",
+   "Singa",
+   "Kuda",
+   "Kijang"
+  ],
+  "a": 0
+ },
+ {
+  "k": "sains",
+  "q": "Bagian sel yang dijuluki pembangkit tenaga adalah?",
+  "o": [
+   "Mitokondria",
+   "Ribosom",
+   "Nukleus",
+   "Lisosom"
+  ],
+  "a": 0
+ },
+ {
+  "k": "sains",
+  "q": "Lambang unsur emas adalah?",
+  "o": [
+   "Au",
+   "Ag",
+   "Fe",
+   "Go"
+  ],
+  "a": 0
+ },
+ {
+  "k": "sains",
+  "q": "Planet yang dijuluki planet merah adalah?",
+  "o": [
+   "Mars",
+   "Venus",
+   "Jupiter",
+   "Merkurius"
+  ],
+  "a": 0
+ },
+ {
+  "k": "sains",
+  "q": "Satu-satunya mamalia yang bisa terbang adalah?",
+  "o": [
+   "Kelelawar",
+   "Tupai terbang",
+   "Burung hantu",
+   "Bajing"
+  ],
+  "a": 0
+ },
+ {
+  "k": "sains",
+  "q": "Proses tumbuhan membuat makanan dengan bantuan cahaya disebut?",
+  "o": [
+   "Fotosintesis",
+   "Respirasi",
+   "Transpirasi",
+   "Fermentasi"
+  ],
+  "a": 0
+ },
+ {
+  "k": "sains",
+  "q": "Satuan frekuensi adalah?",
+  "o": [
+   "Hertz",
+   "Ohm",
+   "Volt",
+   "Ampere"
+  ],
+  "a": 0
+ },
+ {
+  "k": "sains",
+  "q": "Gas paling banyak di atmosfer Bumi adalah?",
+  "o": [
+   "Nitrogen",
+   "Oksigen",
+   "Karbon dioksida",
+   "Hidrogen"
+  ],
+  "a": 0
+ },
+ {
+  "k": "sains",
+  "q": "Lambang unsur natrium adalah?",
+  "o": [
+   "Na",
+   "N",
+   "Ne",
+   "Ni"
+  ],
+  "a": 0
+ },
+ {
+  "k": "sains",
+  "q": "Berapa jumlah kaki laba-laba?",
+  "o": [
+   "8",
+   "6",
+   "10",
+   "4"
+  ],
+  "a": 0
+ },
+ {
+  "k": "sains",
+  "q": "Alat untuk mengukur suhu adalah?",
+  "o": [
+   "Termometer",
+   "Barometer",
+   "Higrometer",
+   "Anemometer"
+  ],
+  "a": 0
+ },
+ {
+  "k": "sains",
+  "q": "Organ yang memompa darah ke seluruh tubuh adalah?",
+  "o": [
+   "Jantung",
+   "Paru-paru",
+   "Hati",
+   "Ginjal"
+  ],
+  "a": 0
+ },
+ {
+  "k": "sains",
+  "q": "Penemu teori relativitas adalah?",
+  "o": [
+   "Albert Einstein",
+   "Isaac Newton",
+   "Nikola Tesla",
+   "Galileo Galilei"
+  ],
+  "a": 0
+ },
+ {
+  "k": "sains",
+  "q": "Cahaya putih yang terurai menjadi warna pelangi disebut?",
+  "o": [
+   "Dispersi",
+   "Refleksi",
+   "Difraksi",
+   "Polarisasi"
+  ],
+  "a": 0
+ },
+ {
+  "k": "sains",
+  "q": "Berapa jumlah gigi susu pada anak-anak?",
+  "o": [
+   "20",
+   "32",
+   "24",
+   "16"
+  ],
+  "a": 0
+ },
+ {
+  "k": "sains",
+  "q": "Pada suhu berapa air mendidih di tekanan 1 atm?",
+  "o": [
+   "100 derajat Celsius",
+   "90 derajat Celsius",
+   "120 derajat Celsius",
+   "80 derajat Celsius"
+  ],
+  "a": 0
+ },
+ {
+  "k": "sains",
+  "q": "Hewan yang bernapas dengan insang adalah?",
+  "o": [
+   "Ikan",
+   "Katak dewasa",
+   "Paus",
+   "Lumba-lumba"
+  ],
+  "a": 0
+ },
+ {
+  "k": "sejarah",
+  "q": "Kemerdekaan Indonesia diproklamasikan pada tahun?",
+  "o": [
+   "1945",
+   "1944",
+   "1949",
+   "1950"
+  ],
+  "a": 0
+ },
+ {
+  "k": "sejarah",
+  "q": "Siapa presiden pertama Republik Indonesia?",
+  "o": [
+   "Soekarno",
+   "Soeharto",
+   "Moh. Hatta",
+   "B.J. Habibie"
+  ],
+  "a": 0
+ },
+ {
+  "k": "sejarah",
+  "q": "Siapa yang mengetik naskah Proklamasi?",
+  "o": [
+   "Sayuti Melik",
+   "Ahmad Subardjo",
+   "Soekarni",
+   "Wikana"
+  ],
+  "a": 0
+ },
+ {
+  "k": "sejarah",
+  "q": "Kerajaan Hindu tertua di Indonesia adalah?",
+  "o": [
+   "Kutai",
+   "Majapahit",
+   "Sriwijaya",
+   "Mataram"
+  ],
+  "a": 0
+ },
+ {
+  "k": "sejarah",
+  "q": "Sumpah Pemuda diikrarkan pada tahun?",
+  "o": [
+   "1928",
+   "1908",
+   "1945",
+   "1935"
+  ],
+  "a": 0
+ },
+ {
+  "k": "sejarah",
+  "q": "Mahapatih terkenal dengan Sumpah Palapa adalah?",
+  "o": [
+   "Gajah Mada",
+   "Hayam Wuruk",
+   "Ken Arok",
+   "Raden Wijaya"
+  ],
+  "a": 0
+ },
+ {
+  "k": "sejarah",
+  "q": "Dinasti yang membangun Candi Borobudur adalah?",
+  "o": [
+   "Syailendra",
+   "Sanjaya",
+   "Isyana",
+   "Warmadewa"
+  ],
+  "a": 0
+ },
+ {
+  "k": "sejarah",
+  "q": "Perang Dunia II berakhir pada tahun?",
+  "o": [
+   "1945",
+   "1939",
+   "1942",
+   "1950"
+  ],
+  "a": 0
+ },
+ {
+  "k": "sejarah",
+  "q": "Konferensi Asia Afrika pertama diadakan di kota?",
+  "o": [
+   "Bandung",
+   "Jakarta",
+   "Yogyakarta",
+   "Surabaya"
+  ],
+  "a": 0
+ },
+ {
+  "k": "sejarah",
+  "q": "Titanic tenggelam pada tahun?",
+  "o": [
+   "1912",
+   "1905",
+   "1920",
+   "1898"
+  ],
+  "a": 0
+ },
+ {
+  "k": "sejarah",
+  "q": "Tembok Berlin runtuh pada tahun?",
+  "o": [
+   "1989",
+   "1975",
+   "1991",
+   "1961"
+  ],
+  "a": 0
+ },
+ {
+  "k": "sejarah",
+  "q": "Soekarno dan Hatta dibawa ke mana sebelum Proklamasi?",
+  "o": [
+   "Rengasdengklok",
+   "Bandung",
+   "Semarang",
+   "Cirebon"
+  ],
+  "a": 0
+ },
+ {
+  "k": "sejarah",
+  "q": "Pangeran Diponegoro memimpin perang yang disebut?",
+  "o": [
+   "Perang Jawa",
+   "Perang Padri",
+   "Perang Aceh",
+   "Perang Bali"
+  ],
+  "a": 0
+ },
+ {
+  "k": "sejarah",
+  "q": "Hari Pahlawan diperingati setiap tanggal?",
+  "o": [
+   "10 November",
+   "17 Agustus",
+   "2 Mei",
+   "1 Juni"
+  ],
+  "a": 0
+ },
+ {
+  "k": "sejarah",
+  "q": "Piramida Giza terletak di negara?",
+  "o": [
+   "Mesir",
+   "Yunani",
+   "Irak",
+   "Maroko"
+  ],
+  "a": 0
+ },
+ {
+  "k": "teknologi",
+  "q": "HTML kepanjangan dari?",
+  "o": [
+   "HyperText Markup Language",
+   "High Text Machine Language",
+   "Hyper Transfer Markup Link",
+   "Home Tool Markup Language"
+  ],
+  "a": 0
+ },
+ {
+  "k": "teknologi",
+  "q": "CPU kepanjangan dari?",
+  "o": [
+   "Central Processing Unit",
+   "Computer Personal Unit",
+   "Central Program Utility",
+   "Core Processing Update"
+  ],
+  "a": 0
+ },
+ {
+  "k": "teknologi",
+  "q": "Satu byte sama dengan berapa bit?",
+  "o": [
+   "8",
+   "4",
+   "16",
+   "10"
+  ],
+  "a": 0
+ },
+ {
+  "k": "teknologi",
+  "q": "Pencipta kernel Linux adalah?",
+  "o": [
+   "Linus Torvalds",
+   "Bill Gates",
+   "Steve Jobs",
+   "Dennis Ritchie"
+  ],
+  "a": 0
+ },
+ {
+  "k": "teknologi",
+  "q": "Sistem operasi ponsel buatan Google adalah?",
+  "o": [
+   "Android",
+   "iOS",
+   "HarmonyOS",
+   "Symbian"
+  ],
+  "a": 0
+ },
+ {
+  "k": "teknologi",
+  "q": "Bahasa yang dipakai untuk mengatur tampilan halaman web adalah?",
+  "o": [
+   "CSS",
+   "SQL",
+   "PHP",
+   "Python"
+  ],
+  "a": 0
+ },
+ {
+  "k": "teknologi",
+  "q": "Mata uang kripto pertama di dunia adalah?",
+  "o": [
+   "Bitcoin",
+   "Ethereum",
+   "Dogecoin",
+   "Litecoin"
+  ],
+  "a": 0
+ },
+ {
+  "k": "teknologi",
+  "q": "Pendiri Facebook adalah?",
+  "o": [
+   "Mark Zuckerberg",
+   "Jack Dorsey",
+   "Elon Musk",
+   "Larry Page"
+  ],
+  "a": 0
+ },
+ {
+  "k": "teknologi",
+  "q": "USB kepanjangan dari?",
+  "o": [
+   "Universal Serial Bus",
+   "United System Backup",
+   "Universal Storage Base",
+   "Unit Serial Board"
+  ],
+  "a": 0
+ },
+ {
+  "k": "teknologi",
+  "q": "Format gambar yang mendukung latar transparan adalah?",
+  "o": [
+   "PNG",
+   "JPG",
+   "BMP",
+   "MP4"
+  ],
+  "a": 0
+ },
+ {
+  "k": "teknologi",
+  "q": "Perusahaan pembuat iPhone adalah?",
+  "o": [
+   "Apple",
+   "Samsung",
+   "Sony",
+   "Nokia"
+  ],
+  "a": 0
+ },
+ {
+  "k": "teknologi",
+  "q": "AI kepanjangan dari?",
+  "o": [
+   "Artificial Intelligence",
+   "Automatic Input",
+   "Advanced Internet",
+   "Applied Interface"
+  ],
+  "a": 0
+ },
+ {
+  "k": "anime",
+  "q": "Cita-cita Monkey D. Luffy di One Piece adalah menjadi?",
+  "o": [
+   "Raja Bajak Laut",
+   "Hokage",
+   "Pahlawan Nomor Satu",
+   "Raja Iblis"
+  ],
+  "a": 0
+ },
+ {
+  "k": "anime",
+  "q": "Siapa pengarang manga One Piece?",
+  "o": [
+   "Eiichiro Oda",
+   "Masashi Kishimoto",
+   "Akira Toriyama",
+   "Tite Kubo"
+  ],
+  "a": 0
+ },
+ {
+  "k": "anime",
+  "q": "Adik Tanjiro di Demon Slayer bernama?",
+  "o": [
+   "Nezuko",
+   "Mitsuri",
+   "Shinobu",
+   "Kanao"
+  ],
+  "a": 0
+ },
+ {
+  "k": "anime",
+  "q": "Di WhatsApp Bot-sama: Love is War, WhatsApp Bot Shinomiya menjabat sebagai apa di OSIS?",
+  "o": [
+   "Wakil ketua",
+   "Ketua",
+   "Bendahara",
+   "Sekretaris"
+  ],
+  "a": 0
+ },
+ {
+  "k": "anime",
+  "q": "Ras Son Goku di Dragon Ball adalah?",
+  "o": [
+   "Saiyan",
+   "Namekian",
+   "Frieza",
+   "Majin"
+  ],
+  "a": 0
+ },
+ {
+  "k": "anime",
+  "q": "Siapa Hokage keempat di Naruto?",
+  "o": [
+   "Minato Namikaze",
+   "Hiruzen Sarutobi",
+   "Tsunade",
+   "Kakashi Hatake"
+  ],
+  "a": 0
+ },
+ {
+  "k": "anime",
+  "q": "Tokoh utama Jujutsu Kaisen bernama?",
+  "o": [
+   "Yuji Itadori",
+   "Megumi Fushiguro",
+   "Satoru Gojo",
+   "Nobara Kugisaki"
+  ],
+  "a": 0
+ },
+ {
+  "k": "anime",
+  "q": "Anya Forger di Spy x Family memiliki kemampuan?",
+  "o": [
+   "Membaca pikiran",
+   "Terbang",
+   "Menghilang",
+   "Mengendalikan waktu"
+  ],
+  "a": 0
+ },
+ {
+  "k": "anime",
+  "q": "Nama asli Conan Edogawa adalah?",
+  "o": [
+   "Shinichi Kudo",
+   "Kaito Kid",
+   "Heiji Hattori",
+   "Ran Mouri"
+  ],
+  "a": 0
+ },
+ {
+  "k": "anime",
+  "q": "Doraemon berasal dari abad ke berapa?",
+  "o": [
+   "22",
+   "20",
+   "25",
+   "30"
+  ],
+  "a": 0
+ },
+ {
+  "k": "anime",
+  "q": "Sutradara film Spirited Away adalah?",
+  "o": [
+   "Hayao Miyazaki",
+   "Makoto Shinkai",
+   "Mamoru Hosoda",
+   "Satoshi Kon"
+  ],
+  "a": 0
+ },
+ {
+  "k": "anime",
+  "q": "Pokemon bernomor 025 di Pokedex adalah?",
+  "o": [
+   "Pikachu",
+   "Eevee",
+   "Charmander",
+   "Jigglypuff"
+  ],
+  "a": 0
+ },
+ {
+  "k": "anime",
+  "q": "Makhluk yang menjatuhkan Death Note ke dunia manusia disebut?",
+  "o": [
+   "Shinigami",
+   "Oni",
+   "Kitsune",
+   "Tengu"
+  ],
+  "a": 0
+ },
+ {
+  "k": "anime",
+  "q": "Karakter utama Attack on Titan bernama?",
+  "o": [
+   "Eren Yeager",
+   "Levi Ackerman",
+   "Armin Arlert",
+   "Reiner Braun"
+  ],
+  "a": 0
+ },
+ {
+  "k": "olahraga",
+  "q": "Berapa jumlah pemain sepak bola per tim di lapangan?",
+  "o": [
+   "11",
+   "9",
+   "10",
+   "12"
+  ],
+  "a": 0
+ },
+ {
+  "k": "olahraga",
+  "q": "Juara Piala Dunia FIFA 2022 adalah?",
+  "o": [
+   "Argentina",
+   "Prancis",
+   "Brasil",
+   "Kroasia"
+  ],
+  "a": 0
+ },
+ {
+  "k": "olahraga",
+  "q": "Thomas Cup adalah turnamen olahraga?",
+  "o": [
+   "Bulu tangkis",
+   "Tenis",
+   "Voli",
+   "Basket"
+  ],
+  "a": 0
+ },
+ {
+  "k": "olahraga",
+  "q": "Kota tuan rumah Olimpiade 2024 adalah?",
+  "o": [
+   "Paris",
+   "Tokyo",
+   "Los Angeles",
+   "London"
+  ],
+  "a": 0
+ },
+ {
+  "k": "olahraga",
+  "q": "Berapa jumlah pemain basket per tim di lapangan?",
+  "o": [
+   "5",
+   "6",
+   "7",
+   "4"
+  ],
+  "a": 0
+ },
+ {
+  "k": "olahraga",
+  "q": "Olahraga judo berasal dari negara?",
+  "o": [
+   "Jepang",
+   "Korea Selatan",
+   "Tiongkok",
+   "Brasil"
+  ],
+  "a": 0
+ },
+ {
+  "k": "olahraga",
+  "q": "Satu putaran lintasan lari standar berjarak?",
+  "o": [
+   "400 meter",
+   "200 meter",
+   "500 meter",
+   "800 meter"
+  ],
+  "a": 0
+ },
+ {
+  "k": "olahraga",
+  "q": "Indonesia meraih emas Olimpiade bulu tangkis pertama kali pada tahun?",
+  "o": [
+   "1992",
+   "1988",
+   "1996",
+   "2000"
+  ],
+  "a": 0
+ },
+ {
+  "k": "olahraga",
+  "q": "Turnamen tenis Grand Slam yang diadakan di Paris adalah?",
+  "o": [
+   "Roland Garros",
+   "Wimbledon",
+   "US Open",
+   "Australian Open"
+  ],
+  "a": 0
+ },
+ {
+  "k": "olahraga",
+  "q": "Juara Piala Dunia FIFA 2018 adalah?",
+  "o": [
+   "Prancis",
+   "Kroasia",
+   "Jerman",
+   "Belgia"
+  ],
+  "a": 0
+ },
+ {
+  "k": "umum",
+  "q": "Berapa hari dalam satu tahun kabisat?",
+  "o": [
+   "366",
+   "365",
+   "364",
+   "367"
+  ],
+  "a": 0
+ },
+ {
+  "k": "umum",
+  "q": "Bahasa resmi Brasil adalah?",
+  "o": [
+   "Portugis",
+   "Spanyol",
+   "Inggris",
+   "Prancis"
+  ],
+  "a": 0
+ },
+ {
+  "k": "umum",
+  "q": "Hasil dari 12 x 12 adalah?",
+  "o": [
+   "144",
+   "124",
+   "132",
+   "154"
+  ],
+  "a": 0
+ },
+ {
+  "k": "umum",
+  "q": "Campuran warna biru dan kuning menghasilkan warna?",
+  "o": [
+   "Hijau",
+   "Ungu",
+   "Oranye",
+   "Cokelat"
+  ],
+  "a": 0
+ },
+ {
+  "k": "umum",
+  "q": "Mata uang Jepang adalah?",
+  "o": [
+   "Yen",
+   "Won",
+   "Yuan",
+   "Ringgit"
+  ],
+  "a": 0
+ },
+ {
+  "k": "umum",
+  "q": "Alat musik tradisional Jawa Barat yang terbuat dari bambu adalah?",
+  "o": [
+   "Angklung",
+   "Sasando",
+   "Gamelan",
+   "Kolintang"
+  ],
+  "a": 0
+ },
+ {
+  "k": "umum",
+  "q": "Rumah adat Minangkabau disebut?",
+  "o": [
+   "Rumah Gadang",
+   "Joglo",
+   "Honai",
+   "Tongkonan"
+  ],
+  "a": 0
+ },
+ {
+  "k": "umum",
+  "q": "Berapa jumlah provinsi di Indonesia saat ini?",
+  "o": [
+   "38",
+   "34",
+   "37",
+   "33"
+  ],
+  "a": 0
+ },
+ {
+  "k": "umum",
+  "q": "Sila pertama Pancasila adalah?",
+  "o": [
+   "Ketuhanan Yang Maha Esa",
+   "Kemanusiaan yang Adil dan Beradab",
+   "Persatuan Indonesia",
+   "Keadilan Sosial"
+  ],
+  "a": 0
+ },
+ {
+  "k": "umum",
+  "q": "Makanan khas Padang yang terkenal sebagai salah satu makanan terenak dunia adalah?",
+  "o": [
+   "Rendang",
+   "Gudeg",
+   "Rawon",
+   "Papeda"
+  ],
+  "a": 0
+ },
+ {
+  "k": "umum",
+  "q": "Tari Pendet berasal dari daerah?",
+  "o": [
+   "Bali",
+   "Jawa Tengah",
+   "Sumatra Barat",
+   "Papua"
+  ],
+  "a": 0
+ },
+ {
+  "k": "umum",
+  "q": "Berapa jumlah huruf dalam alfabet Latin?",
+  "o": [
+   "26",
+   "24",
+   "28",
+   "30"
+  ],
+  "a": 0
+ },
+ {
+  "k": "umum",
+  "q": "Warna lampu lalu lintas yang berarti berhenti adalah?",
+  "o": [
+   "Merah",
+   "Kuning",
+   "Hijau",
+   "Biru"
+  ],
+  "a": 0
+ },
+ {
+  "k": "umum",
+  "q": "Berapa menit dalam 2 jam?",
+  "o": [
+   "120",
+   "100",
+   "90",
+   "150"
+  ],
+  "a": 0
+ },
+ {
+  "k": "bahasa",
+  "q": "Kata baku yang benar adalah?",
+  "o": [
+   "Apotek",
+   "Apotik",
+   "Apotex",
+   "Afotek"
+  ],
+  "a": 0
+ },
+ {
+  "k": "bahasa",
+  "q": "Kata baku yang benar adalah?",
+  "o": [
+   "Risiko",
+   "Resiko",
+   "Risigo",
+   "Resigo"
+  ],
+  "a": 0
+ },
+ {
+  "k": "bahasa",
+  "q": "Kata baku yang benar adalah?",
+  "o": [
+   "Nasihat",
+   "Nasehat",
+   "Nasihad",
+   "Nasehad"
+  ],
+  "a": 0
+ },
+ {
+  "k": "bahasa",
+  "q": "Antonim dari kata rajin adalah?",
+  "o": [
+   "Malas",
+   "Giat",
+   "Tekun",
+   "Ulet"
+  ],
+  "a": 0
+ },
+ {
+  "k": "bahasa",
+  "q": "Sinonim dari kata cantik adalah?",
+  "o": [
+   "Elok",
+   "Buruk",
+   "Kusam",
+   "Lusuh"
+  ],
+  "a": 0
+ },
+ {
+  "k": "bahasa",
+  "q": "Lengkapi peribahasa: Air cucuran atap jatuhnya ke ... juga.",
+  "o": [
+   "pelimbahan",
+   "tanah",
+   "sungai",
+   "laut"
+  ],
+  "a": 0
+ },
+ {
+  "k": "bahasa",
+  "q": "Arti peribahasa berakit-rakit ke hulu, berenang-renang ke tepian adalah?",
+  "o": [
+   "Bersakit dahulu, bersenang kemudian",
+   "Malas pangkal miskin",
+   "Sedikit demi sedikit lama-lama menjadi bukit",
+   "Tak ada gading yang tak retak"
+  ],
+  "a": 0
+ },
+ {
+  "k": "bahasa",
+  "q": "Kata baku yang benar adalah?",
+  "o": [
+   "Kualitas",
+   "Kwalitas",
+   "Kualites",
+   "Kwalites"
+  ],
+  "a": 0
+ },
+ {
+  "k": "pasangan",
+  "q": "Hari Valentine diperingati setiap tanggal?",
+  "o": [
+   "14 Februari",
+   "14 Maret",
+   "1 Januari",
+   "25 Desember"
+  ],
+  "a": 0
+ },
+ {
+  "k": "pasangan",
+  "q": "Bunga yang paling identik sebagai lambang cinta adalah?",
+  "o": [
+   "Mawar",
+   "Melati",
+   "Anggrek",
+   "Matahari"
+  ],
+  "a": 0
+ },
+ {
+  "k": "pasangan",
+  "q": "Pasangan kekasih dalam drama klasik karya Shakespeare dari Verona adalah?",
+  "o": [
+   "Romeo dan Juliet",
+   "Antony dan Cleopatra",
+   "Tristan dan Isolde",
+   "Hamlet dan Ophelia"
+  ],
+  "a": 0
+ },
+ {
+  "k": "pasangan",
+  "q": "Kisah cinta B.J. Habibie yang difilmkan adalah dengan?",
+  "o": [
+   "Ainun",
+   "Dewi",
+   "Kartini",
+   "Fatmawati"
+  ],
+  "a": 0
+ },
+ {
+  "k": "pasangan",
+  "q": "Cincin pertunangan atau pernikahan biasanya dipakai di jari?",
+  "o": [
+   "Jari manis",
+   "Jari telunjuk",
+   "Jari tengah",
+   "Jari kelingking"
+  ],
+  "a": 0
+ },
+ {
+  "k": "pasangan",
+  "q": "Ulang tahun pernikahan ke-25 disebut pernikahan?",
+  "o": [
+   "Perak",
+   "Emas",
+   "Perunggu",
+   "Berlian"
+  ],
+  "a": 0
+ },
+ {
+  "k": "pasangan",
+  "q": "Ulang tahun pernikahan ke-50 disebut pernikahan?",
+  "o": [
+   "Emas",
+   "Perak",
+   "Mutiara",
+   "Kertas"
+  ],
+  "a": 0
+ },
+ {
+  "k": "pasangan",
+  "q": "Di film Titanic, nama tokoh perempuan utamanya adalah?",
+  "o": [
+   "Rose",
+   "Jane",
+   "Anna",
+   "Kate"
+  ],
+  "a": 0
+ },
+ {
+  "k": "pasangan",
+  "q": "Taj Mahal dibangun oleh Shah Jahan untuk mengenang istrinya bernama?",
+  "o": [
+   "Mumtaz Mahal",
+   "Nur Jahan",
+   "Jodha Bai",
+   "Razia Sultana"
+  ],
+  "a": 0
+ },
+ {
+  "k": "pasangan",
+  "q": "White Day, balasan Valentine di Jepang, diperingati tanggal?",
+  "o": [
+   "14 Maret",
+   "14 Februari",
+   "14 April",
+   "1 Mei"
+  ],
+  "a": 0
+ },
+ {
+  "k": "pasangan",
+  "q": "Saranghae dalam bahasa Korea berarti?",
+  "o": [
+   "Aku cinta kamu",
+   "Terima kasih",
+   "Selamat pagi",
+   "Sampai jumpa"
+  ],
+  "a": 0
+ },
+ {
+  "k": "pasangan",
+  "q": "Aishiteru dalam bahasa Jepang berarti?",
+  "o": [
+   "Aku cinta kamu",
+   "Maaf",
+   "Selamat makan",
+   "Selamat malam"
+  ],
+  "a": 0
+ },
+ {
+  "k": "pasangan",
+  "q": "Film Dilan 1990 mengambil latar kota?",
+  "o": [
+   "Bandung",
+   "Jakarta",
+   "Surabaya",
+   "Medan"
+  ],
+  "a": 0
+ },
+ {
+  "k": "pasangan",
+  "q": "Ulang tahun pernikahan pertama disebut pernikahan?",
+  "o": [
+   "Kertas",
+   "Kapas",
+   "Kulit",
+   "Kayu"
+  ],
+  "a": 0
+ }
+]

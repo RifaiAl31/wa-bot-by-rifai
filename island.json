@@ -1,0 +1,3430 @@
+{
+  "map": [
+    [
+      {
+        "type": "beach",
+        "explored": false,
+        "items": [],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A rocky beach with small tide pools."
+      },
+      {
+        "type": "beach",
+        "explored": false,
+        "items": [
+          "🧵"
+        ],
+        "animals": [],
+        "bodies": [
+          {
+            "description": "The body of a passenger from the plane crash.",
+            "items": [
+              "🔦",
+              "🧥"
+            ]
+          }
+        ],
+        "structures": [],
+        "description": "A rocky beach with small tide pools."
+      },
+      {
+        "type": "beach",
+        "explored": false,
+        "items": [],
+        "animals": [
+          {
+            "name": "Bird",
+            "hostile": false,
+            "hp": 5,
+            "damage": 0,
+            "meat": 1,
+            "hide": 0,
+            "emoji": "🐦"
+          }
+        ],
+        "bodies": [],
+        "structures": [],
+        "description": "A sandy beach with waves crashing on the shore."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [],
+        "animals": [
+          {
+            "name": "Wild Boar",
+            "hostile": true,
+            "hp": 30,
+            "damage": 10,
+            "meat": 3,
+            "hide": 2,
+            "emoji": "🐗"
+          }
+        ],
+        "bodies": [],
+        "structures": [],
+        "description": "A forest area with fallen trees and thick undergrowth."
+      },
+      {
+        "type": "beach",
+        "explored": false,
+        "items": [],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A wide open beach with palm trees nearby."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [],
+        "animals": [
+          {
+            "name": "Bird",
+            "hostile": false,
+            "hp": 5,
+            "damage": 0,
+            "meat": 1,
+            "hide": 0,
+            "emoji": "🐦"
+          },
+          {
+            "name": "Bird",
+            "hostile": false,
+            "hp": 5,
+            "damage": 0,
+            "meat": 1,
+            "hide": 0,
+            "emoji": "🐦"
+          }
+        ],
+        "bodies": [],
+        "structures": [],
+        "description": "A forest area with fallen trees and thick undergrowth."
+      },
+      {
+        "type": "beach",
+        "explored": false,
+        "items": [
+          "🪵"
+        ],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A rocky beach with small tide pools."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [
+          "🪵"
+        ],
+        "animals": [
+          {
+            "name": "Snake",
+            "hostile": true,
+            "hp": 15,
+            "damage": 8,
+            "meat": 1,
+            "hide": 1,
+            "emoji": "🐍"
+          },
+          {
+            "name": "Bird",
+            "hostile": false,
+            "hp": 5,
+            "damage": 0,
+            "meat": 1,
+            "hide": 0,
+            "emoji": "🐦"
+          }
+        ],
+        "bodies": [],
+        "structures": [],
+        "description": "A dense forest with tall trees blocking most of the sunlight."
+      },
+      {
+        "type": "beach",
+        "explored": false,
+        "items": [
+          "🧵"
+        ],
+        "animals": [],
+        "bodies": [
+          {
+            "description": "The remains of someone who didn't survive the crash.",
+            "items": [
+              "🧪",
+              "🧪",
+              "🧪"
+            ]
+          }
+        ],
+        "structures": [],
+        "description": "A rocky beach with small tide pools."
+      },
+      {
+        "type": "beach",
+        "explored": false,
+        "items": [],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A rocky beach with small tide pools."
+      },
+      {
+        "type": "beach",
+        "explored": false,
+        "items": [
+          "🪵"
+        ],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A wide open beach with palm trees nearby."
+      },
+      {
+        "type": "beach",
+        "explored": false,
+        "items": [
+          "🪵"
+        ],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A sandy beach with waves crashing on the shore."
+      },
+      {
+        "type": "beach",
+        "explored": false,
+        "items": [],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A sandy beach with waves crashing on the shore."
+      },
+      {
+        "type": "beach",
+        "explored": false,
+        "items": [
+          "🪨"
+        ],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A sandy beach with waves crashing on the shore."
+      },
+      {
+        "type": "beach",
+        "explored": false,
+        "items": [
+          "🧵"
+        ],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A rocky beach with small tide pools."
+      }
+    ],
+    [
+      {
+        "type": "beach",
+        "explored": false,
+        "items": [],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A sandy beach with waves crashing on the shore."
+      },
+      {
+        "type": "river",
+        "explored": false,
+        "items": [
+          "🪵"
+        ],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A flowing river with clear water."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [],
+        "animals": [],
+        "bodies": [
+          {
+            "description": "The body of someone who appears to have died recently.",
+            "items": [
+              "🧥",
+              "🥫"
+            ]
+          }
+        ],
+        "structures": [],
+        "description": "A forest area with fallen trees and thick undergrowth."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A forest area with fallen trees and thick undergrowth."
+      },
+      {
+        "type": "mountain",
+        "explored": false,
+        "items": [],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A rocky mountain area with a steep climb."
+      },
+      {
+        "type": "bunker",
+        "explored": false,
+        "items": [
+          "🧪",
+          "📻",
+          "🧪",
+          "🧪",
+          "🧪"
+        ],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "An old military bunker hidden in the mountain. It might contain valuable supplies."
+      },
+      {
+        "type": "river",
+        "explored": false,
+        "items": [
+          "🪨"
+        ],
+        "animals": [
+          {
+            "name": "Bird",
+            "hostile": false,
+            "hp": 5,
+            "damage": 0,
+            "meat": 1,
+            "hide": 0,
+            "emoji": "🐦"
+          }
+        ],
+        "bodies": [],
+        "structures": [],
+        "description": "A shallow river that you could cross carefully."
+      },
+      {
+        "type": "cave",
+        "explored": false,
+        "items": [
+          "🪨",
+          "🪨"
+        ],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A cave with strange markings on the walls."
+      },
+      {
+        "type": "mountain",
+        "explored": false,
+        "items": [
+          "🪵"
+        ],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A mountain slope with loose rocks and little vegetation."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [
+          "🪵",
+          "🪵"
+        ],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A forest with various trees and bushes. You can hear birds chirping."
+      },
+      {
+        "type": "cave",
+        "explored": false,
+        "items": [
+          "🪨"
+        ],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A cave with strange markings on the walls."
+      },
+      {
+        "type": "beach",
+        "explored": false,
+        "items": [],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A sandy beach with waves crashing on the shore."
+      },
+      {
+        "type": "beach",
+        "explored": false,
+        "items": [],
+        "animals": [
+          {
+            "name": "Bird",
+            "hostile": false,
+            "hp": 5,
+            "damage": 0,
+            "meat": 1,
+            "hide": 0,
+            "emoji": "🐦"
+          }
+        ],
+        "bodies": [],
+        "structures": [],
+        "description": "A wide open beach with palm trees nearby."
+      },
+      {
+        "type": "beach",
+        "explored": false,
+        "items": [
+          "🪨"
+        ],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A sandy beach with waves crashing on the shore."
+      },
+      {
+        "type": "beach",
+        "explored": false,
+        "items": [
+          "🪨"
+        ],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A sandy beach with waves crashing on the shore."
+      }
+    ],
+    [
+      {
+        "type": "beach",
+        "explored": false,
+        "items": [],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A rocky beach with small tide pools."
+      },
+      {
+        "type": "river",
+        "explored": false,
+        "items": [],
+        "animals": [
+          {
+            "name": "Bird",
+            "hostile": false,
+            "hp": 5,
+            "damage": 0,
+            "meat": 1,
+            "hide": 0,
+            "emoji": "🐦"
+          }
+        ],
+        "bodies": [],
+        "structures": [],
+        "description": "A flowing river with clear water."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [],
+        "animals": [
+          {
+            "name": "Bird",
+            "hostile": false,
+            "hp": 5,
+            "damage": 0,
+            "meat": 1,
+            "hide": 0,
+            "emoji": "🐦"
+          }
+        ],
+        "bodies": [
+          {
+            "description": "The body of a passenger from the plane crash.",
+            "items": [
+              "🔦",
+              "🔦"
+            ]
+          }
+        ],
+        "structures": [],
+        "description": "A forest area with fallen trees and thick undergrowth."
+      },
+      {
+        "type": "lake",
+        "explored": false,
+        "items": [
+          "💧"
+        ],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A clear lake that seems to be a good source of water."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [
+          "🪵"
+        ],
+        "animals": [],
+        "bodies": [
+          {
+            "description": "The remains of someone who didn't survive the crash.",
+            "items": [
+              "🧵",
+              "🔦",
+              "🧥"
+            ]
+          }
+        ],
+        "structures": [],
+        "description": "A forest with various trees and bushes. You can hear birds chirping."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A dense forest with tall trees blocking most of the sunlight."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [
+          "🪵"
+        ],
+        "animals": [
+          {
+            "name": "Tiger",
+            "hostile": true,
+            "hp": 40,
+            "damage": 20,
+            "meat": 3,
+            "hide": 3,
+            "emoji": "🐅"
+          },
+          {
+            "name": "Wild Boar",
+            "hostile": true,
+            "hp": 30,
+            "damage": 10,
+            "meat": 3,
+            "hide": 2,
+            "emoji": "🐗"
+          }
+        ],
+        "bodies": [],
+        "structures": [],
+        "description": "A forest with various trees and bushes. You can hear birds chirping."
+      },
+      {
+        "type": "lake",
+        "explored": false,
+        "items": [
+          "🪨"
+        ],
+        "animals": [
+          {
+            "name": "Snake",
+            "hostile": true,
+            "hp": 15,
+            "damage": 8,
+            "meat": 1,
+            "hide": 1,
+            "emoji": "🐍"
+          }
+        ],
+        "bodies": [],
+        "structures": [],
+        "description": "A small lake with calm water."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [],
+        "animals": [
+          {
+            "name": "Snake",
+            "hostile": true,
+            "hp": 15,
+            "damage": 8,
+            "meat": 1,
+            "hide": 1,
+            "emoji": "🐍"
+          },
+          {
+            "name": "Bird",
+            "hostile": false,
+            "hp": 5,
+            "damage": 0,
+            "meat": 1,
+            "hide": 0,
+            "emoji": "🐦"
+          }
+        ],
+        "bodies": [],
+        "structures": [],
+        "description": "A forest with various trees and bushes. You can hear birds chirping."
+      },
+      {
+        "type": "beach",
+        "explored": false,
+        "items": [],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A wide open beach with palm trees nearby."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A forest with various trees and bushes. You can hear birds chirping."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [
+          "🪵"
+        ],
+        "animals": [
+          {
+            "name": "Wild Boar",
+            "hostile": true,
+            "hp": 30,
+            "damage": 10,
+            "meat": 3,
+            "hide": 2,
+            "emoji": "🐗"
+          }
+        ],
+        "bodies": [
+          {
+            "description": "The body of a passenger from the plane crash.",
+            "items": [
+              "🧥",
+              "👖"
+            ]
+          }
+        ],
+        "structures": [],
+        "description": "A forest area with fallen trees and thick undergrowth."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [
+          "🪨",
+          "🧵"
+        ],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A dense forest with tall trees blocking most of the sunlight."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [
+          "🪨",
+          "🪵"
+        ],
+        "animals": [
+          {
+            "name": "Wild Boar",
+            "hostile": true,
+            "hp": 30,
+            "damage": 10,
+            "meat": 3,
+            "hide": 2,
+            "emoji": "🐗"
+          },
+          {
+            "name": "Bird",
+            "hostile": false,
+            "hp": 5,
+            "damage": 0,
+            "meat": 1,
+            "hide": 0,
+            "emoji": "🐦"
+          }
+        ],
+        "bodies": [],
+        "structures": [],
+        "description": "A dense forest with tall trees blocking most of the sunlight."
+      },
+      {
+        "type": "beach",
+        "explored": false,
+        "items": [],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A rocky beach with small tide pools."
+      }
+    ],
+    [
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [
+          "🪵"
+        ],
+        "animals": [
+          {
+            "name": "Tiger",
+            "hostile": true,
+            "hp": 40,
+            "damage": 20,
+            "meat": 3,
+            "hide": 3,
+            "emoji": "🐅"
+          },
+          {
+            "name": "Snake",
+            "hostile": true,
+            "hp": 15,
+            "damage": 8,
+            "meat": 1,
+            "hide": 1,
+            "emoji": "🐍"
+          }
+        ],
+        "bodies": [
+          {
+            "description": "The body of a passenger from the plane crash.",
+            "items": [
+              "🧴",
+              "👖",
+              "🧵"
+            ]
+          }
+        ],
+        "structures": [],
+        "description": "A forest area with fallen trees and thick undergrowth."
+      },
+      {
+        "type": "beach",
+        "explored": false,
+        "items": [],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A sandy beach with waves crashing on the shore."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A forest area with fallen trees and thick undergrowth."
+      },
+      {
+        "type": "river",
+        "explored": false,
+        "items": [
+          "💧"
+        ],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A flowing river with clear water."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [],
+        "animals": [
+          {
+            "name": "Bird",
+            "hostile": false,
+            "hp": 5,
+            "damage": 0,
+            "meat": 1,
+            "hide": 0,
+            "emoji": "🐦"
+          },
+          {
+            "name": "Tiger",
+            "hostile": true,
+            "hp": 40,
+            "damage": 20,
+            "meat": 3,
+            "hide": 3,
+            "emoji": "🐅"
+          }
+        ],
+        "bodies": [],
+        "structures": [],
+        "description": "A forest area with fallen trees and thick undergrowth."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [
+          "🍎"
+        ],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A forest area with fallen trees and thick undergrowth."
+      },
+      {
+        "type": "mountain",
+        "explored": false,
+        "items": [],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A mountain ridge offering a good view of the surrounding area."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [
+          "🪵",
+          "🪵"
+        ],
+        "animals": [
+          {
+            "name": "Tiger",
+            "hostile": true,
+            "hp": 40,
+            "damage": 20,
+            "meat": 3,
+            "hide": 3,
+            "emoji": "🐅"
+          },
+          {
+            "name": "Rabbit",
+            "hostile": false,
+            "hp": 10,
+            "damage": 0,
+            "meat": 1,
+            "hide": 1,
+            "emoji": "🐇"
+          }
+        ],
+        "bodies": [],
+        "structures": [],
+        "description": "A dense forest with tall trees blocking most of the sunlight."
+      },
+      {
+        "type": "river",
+        "explored": false,
+        "items": [],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A flowing river with clear water."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [
+          "🪨"
+        ],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A forest with various trees and bushes. You can hear birds chirping."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [
+          "🪵"
+        ],
+        "animals": [
+          {
+            "name": "Fox",
+            "hostile": false,
+            "hp": 15,
+            "damage": 5,
+            "meat": 2,
+            "hide": 1,
+            "emoji": "🦊"
+          }
+        ],
+        "bodies": [],
+        "structures": [],
+        "description": "A dense forest with tall trees blocking most of the sunlight."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [],
+        "animals": [
+          {
+            "name": "Bird",
+            "hostile": false,
+            "hp": 5,
+            "damage": 0,
+            "meat": 1,
+            "hide": 0,
+            "emoji": "🐦"
+          }
+        ],
+        "bodies": [],
+        "structures": [],
+        "description": "A forest area with fallen trees and thick undergrowth."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [
+          "🪵",
+          "🍎"
+        ],
+        "animals": [
+          {
+            "name": "Bird",
+            "hostile": false,
+            "hp": 5,
+            "damage": 0,
+            "meat": 1,
+            "hide": 0,
+            "emoji": "🐦"
+          }
+        ],
+        "bodies": [],
+        "structures": [],
+        "description": "A forest area with fallen trees and thick undergrowth."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [],
+        "animals": [
+          {
+            "name": "Fox",
+            "hostile": false,
+            "hp": 15,
+            "damage": 5,
+            "meat": 2,
+            "hide": 1,
+            "emoji": "🦊"
+          },
+          {
+            "name": "Rabbit",
+            "hostile": false,
+            "hp": 10,
+            "damage": 0,
+            "meat": 1,
+            "hide": 1,
+            "emoji": "🐇"
+          }
+        ],
+        "bodies": [],
+        "structures": [],
+        "description": "A forest with various trees and bushes. You can hear birds chirping."
+      },
+      {
+        "type": "beach",
+        "explored": false,
+        "items": [
+          "🪵"
+        ],
+        "animals": [],
+        "bodies": [
+          {
+            "description": "A body partially covered by debris.",
+            "items": [
+              "👖"
+            ]
+          }
+        ],
+        "structures": [],
+        "description": "A rocky beach with small tide pools."
+      }
+    ],
+    [
+      {
+        "type": "beach",
+        "explored": false,
+        "items": [
+          "🧵"
+        ],
+        "animals": [],
+        "bodies": [
+          {
+            "description": "The remains of someone who didn't survive the crash.",
+            "items": [
+              "🧥",
+              "🔦"
+            ]
+          }
+        ],
+        "structures": [],
+        "description": "A rocky beach with small tide pools."
+      },
+      {
+        "type": "plane",
+        "explored": false,
+        "items": [
+          "📻",
+          "🔦",
+          "🥫"
+        ],
+        "animals": [],
+        "bodies": [
+          {
+            "description": "A body partially covered by debris.",
+            "items": [
+              "🧪"
+            ]
+          },
+          {
+            "description": "A body partially covered by debris.",
+            "items": [
+              "🔦"
+            ]
+          },
+          {
+            "description": "The remains of someone who didn't survive the crash.",
+            "items": [
+              "🥫"
+            ]
+          },
+          {
+            "description": "A deceased person wearing tattered clothes.",
+            "items": [
+              "🥫",
+              "👖",
+              "🧵"
+            ]
+          }
+        ],
+        "structures": [],
+        "description": "A part of the crashed plane. There might be useful supplies here.",
+        "specialBody": {
+          "description": "The body of what appears to be a police officer or security personnel.",
+          "items": [
+            "🔫",
+            "🔴"
+          ]
+        }
+      },
+      {
+        "type": "mountain",
+        "explored": false,
+        "items": [
+          "🪨"
+        ],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A mountain ridge offering a good view of the surrounding area."
+      },
+      {
+        "type": "mountain",
+        "explored": false,
+        "items": [
+          "🪨"
+        ],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A mountain ridge offering a good view of the surrounding area."
+      },
+      {
+        "type": "mountain",
+        "explored": false,
+        "items": [],
+        "animals": [
+          {
+            "name": "Wild Boar",
+            "hostile": true,
+            "hp": 30,
+            "damage": 10,
+            "meat": 3,
+            "hide": 2,
+            "emoji": "🐗"
+          }
+        ],
+        "bodies": [],
+        "structures": [],
+        "description": "A mountain slope with loose rocks and little vegetation."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [
+          "🪵"
+        ],
+        "animals": [
+          {
+            "name": "Bird",
+            "hostile": false,
+            "hp": 5,
+            "damage": 0,
+            "meat": 1,
+            "hide": 0,
+            "emoji": "🐦"
+          },
+          {
+            "name": "Bird",
+            "hostile": false,
+            "hp": 5,
+            "damage": 0,
+            "meat": 1,
+            "hide": 0,
+            "emoji": "🐦"
+          }
+        ],
+        "bodies": [],
+        "structures": [],
+        "description": "A forest area with fallen trees and thick undergrowth."
+      },
+      {
+        "type": "mountain",
+        "explored": false,
+        "items": [],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A rocky mountain area with a steep climb."
+      },
+      {
+        "type": "cave",
+        "explored": false,
+        "items": [
+          "🪨"
+        ],
+        "animals": [
+          {
+            "name": "Snake",
+            "hostile": true,
+            "hp": 15,
+            "damage": 8,
+            "meat": 1,
+            "hide": 1,
+            "emoji": "🐍"
+          }
+        ],
+        "bodies": [],
+        "structures": [],
+        "description": "A dark cave entrance that could provide shelter."
+      },
+      {
+        "type": "mountain",
+        "explored": false,
+        "items": [
+          "🪨"
+        ],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A mountain ridge offering a good view of the surrounding area."
+      },
+      {
+        "type": "river",
+        "explored": false,
+        "items": [
+          "🪵"
+        ],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A flowing river with clear water."
+      },
+      {
+        "type": "mountain",
+        "explored": false,
+        "items": [
+          "🪨"
+        ],
+        "animals": [
+          {
+            "name": "Snake",
+            "hostile": true,
+            "hp": 15,
+            "damage": 8,
+            "meat": 1,
+            "hide": 1,
+            "emoji": "🐍"
+          }
+        ],
+        "bodies": [],
+        "structures": [],
+        "description": "A mountain ridge offering a good view of the surrounding area."
+      },
+      {
+        "type": "mountain",
+        "explored": false,
+        "items": [
+          "🪵"
+        ],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A rocky mountain area with a steep climb."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [],
+        "animals": [
+          {
+            "name": "Bird",
+            "hostile": false,
+            "hp": 5,
+            "damage": 0,
+            "meat": 1,
+            "hide": 0,
+            "emoji": "🐦"
+          },
+          {
+            "name": "Wild Boar",
+            "hostile": true,
+            "hp": 30,
+            "damage": 10,
+            "meat": 3,
+            "hide": 2,
+            "emoji": "🐗"
+          }
+        ],
+        "bodies": [],
+        "structures": [],
+        "description": "A forest area with fallen trees and thick undergrowth."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [
+          "🪵"
+        ],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A dense forest with tall trees blocking most of the sunlight."
+      },
+      {
+        "type": "beach",
+        "explored": false,
+        "items": [
+          "🪨"
+        ],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A rocky beach with small tide pools."
+      }
+    ],
+    [
+      {
+        "type": "beach",
+        "explored": false,
+        "items": [
+          "🪵"
+        ],
+        "animals": [
+          {
+            "name": "Bird",
+            "hostile": false,
+            "hp": 5,
+            "damage": 0,
+            "meat": 1,
+            "hide": 0,
+            "emoji": "🐦"
+          }
+        ],
+        "bodies": [],
+        "structures": [],
+        "description": "A rocky beach with small tide pools."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [
+          "🍎",
+          "🍎"
+        ],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A dense forest with tall trees blocking most of the sunlight."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [],
+        "animals": [
+          {
+            "name": "Bird",
+            "hostile": false,
+            "hp": 5,
+            "damage": 0,
+            "meat": 1,
+            "hide": 0,
+            "emoji": "🐦"
+          }
+        ],
+        "bodies": [
+          {
+            "description": "A deceased person wearing tattered clothes.",
+            "items": [
+              "🧥",
+              "🧵"
+            ]
+          }
+        ],
+        "structures": [],
+        "description": "A forest with various trees and bushes. You can hear birds chirping."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [
+          "🪵"
+        ],
+        "animals": [
+          {
+            "name": "Fox",
+            "hostile": false,
+            "hp": 15,
+            "damage": 5,
+            "meat": 2,
+            "hide": 1,
+            "emoji": "🦊"
+          }
+        ],
+        "bodies": [],
+        "structures": [],
+        "description": "A forest area with fallen trees and thick undergrowth."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A forest area with fallen trees and thick undergrowth."
+      },
+      {
+        "type": "mountain",
+        "explored": false,
+        "items": [
+          "🪵"
+        ],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A mountain ridge offering a good view of the surrounding area."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [
+          "🪵",
+          "🪵"
+        ],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A forest with various trees and bushes. You can hear birds chirping."
+      },
+      {
+        "type": "mountain",
+        "explored": false,
+        "items": [
+          "🪨"
+        ],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A rocky mountain area with a steep climb."
+      },
+      {
+        "type": "mountain",
+        "explored": false,
+        "items": [],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A mountain ridge offering a good view of the surrounding area."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A forest with various trees and bushes. You can hear birds chirping."
+      },
+      {
+        "type": "mountain",
+        "explored": false,
+        "items": [
+          "🪨"
+        ],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A mountain slope with loose rocks and little vegetation."
+      },
+      {
+        "type": "mountain",
+        "explored": false,
+        "items": [],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A rocky mountain area with a steep climb."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [
+          "🪨",
+          "🧵"
+        ],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A forest with various trees and bushes. You can hear birds chirping."
+      },
+      {
+        "type": "beach",
+        "explored": false,
+        "items": [
+          "🧵"
+        ],
+        "animals": [],
+        "bodies": [
+          {
+            "description": "A deceased person wearing tattered clothes.",
+            "items": [
+              "👕"
+            ]
+          }
+        ],
+        "structures": [],
+        "description": "A wide open beach with palm trees nearby."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [
+          "🧵"
+        ],
+        "animals": [
+          {
+            "name": "Snake",
+            "hostile": true,
+            "hp": 15,
+            "damage": 8,
+            "meat": 1,
+            "hide": 1,
+            "emoji": "🐍"
+          },
+          {
+            "name": "Bird",
+            "hostile": false,
+            "hp": 5,
+            "damage": 0,
+            "meat": 1,
+            "hide": 0,
+            "emoji": "🐦"
+          }
+        ],
+        "bodies": [],
+        "structures": [],
+        "description": "A forest with various trees and bushes. You can hear birds chirping."
+      }
+    ],
+    [
+      {
+        "type": "beach",
+        "explored": false,
+        "items": [
+          "🧵"
+        ],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A rocky beach with small tide pools."
+      },
+      {
+        "type": "river",
+        "explored": false,
+        "items": [
+          "🪨"
+        ],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A flowing river with clear water."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [
+          "🪵",
+          "🍎"
+        ],
+        "animals": [
+          {
+            "name": "Bird",
+            "hostile": false,
+            "hp": 5,
+            "damage": 0,
+            "meat": 1,
+            "hide": 0,
+            "emoji": "🐦"
+          }
+        ],
+        "bodies": [],
+        "structures": [],
+        "description": "A forest with various trees and bushes. You can hear birds chirping."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A forest with various trees and bushes. You can hear birds chirping."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A dense forest with tall trees blocking most of the sunlight."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [],
+        "animals": [
+          {
+            "name": "Bird",
+            "hostile": false,
+            "hp": 5,
+            "damage": 0,
+            "meat": 1,
+            "hide": 0,
+            "emoji": "🐦"
+          },
+          {
+            "name": "Rabbit",
+            "hostile": false,
+            "hp": 10,
+            "damage": 0,
+            "meat": 1,
+            "hide": 1,
+            "emoji": "🐇"
+          }
+        ],
+        "bodies": [],
+        "structures": [],
+        "description": "A dense forest with tall trees blocking most of the sunlight."
+      },
+      {
+        "type": "mountain",
+        "explored": false,
+        "items": [
+          "🪨"
+        ],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A mountain ridge offering a good view of the surrounding area."
+      },
+      {
+        "type": "river",
+        "explored": false,
+        "items": [],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A shallow river that you could cross carefully."
+      },
+      {
+        "type": "beach",
+        "explored": false,
+        "items": [],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A wide open beach with palm trees nearby."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [],
+        "animals": [
+          {
+            "name": "Fox",
+            "hostile": false,
+            "hp": 15,
+            "damage": 5,
+            "meat": 2,
+            "hide": 1,
+            "emoji": "🦊"
+          }
+        ],
+        "bodies": [],
+        "structures": [],
+        "description": "A forest area with fallen trees and thick undergrowth."
+      },
+      {
+        "type": "mountain",
+        "explored": false,
+        "items": [],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A mountain slope with loose rocks and little vegetation."
+      },
+      {
+        "type": "mountain",
+        "explored": false,
+        "items": [
+          "🪵"
+        ],
+        "animals": [
+          {
+            "name": "Fox",
+            "hostile": false,
+            "hp": 15,
+            "damage": 5,
+            "meat": 2,
+            "hide": 1,
+            "emoji": "🦊"
+          }
+        ],
+        "bodies": [],
+        "structures": [],
+        "description": "A mountain ridge offering a good view of the surrounding area."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [
+          "🧵"
+        ],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A forest area with fallen trees and thick undergrowth."
+      },
+      {
+        "type": "river",
+        "explored": false,
+        "items": [],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A shallow river that you could cross carefully."
+      },
+      {
+        "type": "beach",
+        "explored": false,
+        "items": [
+          "🧵"
+        ],
+        "animals": [
+          {
+            "name": "Bird",
+            "hostile": false,
+            "hp": 5,
+            "damage": 0,
+            "meat": 1,
+            "hide": 0,
+            "emoji": "🐦"
+          }
+        ],
+        "bodies": [],
+        "structures": [],
+        "description": "A wide open beach with palm trees nearby."
+      }
+    ],
+    [
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A forest area with fallen trees and thick undergrowth."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [
+          "🍎",
+          "🪨"
+        ],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A forest area with fallen trees and thick undergrowth."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [
+          "🍎",
+          "🪨"
+        ],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A forest area with fallen trees and thick undergrowth."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [
+          "🪵"
+        ],
+        "animals": [],
+        "bodies": [
+          {
+            "description": "A body partially covered by debris.",
+            "items": [
+              "👖"
+            ]
+          }
+        ],
+        "structures": [],
+        "description": "A dense forest with tall trees blocking most of the sunlight."
+      },
+      {
+        "type": "mountain",
+        "explored": false,
+        "items": [],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A mountain ridge offering a good view of the surrounding area."
+      },
+      {
+        "type": "mountain",
+        "explored": false,
+        "items": [
+          "🪨"
+        ],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A mountain slope with loose rocks and little vegetation."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A dense forest with tall trees blocking most of the sunlight."
+      },
+      {
+        "type": "mountain",
+        "explored": false,
+        "items": [
+          "🪨"
+        ],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A mountain slope with loose rocks and little vegetation."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [
+          "🪵",
+          "🪵"
+        ],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A forest with various trees and bushes. You can hear birds chirping."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A dense forest with tall trees blocking most of the sunlight."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [
+          "🪵"
+        ],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A forest with various trees and bushes. You can hear birds chirping."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A dense forest with tall trees blocking most of the sunlight."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A forest with various trees and bushes. You can hear birds chirping."
+      },
+      {
+        "type": "beach",
+        "explored": false,
+        "items": [
+          "🪵"
+        ],
+        "animals": [
+          {
+            "name": "Bird",
+            "hostile": false,
+            "hp": 5,
+            "damage": 0,
+            "meat": 1,
+            "hide": 0,
+            "emoji": "🐦"
+          }
+        ],
+        "bodies": [
+          {
+            "description": "The body of a passenger from the plane crash.",
+            "items": [
+              "🥫",
+              "🧪",
+              "🧵"
+            ]
+          }
+        ],
+        "structures": [],
+        "description": "A rocky beach with small tide pools."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [
+          "🪨"
+        ],
+        "animals": [
+          {
+            "name": "Snake",
+            "hostile": true,
+            "hp": 15,
+            "damage": 8,
+            "meat": 1,
+            "hide": 1,
+            "emoji": "🐍"
+          }
+        ],
+        "bodies": [],
+        "structures": [],
+        "description": "A forest with various trees and bushes. You can hear birds chirping."
+      }
+    ],
+    [
+      {
+        "type": "beach",
+        "explored": false,
+        "items": [
+          "🪨"
+        ],
+        "animals": [],
+        "bodies": [
+          {
+            "description": "The remains of someone who didn't survive the crash.",
+            "items": [
+              "🔦",
+              "🧪",
+              "👖"
+            ]
+          }
+        ],
+        "structures": [],
+        "description": "A rocky beach with small tide pools."
+      },
+      {
+        "type": "beach",
+        "explored": false,
+        "items": [],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A sandy beach with waves crashing on the shore."
+      },
+      {
+        "type": "mountain",
+        "explored": false,
+        "items": [],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A rocky mountain area with a steep climb."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [
+          "🧵"
+        ],
+        "animals": [
+          {
+            "name": "Wild Boar",
+            "hostile": true,
+            "hp": 30,
+            "damage": 10,
+            "meat": 3,
+            "hide": 2,
+            "emoji": "🐗"
+          }
+        ],
+        "bodies": [],
+        "structures": [],
+        "description": "A forest with various trees and bushes. You can hear birds chirping."
+      },
+      {
+        "type": "mountain",
+        "explored": false,
+        "items": [],
+        "animals": [
+          {
+            "name": "Wild Boar",
+            "hostile": true,
+            "hp": 30,
+            "damage": 10,
+            "meat": 3,
+            "hide": 2,
+            "emoji": "🐗"
+          }
+        ],
+        "bodies": [],
+        "structures": [],
+        "description": "A rocky mountain area with a steep climb."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A dense forest with tall trees blocking most of the sunlight."
+      },
+      {
+        "type": "beach",
+        "explored": false,
+        "items": [
+          "🪨"
+        ],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A rocky beach with small tide pools."
+      },
+      {
+        "type": "river",
+        "explored": false,
+        "items": [],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A river bend with deeper water in the middle."
+      },
+      {
+        "type": "river",
+        "explored": false,
+        "items": [],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A shallow river that you could cross carefully."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [
+          "🪨",
+          "🪨"
+        ],
+        "animals": [
+          {
+            "name": "Tiger",
+            "hostile": true,
+            "hp": 40,
+            "damage": 20,
+            "meat": 3,
+            "hide": 3,
+            "emoji": "🐅"
+          }
+        ],
+        "bodies": [],
+        "structures": [],
+        "description": "A dense forest with tall trees blocking most of the sunlight."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [
+          "🪵"
+        ],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A forest area with fallen trees and thick undergrowth."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [],
+        "animals": [
+          {
+            "name": "Wild Boar",
+            "hostile": true,
+            "hp": 30,
+            "damage": 10,
+            "meat": 3,
+            "hide": 2,
+            "emoji": "🐗"
+          }
+        ],
+        "bodies": [],
+        "structures": [],
+        "description": "A dense forest with tall trees blocking most of the sunlight."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A forest area with fallen trees and thick undergrowth."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [
+          "🍎",
+          "🍎"
+        ],
+        "animals": [
+          {
+            "name": "Bird",
+            "hostile": false,
+            "hp": 5,
+            "damage": 0,
+            "meat": 1,
+            "hide": 0,
+            "emoji": "🐦"
+          },
+          {
+            "name": "Tiger",
+            "hostile": true,
+            "hp": 40,
+            "damage": 20,
+            "meat": 3,
+            "hide": 3,
+            "emoji": "🐅"
+          }
+        ],
+        "bodies": [],
+        "structures": [],
+        "description": "A forest area with fallen trees and thick undergrowth."
+      },
+      {
+        "type": "beach",
+        "explored": false,
+        "items": [
+          "🪨"
+        ],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A wide open beach with palm trees nearby."
+      }
+    ],
+    [
+      {
+        "type": "beach",
+        "explored": false,
+        "items": [
+          "🪵"
+        ],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A sandy beach with waves crashing on the shore."
+      },
+      {
+        "type": "cave",
+        "explored": false,
+        "items": [],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A cave with strange markings on the walls."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [
+          "🪵",
+          "🪵"
+        ],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A forest with various trees and bushes. You can hear birds chirping."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [
+          "🪵",
+          "🪵"
+        ],
+        "animals": [
+          {
+            "name": "Bird",
+            "hostile": false,
+            "hp": 5,
+            "damage": 0,
+            "meat": 1,
+            "hide": 0,
+            "emoji": "🐦"
+          },
+          {
+            "name": "Bird",
+            "hostile": false,
+            "hp": 5,
+            "damage": 0,
+            "meat": 1,
+            "hide": 0,
+            "emoji": "🐦"
+          }
+        ],
+        "bodies": [],
+        "structures": [],
+        "description": "A forest with various trees and bushes. You can hear birds chirping."
+      },
+      {
+        "type": "lake",
+        "explored": false,
+        "items": [],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A small lake with calm water."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [
+          "🍎",
+          "🪵"
+        ],
+        "animals": [],
+        "bodies": [
+          {
+            "description": "A body partially covered by debris.",
+            "items": [
+              "🧴"
+            ]
+          }
+        ],
+        "structures": [],
+        "description": "A dense forest with tall trees blocking most of the sunlight."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [],
+        "animals": [
+          {
+            "name": "Snake",
+            "hostile": true,
+            "hp": 15,
+            "damage": 8,
+            "meat": 1,
+            "hide": 1,
+            "emoji": "🐍"
+          }
+        ],
+        "bodies": [],
+        "structures": [],
+        "description": "A forest with various trees and bushes. You can hear birds chirping."
+      },
+      {
+        "type": "cave",
+        "explored": false,
+        "items": [
+          "🪨",
+          "🧵"
+        ],
+        "animals": [
+          {
+            "name": "Snake",
+            "hostile": true,
+            "hp": 15,
+            "damage": 8,
+            "meat": 1,
+            "hide": 1,
+            "emoji": "🐍"
+          }
+        ],
+        "bodies": [],
+        "structures": [],
+        "description": "A cave with strange markings on the walls."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A dense forest with tall trees blocking most of the sunlight."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [],
+        "animals": [
+          {
+            "name": "Bird",
+            "hostile": false,
+            "hp": 5,
+            "damage": 0,
+            "meat": 1,
+            "hide": 0,
+            "emoji": "🐦"
+          }
+        ],
+        "bodies": [],
+        "structures": [],
+        "description": "A forest with various trees and bushes. You can hear birds chirping."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [
+          "🪵",
+          "🪨"
+        ],
+        "animals": [
+          {
+            "name": "Rabbit",
+            "hostile": false,
+            "hp": 10,
+            "damage": 0,
+            "meat": 1,
+            "hide": 1,
+            "emoji": "🐇"
+          },
+          {
+            "name": "Bird",
+            "hostile": false,
+            "hp": 5,
+            "damage": 0,
+            "meat": 1,
+            "hide": 0,
+            "emoji": "🐦"
+          }
+        ],
+        "bodies": [],
+        "structures": [],
+        "description": "A dense forest with tall trees blocking most of the sunlight."
+      },
+      {
+        "type": "river",
+        "explored": false,
+        "items": [
+          "💧"
+        ],
+        "animals": [
+          {
+            "name": "Crocodile",
+            "hostile": true,
+            "hp": 50,
+            "damage": 15,
+            "meat": 4,
+            "hide": 3,
+            "emoji": "🐊"
+          }
+        ],
+        "bodies": [],
+        "structures": [],
+        "description": "A river bend with deeper water in the middle."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [
+          "🪵",
+          "🍎"
+        ],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A forest with various trees and bushes. You can hear birds chirping."
+      },
+      {
+        "type": "mountain",
+        "explored": false,
+        "items": [],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A rocky mountain area with a steep climb."
+      },
+      {
+        "type": "beach",
+        "explored": false,
+        "items": [
+          "🧵"
+        ],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A wide open beach with palm trees nearby."
+      }
+    ],
+    [
+      {
+        "type": "beach",
+        "explored": false,
+        "items": [
+          "🪨"
+        ],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A sandy beach with waves crashing on the shore."
+      },
+      {
+        "type": "mountain",
+        "explored": false,
+        "items": [
+          "🪨"
+        ],
+        "animals": [
+          {
+            "name": "Wild Boar",
+            "hostile": true,
+            "hp": 30,
+            "damage": 10,
+            "meat": 3,
+            "hide": 2,
+            "emoji": "🐗"
+          }
+        ],
+        "bodies": [],
+        "structures": [],
+        "description": "A mountain ridge offering a good view of the surrounding area."
+      },
+      {
+        "type": "mountain",
+        "explored": false,
+        "items": [],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A mountain ridge offering a good view of the surrounding area."
+      },
+      {
+        "type": "beach",
+        "explored": false,
+        "items": [
+          "🪨"
+        ],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A wide open beach with palm trees nearby."
+      },
+      {
+        "type": "river",
+        "explored": false,
+        "items": [
+          "🪨"
+        ],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A flowing river with clear water."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [
+          "🍎",
+          "🪵"
+        ],
+        "animals": [
+          {
+            "name": "Tiger",
+            "hostile": true,
+            "hp": 40,
+            "damage": 20,
+            "meat": 3,
+            "hide": 3,
+            "emoji": "🐅"
+          },
+          {
+            "name": "Fox",
+            "hostile": false,
+            "hp": 15,
+            "damage": 5,
+            "meat": 2,
+            "hide": 1,
+            "emoji": "🦊"
+          }
+        ],
+        "bodies": [],
+        "structures": [],
+        "description": "A dense forest with tall trees blocking most of the sunlight."
+      },
+      {
+        "type": "mountain",
+        "explored": false,
+        "items": [],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A mountain slope with loose rocks and little vegetation."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [
+          "🪵",
+          "🧵"
+        ],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A forest area with fallen trees and thick undergrowth."
+      },
+      {
+        "type": "lake",
+        "explored": false,
+        "items": [
+          "🪨"
+        ],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A small lake with calm water."
+      },
+      {
+        "type": "plane",
+        "explored": false,
+        "items": [
+          "👕",
+          "🥫",
+          "🚩"
+        ],
+        "animals": [],
+        "bodies": [
+          {
+            "description": "The body of someone who appears to have died recently.",
+            "items": [
+              "🔦"
+            ]
+          },
+          {
+            "description": "The body of someone who appears to have died recently.",
+            "items": [
+              "🧪"
+            ]
+          },
+          {
+            "description": "The body of a passenger from the plane crash.",
+            "items": [
+              "🧵",
+              "🧥"
+            ]
+          },
+          {
+            "description": "A deceased person wearing tattered clothes.",
+            "items": [
+              "🥫"
+            ]
+          }
+        ],
+        "structures": [],
+        "description": "A part of the crashed plane. There might be useful supplies here.",
+        "specialBody": {
+          "description": "The body of what appears to be a police officer or security personnel.",
+          "items": [
+            "🔫",
+            "🔴"
+          ]
+        }
+      },
+      {
+        "type": "mountain",
+        "explored": false,
+        "items": [],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A mountain slope with loose rocks and little vegetation."
+      },
+      {
+        "type": "cave",
+        "explored": false,
+        "items": [
+          "🧵",
+          "🧵"
+        ],
+        "animals": [
+          {
+            "name": "Snake",
+            "hostile": true,
+            "hp": 15,
+            "damage": 8,
+            "meat": 1,
+            "hide": 1,
+            "emoji": "🐍"
+          }
+        ],
+        "bodies": [],
+        "structures": [],
+        "description": "A shallow cave with a dry floor."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A forest area with fallen trees and thick undergrowth."
+      },
+      {
+        "type": "cave",
+        "explored": false,
+        "items": [],
+        "animals": [
+          {
+            "name": "Fox",
+            "hostile": false,
+            "hp": 15,
+            "damage": 5,
+            "meat": 2,
+            "hide": 1,
+            "emoji": "🦊"
+          }
+        ],
+        "bodies": [],
+        "structures": [],
+        "description": "A shallow cave with a dry floor."
+      },
+      {
+        "type": "beach",
+        "explored": false,
+        "items": [],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A sandy beach with waves crashing on the shore."
+      }
+    ],
+    [
+      {
+        "type": "beach",
+        "explored": false,
+        "items": [],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A sandy beach with waves crashing on the shore."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [
+          "🍎",
+          "🧵"
+        ],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A forest area with fallen trees and thick undergrowth."
+      },
+      {
+        "type": "beach",
+        "explored": false,
+        "items": [
+          "🪨"
+        ],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A sandy beach with waves crashing on the shore."
+      },
+      {
+        "type": "mountain",
+        "explored": false,
+        "items": [
+          "🪨"
+        ],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A rocky mountain area with a steep climb."
+      },
+      {
+        "type": "mountain",
+        "explored": false,
+        "items": [],
+        "animals": [
+          {
+            "name": "Fox",
+            "hostile": false,
+            "hp": 15,
+            "damage": 5,
+            "meat": 2,
+            "hide": 1,
+            "emoji": "🦊"
+          }
+        ],
+        "bodies": [],
+        "structures": [],
+        "description": "A mountain ridge offering a good view of the surrounding area."
+      },
+      {
+        "type": "lake",
+        "explored": false,
+        "items": [
+          "💧"
+        ],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A small lake with calm water."
+      },
+      {
+        "type": "mountain",
+        "explored": false,
+        "items": [
+          "🪨"
+        ],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A mountain slope with loose rocks and little vegetation."
+      },
+      {
+        "type": "cave",
+        "explored": false,
+        "items": [],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A dark cave entrance that could provide shelter."
+      },
+      {
+        "type": "beach",
+        "explored": false,
+        "items": [
+          "🪵"
+        ],
+        "animals": [
+          {
+            "name": "Snake",
+            "hostile": true,
+            "hp": 15,
+            "damage": 8,
+            "meat": 1,
+            "hide": 1,
+            "emoji": "🐍"
+          }
+        ],
+        "bodies": [],
+        "structures": [],
+        "description": "A rocky beach with small tide pools."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A forest with various trees and bushes. You can hear birds chirping."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [
+          "🍎",
+          "🍎"
+        ],
+        "animals": [
+          {
+            "name": "Fox",
+            "hostile": false,
+            "hp": 15,
+            "damage": 5,
+            "meat": 2,
+            "hide": 1,
+            "emoji": "🦊"
+          },
+          {
+            "name": "Bird",
+            "hostile": false,
+            "hp": 5,
+            "damage": 0,
+            "meat": 1,
+            "hide": 0,
+            "emoji": "🐦"
+          }
+        ],
+        "bodies": [],
+        "structures": [],
+        "description": "A forest area with fallen trees and thick undergrowth."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [
+          "🧵",
+          "🍎"
+        ],
+        "animals": [
+          {
+            "name": "Bird",
+            "hostile": false,
+            "hp": 5,
+            "damage": 0,
+            "meat": 1,
+            "hide": 0,
+            "emoji": "🐦"
+          }
+        ],
+        "bodies": [],
+        "structures": [],
+        "description": "A forest with various trees and bushes. You can hear birds chirping."
+      },
+      {
+        "type": "river",
+        "explored": false,
+        "items": [],
+        "animals": [
+          {
+            "name": "Crocodile",
+            "hostile": true,
+            "hp": 50,
+            "damage": 15,
+            "meat": 4,
+            "hide": 3,
+            "emoji": "🐊"
+          }
+        ],
+        "bodies": [],
+        "structures": [],
+        "description": "A river bend with deeper water in the middle."
+      },
+      {
+        "type": "mountain",
+        "explored": false,
+        "items": [
+          "🪨"
+        ],
+        "animals": [
+          {
+            "name": "Bird",
+            "hostile": false,
+            "hp": 5,
+            "damage": 0,
+            "meat": 1,
+            "hide": 0,
+            "emoji": "🐦"
+          }
+        ],
+        "bodies": [],
+        "structures": [],
+        "description": "A rocky mountain area with a steep climb."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [
+          "🪨",
+          "🍎"
+        ],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A forest area with fallen trees and thick undergrowth."
+      }
+    ],
+    [
+      {
+        "type": "beach",
+        "explored": false,
+        "items": [
+          "🪨"
+        ],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A rocky beach with small tide pools."
+      },
+      {
+        "type": "mountain",
+        "explored": false,
+        "items": [
+          "🪨"
+        ],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A mountain ridge offering a good view of the surrounding area."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [
+          "🪨"
+        ],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A dense forest with tall trees blocking most of the sunlight."
+      },
+      {
+        "type": "mountain",
+        "explored": false,
+        "items": [
+          "🪵"
+        ],
+        "animals": [
+          {
+            "name": "Tiger",
+            "hostile": true,
+            "hp": 40,
+            "damage": 20,
+            "meat": 3,
+            "hide": 3,
+            "emoji": "🐅"
+          }
+        ],
+        "bodies": [],
+        "structures": [],
+        "description": "A rocky mountain area with a steep climb."
+      },
+      {
+        "type": "mountain",
+        "explored": false,
+        "items": [
+          "🪨"
+        ],
+        "animals": [
+          {
+            "name": "Wild Boar",
+            "hostile": true,
+            "hp": 30,
+            "damage": 10,
+            "meat": 3,
+            "hide": 2,
+            "emoji": "🐗"
+          }
+        ],
+        "bodies": [],
+        "structures": [],
+        "description": "A rocky mountain area with a steep climb."
+      },
+      {
+        "type": "mountain",
+        "explored": false,
+        "items": [],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A mountain ridge offering a good view of the surrounding area."
+      },
+      {
+        "type": "mountain",
+        "explored": false,
+        "items": [
+          "🪵"
+        ],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A mountain slope with loose rocks and little vegetation."
+      },
+      {
+        "type": "mountain",
+        "explored": false,
+        "items": [],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A rocky mountain area with a steep climb."
+      },
+      {
+        "type": "bunker",
+        "explored": false,
+        "items": [
+          "🥫",
+          "🔦",
+          "🧥",
+          "📻",
+          "🔦",
+          "🧴"
+        ],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "An old military bunker hidden in the mountain. It might contain valuable supplies."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [],
+        "animals": [
+          {
+            "name": "Tiger",
+            "hostile": true,
+            "hp": 40,
+            "damage": 20,
+            "meat": 3,
+            "hide": 3,
+            "emoji": "🐅"
+          }
+        ],
+        "bodies": [],
+        "structures": [],
+        "description": "A dense forest with tall trees blocking most of the sunlight."
+      },
+      {
+        "type": "beach",
+        "explored": false,
+        "items": [],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A sandy beach with waves crashing on the shore."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [
+          "🪵"
+        ],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A forest area with fallen trees and thick undergrowth."
+      },
+      {
+        "type": "river",
+        "explored": false,
+        "items": [
+          "💧"
+        ],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A flowing river with clear water."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A forest area with fallen trees and thick undergrowth."
+      },
+      {
+        "type": "beach",
+        "explored": false,
+        "items": [
+          "🪨"
+        ],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A sandy beach with waves crashing on the shore."
+      }
+    ],
+    [
+      {
+        "type": "beach",
+        "explored": false,
+        "items": [],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A wide open beach with palm trees nearby."
+      },
+      {
+        "type": "lake",
+        "explored": false,
+        "items": [
+          "🪵"
+        ],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A clear lake that seems to be a good source of water."
+      },
+      {
+        "type": "river",
+        "explored": false,
+        "items": [
+          "💧"
+        ],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A flowing river with clear water."
+      },
+      {
+        "type": "beach",
+        "explored": false,
+        "items": [],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A wide open beach with palm trees nearby."
+      },
+      {
+        "type": "mountain",
+        "explored": false,
+        "items": [],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A mountain ridge offering a good view of the surrounding area."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [
+          "🍎"
+        ],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A dense forest with tall trees blocking most of the sunlight."
+      },
+      {
+        "type": "plane",
+        "explored": false,
+        "items": [
+          "📻",
+          "📻",
+          "🥫",
+          "🧥",
+          "🧪"
+        ],
+        "animals": [],
+        "bodies": [
+          {
+            "description": "The body of someone who appears to have died recently.",
+            "items": [
+              "🧴",
+              "🧵"
+            ]
+          },
+          {
+            "description": "The body of a passenger from the plane crash.",
+            "items": [
+              "🔦",
+              "👖",
+              "🧴"
+            ]
+          }
+        ],
+        "structures": [],
+        "description": "A part of the crashed plane. There might be useful supplies here."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [
+          "🪵"
+        ],
+        "animals": [],
+        "bodies": [
+          {
+            "description": "A body partially covered by debris.",
+            "items": [
+              "🧥",
+              "🧴",
+              "🔦"
+            ]
+          }
+        ],
+        "structures": [],
+        "description": "A forest with various trees and bushes. You can hear birds chirping."
+      },
+      {
+        "type": "mountain",
+        "explored": false,
+        "items": [
+          "🪵"
+        ],
+        "animals": [
+          {
+            "name": "Bird",
+            "hostile": false,
+            "hp": 5,
+            "damage": 0,
+            "meat": 1,
+            "hide": 0,
+            "emoji": "🐦"
+          }
+        ],
+        "bodies": [],
+        "structures": [],
+        "description": "A mountain slope with loose rocks and little vegetation."
+      },
+      {
+        "type": "cave",
+        "explored": false,
+        "items": [],
+        "animals": [
+          {
+            "name": "Snake",
+            "hostile": true,
+            "hp": 15,
+            "damage": 8,
+            "meat": 1,
+            "hide": 1,
+            "emoji": "🐍"
+          }
+        ],
+        "bodies": [],
+        "structures": [],
+        "description": "A dark cave entrance that could provide shelter."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A forest area with fallen trees and thick undergrowth."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [
+          "🪵"
+        ],
+        "animals": [
+          {
+            "name": "Tiger",
+            "hostile": true,
+            "hp": 40,
+            "damage": 20,
+            "meat": 3,
+            "hide": 3,
+            "emoji": "🐅"
+          }
+        ],
+        "bodies": [
+          {
+            "description": "The body of someone who appears to have died recently.",
+            "items": [
+              "🔦",
+              "🧪",
+              "🧴"
+            ]
+          }
+        ],
+        "structures": [],
+        "description": "A forest area with fallen trees and thick undergrowth."
+      },
+      {
+        "type": "lake",
+        "explored": false,
+        "items": [],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A clear lake that seems to be a good source of water."
+      },
+      {
+        "type": "mountain",
+        "explored": false,
+        "items": [],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A mountain slope with loose rocks and little vegetation."
+      },
+      {
+        "type": "beach",
+        "explored": false,
+        "items": [],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A sandy beach with waves crashing on the shore."
+      }
+    ],
+    [
+      {
+        "type": "beach",
+        "explored": false,
+        "items": [],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A wide open beach with palm trees nearby."
+      },
+      {
+        "type": "beach",
+        "explored": false,
+        "items": [
+          "🪨"
+        ],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A wide open beach with palm trees nearby."
+      },
+      {
+        "type": "beach",
+        "explored": false,
+        "items": [
+          "🪨"
+        ],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A sandy beach with waves crashing on the shore."
+      },
+      {
+        "type": "beach",
+        "explored": false,
+        "items": [
+          "🧵"
+        ],
+        "animals": [],
+        "bodies": [
+          {
+            "description": "The body of a passenger from the plane crash.",
+            "items": [
+              "👖",
+              "🧴",
+              "🔦"
+            ]
+          }
+        ],
+        "structures": [],
+        "description": "A rocky beach with small tide pools."
+      },
+      {
+        "type": "beach",
+        "explored": false,
+        "items": [],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A rocky beach with small tide pools."
+      },
+      {
+        "type": "beach",
+        "explored": false,
+        "items": [
+          "🧵"
+        ],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A rocky beach with small tide pools."
+      },
+      {
+        "type": "beach",
+        "explored": false,
+        "items": [
+          "🪵"
+        ],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A wide open beach with palm trees nearby."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [
+          "🪵",
+          "🪨"
+        ],
+        "animals": [
+          {
+            "name": "Bird",
+            "hostile": false,
+            "hp": 5,
+            "damage": 0,
+            "meat": 1,
+            "hide": 0,
+            "emoji": "🐦"
+          },
+          {
+            "name": "Bird",
+            "hostile": false,
+            "hp": 5,
+            "damage": 0,
+            "meat": 1,
+            "hide": 0,
+            "emoji": "🐦"
+          }
+        ],
+        "bodies": [],
+        "structures": [],
+        "description": "A dense forest with tall trees blocking most of the sunlight."
+      },
+      {
+        "type": "beach",
+        "explored": false,
+        "items": [
+          "🪵"
+        ],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A rocky beach with small tide pools."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [
+          "🪵"
+        ],
+        "animals": [
+          {
+            "name": "Snake",
+            "hostile": true,
+            "hp": 15,
+            "damage": 8,
+            "meat": 1,
+            "hide": 1,
+            "emoji": "🐍"
+          }
+        ],
+        "bodies": [],
+        "structures": [],
+        "description": "A forest area with fallen trees and thick undergrowth."
+      },
+      {
+        "type": "beach",
+        "explored": false,
+        "items": [],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A wide open beach with palm trees nearby."
+      },
+      {
+        "type": "forest",
+        "explored": false,
+        "items": [],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A dense forest with tall trees blocking most of the sunlight."
+      },
+      {
+        "type": "beach",
+        "explored": false,
+        "items": [],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A sandy beach with waves crashing on the shore."
+      },
+      {
+        "type": "beach",
+        "explored": false,
+        "items": [
+          "🧵"
+        ],
+        "animals": [
+          {
+            "name": "Bird",
+            "hostile": false,
+            "hp": 5,
+            "damage": 0,
+            "meat": 1,
+            "hide": 0,
+            "emoji": "🐦"
+          }
+        ],
+        "bodies": [],
+        "structures": [],
+        "description": "A rocky beach with small tide pools."
+      },
+      {
+        "type": "beach",
+        "explored": false,
+        "items": [],
+        "animals": [],
+        "bodies": [],
+        "structures": [],
+        "description": "A rocky beach with small tide pools."
+      }
+    ]
+  ],
+  "players": {}
+}

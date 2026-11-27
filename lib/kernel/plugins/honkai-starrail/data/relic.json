@@ -1,0 +1,158 @@
+[
+ {
+  "nama": "Passerby of Wandering Cloud",
+  "tipe": "Cavern",
+  "bonus2": "Outgoing Healing +10%",
+  "bonus4": "Di awal battle, memulihkan 1 Skill Point."
+ },
+ {
+  "nama": "Musketeer of Wild Wheat",
+  "tipe": "Cavern",
+  "bonus2": "ATK +12%",
+  "bonus4": "SPD +6% dan Basic ATK DMG +10%."
+ },
+ {
+  "nama": "Knight of Purity Palace",
+  "tipe": "Cavern",
+  "bonus2": "DEF +15%",
+  "bonus4": "Shield yang diberikan menyerap lebih banyak damage (+20%)."
+ },
+ {
+  "nama": "Hunter of Glacial Forest",
+  "tipe": "Cavern",
+  "bonus2": "Ice DMG +10%",
+  "bonus4": "Setelah Ultimate, CRIT DMG naik sementara."
+ },
+ {
+  "nama": "Champion of Streetwise Boxing",
+  "tipe": "Cavern",
+  "bonus2": "Physical DMG +10%",
+  "bonus4": "ATK menumpuk setiap menyerang atau diserang."
+ },
+ {
+  "nama": "Guard of Wuthering Snow",
+  "tipe": "Cavern",
+  "bonus2": "Damage yang diterima -8%",
+  "bonus4": "Memulihkan HP dan Energy saat HP rendah di awal giliran."
+ },
+ {
+  "nama": "Firesmith of Lava-Forging",
+  "tipe": "Cavern",
+  "bonus2": "Fire DMG +10%",
+  "bonus4": "Skill DMG naik, dan Fire DMG naik setelah Ultimate."
+ },
+ {
+  "nama": "Genius of Brilliant Stars",
+  "tipe": "Cavern",
+  "bonus2": "Quantum DMG +10%",
+  "bonus4": "Mengabaikan sebagian DEF musuh."
+ },
+ {
+  "nama": "Band of Sizzling Thunder",
+  "tipe": "Cavern",
+  "bonus2": "Lightning DMG +10%",
+  "bonus4": "Memakai Skill menambah ATK."
+ },
+ {
+  "nama": "Eagle of Twilight Line",
+  "tipe": "Cavern",
+  "bonus2": "Wind DMG +10%",
+  "bonus4": "Setelah Ultimate, aksi sekutu dipercepat."
+ },
+ {
+  "nama": "Thief of Shooting Meteor",
+  "tipe": "Cavern",
+  "bonus2": "Break Effect +16%",
+  "bonus4": "Break Effect naik lagi dan Energy pulih saat Weakness Break."
+ },
+ {
+  "nama": "Wastelander of Banditry Desert",
+  "tipe": "Cavern",
+  "bonus2": "Imaginary DMG +10%",
+  "bonus4": "CRIT Rate naik terhadap musuh yang sedang terkena debuff."
+ },
+ {
+  "nama": "Longevous Disciple",
+  "tipe": "Cavern",
+  "bonus2": "HP +12%",
+  "bonus4": "CRIT Rate naik sementara setelah wearer terkena serangan."
+ },
+ {
+  "nama": "Messenger Traversing Hackerspace",
+  "tipe": "Cavern",
+  "bonus2": "SPD +6%",
+  "bonus4": "Ultimate ke sekutu menambah SPD mereka."
+ },
+ {
+  "nama": "Space Sealing Station",
+  "tipe": "Planar",
+  "bonus2": "ATK +12%",
+  "bonus4": "Bonus ATK bertambah bila SPD wearer cukup tinggi."
+ },
+ {
+  "nama": "Fleet of the Ageless",
+  "tipe": "Planar",
+  "bonus2": "HP +12%",
+  "bonus4": "ATK semua sekutu naik bila SPD wearer cukup tinggi."
+ },
+ {
+  "nama": "Pan-Cosmic Commercial Enterprise",
+  "tipe": "Planar",
+  "bonus2": "Effect Hit Rate +10%",
+  "bonus4": "ATK naik berdasarkan Effect Hit Rate."
+ },
+ {
+  "nama": "Belobog of the Architects",
+  "tipe": "Planar",
+  "bonus2": "DEF +15%",
+  "bonus4": "DEF naik lagi jika Effect Hit Rate cukup tinggi."
+ },
+ {
+  "nama": "Celestial Differentiator",
+  "tipe": "Planar",
+  "bonus2": "CRIT DMG +16%",
+  "bonus4": "CRIT Rate naik untuk serangan pertama bila CRIT DMG cukup tinggi."
+ },
+ {
+  "nama": "Inert Salsotto",
+  "tipe": "Planar",
+  "bonus2": "CRIT Rate +8%",
+  "bonus4": "Ultimate dan Follow-up DMG naik."
+ },
+ {
+  "nama": "Rutilant Arena",
+  "tipe": "Planar",
+  "bonus2": "CRIT Rate +8%",
+  "bonus4": "Basic ATK dan Skill DMG naik bila CRIT Rate cukup tinggi."
+ },
+ {
+  "nama": "Broken Keel",
+  "tipe": "Planar",
+  "bonus2": "Effect RES +10%",
+  "bonus4": "CRIT DMG sekutu naik bila Effect RES wearer cukup tinggi."
+ },
+ {
+  "nama": "Firmament Frontline: Glamoth",
+  "tipe": "Planar",
+  "bonus2": "ATK +12%",
+  "bonus4": "Damage naik bila SPD wearer cukup tinggi."
+ },
+ {
+  "nama": "Penacony, Land of the Dreams",
+  "tipe": "Planar",
+  "bonus2": "Energy Regeneration Rate +5%",
+  "bonus4": "Damage sekutu dengan elemen sama naik."
+ },
+ {
+  "nama": "Sigonia, the Unclaimed Desolation",
+  "tipe": "Planar",
+  "bonus2": "CRIT Rate +4%",
+  "bonus4": "CRIT DMG naik setiap musuh dikalahkan."
+ },
+ {
+  "nama": "Izumo Gensei and Takama Divine Realm",
+  "tipe": "Planar",
+  "bonus2": "ATK +12%",
+  "bonus4": "CRIT Rate naik bila ada sekutu dengan Path sama."
+ }
+]

@@ -1,0 +1,242 @@
+[
+ {
+  "nama": "Sharpness",
+  "maks": 5,
+  "untuk": "Pedang dan kapak",
+  "info": "Menambah damage serangan."
+ },
+ {
+  "nama": "Smite",
+  "maks": 5,
+  "untuk": "Pedang dan kapak",
+  "info": "Menambah damage ke mob undead."
+ },
+ {
+  "nama": "Bane of Arthropods",
+  "maks": 5,
+  "untuk": "Pedang dan kapak",
+  "info": "Menambah damage ke laba-laba dan serangga."
+ },
+ {
+  "nama": "Knockback",
+  "maks": 2,
+  "untuk": "Pedang",
+  "info": "Melempar musuh lebih jauh."
+ },
+ {
+  "nama": "Fire Aspect",
+  "maks": 2,
+  "untuk": "Pedang",
+  "info": "Membakar musuh yang dipukul."
+ },
+ {
+  "nama": "Looting",
+  "maks": 3,
+  "untuk": "Pedang",
+  "info": "Menambah drop item dari mob."
+ },
+ {
+  "nama": "Sweeping Edge",
+  "maks": 3,
+  "untuk": "Pedang (Java)",
+  "info": "Menambah damage serangan sapuan."
+ },
+ {
+  "nama": "Efficiency",
+  "maks": 5,
+  "untuk": "Alat",
+  "info": "Menambah kecepatan menambang."
+ },
+ {
+  "nama": "Silk Touch",
+  "maks": 1,
+  "untuk": "Alat",
+  "info": "Mengambil blok utuh seperti ore, kaca, dan rumput."
+ },
+ {
+  "nama": "Fortune",
+  "maks": 3,
+  "untuk": "Pickaxe, sekop, kapak, cangkul",
+  "info": "Menambah jumlah drop dari ore tertentu."
+ },
+ {
+  "nama": "Unbreaking",
+  "maks": 3,
+  "untuk": "Alat, senjata, armor",
+  "info": "Mengurangi kerusakan durabilitas."
+ },
+ {
+  "nama": "Mending",
+  "maks": 1,
+  "untuk": "Hampir semua",
+  "info": "Memperbaiki durabilitas memakai XP. Tidak bisa digabung dengan Infinity."
+ },
+ {
+  "nama": "Protection",
+  "maks": 4,
+  "untuk": "Armor",
+  "info": "Mengurangi damage umum."
+ },
+ {
+  "nama": "Fire Protection",
+  "maks": 4,
+  "untuk": "Armor",
+  "info": "Mengurangi damage api dan waktu terbakar."
+ },
+ {
+  "nama": "Blast Protection",
+  "maks": 4,
+  "untuk": "Armor",
+  "info": "Mengurangi damage ledakan."
+ },
+ {
+  "nama": "Projectile Protection",
+  "maks": 4,
+  "untuk": "Armor",
+  "info": "Mengurangi damage proyektil."
+ },
+ {
+  "nama": "Feather Falling",
+  "maks": 4,
+  "untuk": "Sepatu",
+  "info": "Mengurangi damage jatuh."
+ },
+ {
+  "nama": "Respiration",
+  "maks": 3,
+  "untuk": "Helm",
+  "info": "Memperpanjang waktu napas di air."
+ },
+ {
+  "nama": "Aqua Affinity",
+  "maks": 1,
+  "untuk": "Helm",
+  "info": "Menambang di bawah air lebih cepat."
+ },
+ {
+  "nama": "Thorns",
+  "maks": 3,
+  "untuk": "Armor",
+  "info": "Memantulkan damage ke penyerang."
+ },
+ {
+  "nama": "Depth Strider",
+  "maks": 3,
+  "untuk": "Sepatu",
+  "info": "Bergerak lebih cepat di air."
+ },
+ {
+  "nama": "Frost Walker",
+  "maks": 2,
+  "untuk": "Sepatu",
+  "info": "Mengubah air menjadi es saat berjalan."
+ },
+ {
+  "nama": "Soul Speed",
+  "maks": 3,
+  "untuk": "Sepatu",
+  "info": "Bergerak lebih cepat di soul sand."
+ },
+ {
+  "nama": "Swift Sneak",
+  "maks": 3,
+  "untuk": "Legging",
+  "info": "Bergerak lebih cepat saat menyelinap."
+ },
+ {
+  "nama": "Power",
+  "maks": 5,
+  "untuk": "Bow",
+  "info": "Menambah damage panah."
+ },
+ {
+  "nama": "Punch",
+  "maks": 2,
+  "untuk": "Bow",
+  "info": "Mendorong musuh lebih jauh."
+ },
+ {
+  "nama": "Flame",
+  "maks": 1,
+  "untuk": "Bow",
+  "info": "Panah membakar musuh."
+ },
+ {
+  "nama": "Infinity",
+  "maks": 1,
+  "untuk": "Bow",
+  "info": "Panah tidak habis. Tidak bisa digabung dengan Mending."
+ },
+ {
+  "nama": "Loyalty",
+  "maks": 3,
+  "untuk": "Trident",
+  "info": "Trident kembali setelah dilempar."
+ },
+ {
+  "nama": "Riptide",
+  "maks": 3,
+  "untuk": "Trident",
+  "info": "Meluncurkan pemain saat basah."
+ },
+ {
+  "nama": "Channeling",
+  "maks": 1,
+  "untuk": "Trident",
+  "info": "Menyambar petir saat hujan badai."
+ },
+ {
+  "nama": "Impaling",
+  "maks": 5,
+  "untuk": "Trident",
+  "info": "Menambah damage ke mob air."
+ },
+ {
+  "nama": "Multishot",
+  "maks": 1,
+  "untuk": "Crossbow",
+  "info": "Menembak tiga panah sekaligus."
+ },
+ {
+  "nama": "Piercing",
+  "maks": 4,
+  "untuk": "Crossbow",
+  "info": "Panah menembus beberapa musuh."
+ },
+ {
+  "nama": "Quick Charge",
+  "maks": 3,
+  "untuk": "Crossbow",
+  "info": "Memuat panah lebih cepat."
+ },
+ {
+  "nama": "Luck of the Sea",
+  "maks": 3,
+  "untuk": "Fishing rod",
+  "info": "Menambah peluang harta karun saat memancing."
+ },
+ {
+  "nama": "Lure",
+  "maks": 3,
+  "untuk": "Fishing rod",
+  "info": "Ikan menggigit lebih cepat."
+ },
+ {
+  "nama": "Breach",
+  "maks": 4,
+  "untuk": "Mace",
+  "info": "Mengabaikan sebagian armor musuh."
+ },
+ {
+  "nama": "Density",
+  "maks": 5,
+  "untuk": "Mace",
+  "info": "Menambah damage jatuh pada mace."
+ },
+ {
+  "nama": "Wind Burst",
+  "maks": 3,
+  "untuk": "Mace",
+  "info": "Memantulkan pemain ke atas setelah menghantam."
+ }
+]

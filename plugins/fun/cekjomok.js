@@ -1,0 +1,97 @@
+// fun/cekjomok — satu file: metadata + kode fitur (gabungan dari engine7/plugins/fun/cekjomok.js)
+const __vx = require("../../lib/adapter/e7.js")
+const __meta = {
+  "name": "jomok",
+  "command": [
+    "jomok"
+  ],
+  "category": "fun",
+  "desc": "Imported from WhatsApp Bot V4.6",
+  "usage": "",
+  "owner": false,
+  "group": false,
+  "private": false,
+  "premium": false,
+  "cooldown": 3,
+  "energi": 1,
+  "needs": {
+    "apikeys": [],
+    "scrapers": [],
+    "assets": []
+  }
+}
+const __vdir = require('path').join(__dirname, "../../lib/ext/plugins/fun").split('\\').join('/')
+module.exports = __vx.plugin("fun/cekjomok", __meta, async function () {
+  const __dirname = __vdir, __filename = __vdir + '/cekjomok.js'
+  const __vxExports = {};
+  const FEATURE_CREDIT = "Fitur by: Owner Bot";
+  
+  
+  const pluginConfig = {
+    name: "jomok",
+    alias: [],
+    category: "fun",
+    description: "Imported from WhatsApp Bot V4.6",
+    usage: "",
+    example: "",
+    isOwner: false,
+    isPremium: false,
+    isGroup: false,
+    isPrivate: false,
+    cooldown: 3,
+    energi: 1,
+    isEnabled: true,
+  };
+  
+  const handler = async (m, { conn, text, args, usedPrefix, command }) => {
+    let target = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : null;
+    let nama = '';
+  
+    if (target) {
+      nama = '@' + target.split('@')[0];
+    } else if (text) {
+      nama = text.trim();
+    } else {
+      return m.reply(`Gunakan: ${usedPrefix}${command} <nama atau tag orangnya>`);
+    }
+  
+    const jomokLevel = Math.floor(Math.random() * 101);
+    
+    const jomokStatus = jomokLevel < 20 ? 'Warga Normal (Mencurigakan)' : 
+                        jomokLevel < 40 ? 'Selingkuhan Rehan Wangsaf' : 
+                        jomokLevel < 60 ? 'Murid Tetap Ironi Ngawi' : 
+                        jomokLevel < 80 ? 'Kloning Mas Rusdi' : 
+                        'Duta Amba Ngawi (RAJA JOMOK)';
+    
+    const deskripsi = jomokLevel < 20 ? 'Masih suci, tapi hatinya bergetar kalau denger lagu "Dreambull". Hati-hati tertular virus hitam manis.' : 
+                      jomokLevel < 40 ? 'Agak waras, tapi di galeri hp-nya minimal ada satu video Mas Rusdi lagi senyum misterius.' :
+                      jomokLevel < 60 ? 'Setengah jomok, setengah manusia. Sering ngomong "Ahhhh tuchhh" kalau lagi sendirian di kamar.' :
+                      jomokLevel < 80 ? 'Sudah murtad dari jalan yang lurus. Suka nyari spek mas-mas berkumis tipis pemegang kunci surga Ngawi.' :
+                      'AMBATUKAM!!! Orang ini sudah mencapai maqam tertinggi kejomokan. Kulitnya mulai menggelap, manis, dan siap mendesah bersama Mas Amba di Ngawi!';
+  
+    const pesan = `— DETEKSI KADAR JOMOK NGAWI —
+  
+  😈 *Nama Korban:* ${nama}
+  
+  🔥 *Level Jomok:* ${jomokLevel}%
+  
+  🗣️ *Status Sekte:* ${jomokStatus}
+  
+  📌 *Analisis:* "${deskripsi}"
+  `;
+  
+    await conn.sendMessage(m.chat, { 
+      text: pesan, 
+      mentions: target ? [target] : [] 
+    }, { quoted: m });
+  };
+  
+  handler.register = true;
+  
+  
+  
+  Object.defineProperty(__vxExports, "FEATURE_CREDIT", { enumerable: true, get: () => FEATURE_CREDIT });
+  Object.defineProperty(__vxExports, "config", { enumerable: true, get: () => pluginConfig });
+  Object.defineProperty(__vxExports, "handler", { enumerable: true, get: () => handler });
+  return __vxExports
+})

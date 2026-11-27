@@ -1,0 +1,303 @@
+[
+ {
+  "nama": "Rover (Spectro)",
+  "bintang": 5,
+  "atribut": "Spectro",
+  "senjata": "Sword",
+  "info": "Resonator elemen Spectro dengan senjata Sword. Pedang cepat dengan kombo serangan lincah."
+ },
+ {
+  "nama": "Rover (Havoc)",
+  "bintang": 5,
+  "atribut": "Havoc",
+  "senjata": "Sword",
+  "info": "Resonator elemen Havoc dengan senjata Sword. Pedang cepat dengan kombo serangan lincah."
+ },
+ {
+  "nama": "Rover (Aero)",
+  "bintang": 5,
+  "atribut": "Aero",
+  "senjata": "Sword",
+  "info": "Resonator elemen Aero dengan senjata Sword. Pedang cepat dengan kombo serangan lincah."
+ },
+ {
+  "nama": "Yangyang",
+  "bintang": 4,
+  "atribut": "Aero",
+  "senjata": "Sword",
+  "info": "Resonator elemen Aero dengan senjata Sword. Pedang cepat dengan kombo serangan lincah."
+ },
+ {
+  "nama": "Chixia",
+  "bintang": 4,
+  "atribut": "Fusion",
+  "senjata": "Pistols",
+  "info": "Resonator elemen Fusion dengan senjata Pistols. Dua pistol untuk serangan jarak jauh yang cepat."
+ },
+ {
+  "nama": "Baizhi",
+  "bintang": 4,
+  "atribut": "Glacio",
+  "senjata": "Rectifier",
+  "info": "Resonator elemen Glacio dengan senjata Rectifier. Alat penyalur energi untuk serangan jarak jauh dan dukungan."
+ },
+ {
+  "nama": "Sanhua",
+  "bintang": 4,
+  "atribut": "Glacio",
+  "senjata": "Sword",
+  "info": "Resonator elemen Glacio dengan senjata Sword. Pedang cepat dengan kombo serangan lincah."
+ },
+ {
+  "nama": "Danjin",
+  "bintang": 4,
+  "atribut": "Havoc",
+  "senjata": "Sword",
+  "info": "Resonator elemen Havoc dengan senjata Sword. Pedang cepat dengan kombo serangan lincah."
+ },
+ {
+  "nama": "Mortefi",
+  "bintang": 4,
+  "atribut": "Fusion",
+  "senjata": "Pistols",
+  "info": "Resonator elemen Fusion dengan senjata Pistols. Dua pistol untuk serangan jarak jauh yang cepat."
+ },
+ {
+  "nama": "Taoqi",
+  "bintang": 4,
+  "atribut": "Havoc",
+  "senjata": "Broadblade",
+  "info": "Resonator elemen Havoc dengan senjata Broadblade. Pedang lebar yang berat, serangan kuat dan jangkauan luas."
+ },
+ {
+  "nama": "Aalto",
+  "bintang": 4,
+  "atribut": "Aero",
+  "senjata": "Pistols",
+  "info": "Resonator elemen Aero dengan senjata Pistols. Dua pistol untuk serangan jarak jauh yang cepat."
+ },
+ {
+  "nama": "Yuanwu",
+  "bintang": 4,
+  "atribut": "Electro",
+  "senjata": "Gauntlets",
+  "info": "Resonator elemen Electro dengan senjata Gauntlets. Sarung tangan untuk pertarungan jarak dekat yang agresif."
+ },
+ {
+  "nama": "Youhu",
+  "bintang": 4,
+  "atribut": "Glacio",
+  "senjata": "Rectifier",
+  "info": "Resonator elemen Glacio dengan senjata Rectifier. Alat penyalur energi untuk serangan jarak jauh dan dukungan."
+ },
+ {
+  "nama": "Lumi",
+  "bintang": 4,
+  "atribut": "Electro",
+  "senjata": "Rectifier",
+  "info": "Resonator elemen Electro dengan senjata Rectifier. Alat penyalur energi untuk serangan jarak jauh dan dukungan."
+ },
+ {
+  "nama": "Buling",
+  "bintang": 4,
+  "atribut": "Electro",
+  "senjata": "Rectifier",
+  "info": "Resonator elemen Electro dengan senjata Rectifier. Alat penyalur energi untuk serangan jarak jauh dan dukungan."
+ },
+ {
+  "nama": "Verina",
+  "bintang": 5,
+  "atribut": "Spectro",
+  "senjata": "Rectifier",
+  "info": "Resonator elemen Spectro dengan senjata Rectifier. Alat penyalur energi untuk serangan jarak jauh dan dukungan."
+ },
+ {
+  "nama": "Calcharo",
+  "bintang": 5,
+  "atribut": "Electro",
+  "senjata": "Broadblade",
+  "info": "Resonator elemen Electro dengan senjata Broadblade. Pedang lebar yang berat, serangan kuat dan jangkauan luas."
+ },
+ {
+  "nama": "Encore",
+  "bintang": 5,
+  "atribut": "Fusion",
+  "senjata": "Rectifier",
+  "info": "Resonator elemen Fusion dengan senjata Rectifier. Alat penyalur energi untuk serangan jarak jauh dan dukungan."
+ },
+ {
+  "nama": "Jianxin",
+  "bintang": 5,
+  "atribut": "Aero",
+  "senjata": "Gauntlets",
+  "info": "Resonator elemen Aero dengan senjata Gauntlets. Sarung tangan untuk pertarungan jarak dekat yang agresif."
+ },
+ {
+  "nama": "Lingyang",
+  "bintang": 5,
+  "atribut": "Glacio",
+  "senjata": "Gauntlets",
+  "info": "Resonator elemen Glacio dengan senjata Gauntlets. Sarung tangan untuk pertarungan jarak dekat yang agresif."
+ },
+ {
+  "nama": "Jiyan",
+  "bintang": 5,
+  "atribut": "Aero",
+  "senjata": "Broadblade",
+  "info": "Resonator elemen Aero dengan senjata Broadblade. Pedang lebar yang berat, serangan kuat dan jangkauan luas."
+ },
+ {
+  "nama": "Yinlin",
+  "bintang": 5,
+  "atribut": "Electro",
+  "senjata": "Rectifier",
+  "info": "Resonator elemen Electro dengan senjata Rectifier. Alat penyalur energi untuk serangan jarak jauh dan dukungan."
+ },
+ {
+  "nama": "Jinhsi",
+  "bintang": 5,
+  "atribut": "Spectro",
+  "senjata": "Broadblade",
+  "info": "Resonator elemen Spectro dengan senjata Broadblade. Pedang lebar yang berat, serangan kuat dan jangkauan luas."
+ },
+ {
+  "nama": "Changli",
+  "bintang": 5,
+  "atribut": "Fusion",
+  "senjata": "Sword",
+  "info": "Resonator elemen Fusion dengan senjata Sword. Pedang cepat dengan kombo serangan lincah."
+ },
+ {
+  "nama": "Xiangli Yao",
+  "bintang": 5,
+  "atribut": "Electro",
+  "senjata": "Gauntlets",
+  "info": "Resonator elemen Electro dengan senjata Gauntlets. Sarung tangan untuk pertarungan jarak dekat yang agresif."
+ },
+ {
+  "nama": "Zhezhi",
+  "bintang": 5,
+  "atribut": "Glacio",
+  "senjata": "Rectifier",
+  "info": "Resonator elemen Glacio dengan senjata Rectifier. Alat penyalur energi untuk serangan jarak jauh dan dukungan."
+ },
+ {
+  "nama": "Shorekeeper",
+  "bintang": 5,
+  "atribut": "Spectro",
+  "senjata": "Rectifier",
+  "info": "Resonator elemen Spectro dengan senjata Rectifier. Alat penyalur energi untuk serangan jarak jauh dan dukungan."
+ },
+ {
+  "nama": "Camellya",
+  "bintang": 5,
+  "atribut": "Havoc",
+  "senjata": "Sword",
+  "info": "Resonator elemen Havoc dengan senjata Sword. Pedang cepat dengan kombo serangan lincah."
+ },
+ {
+  "nama": "Carlotta",
+  "bintang": 5,
+  "atribut": "Glacio",
+  "senjata": "Pistols",
+  "info": "Resonator elemen Glacio dengan senjata Pistols. Dua pistol untuk serangan jarak jauh yang cepat."
+ },
+ {
+  "nama": "Roccia",
+  "bintang": 5,
+  "atribut": "Havoc",
+  "senjata": "Gauntlets",
+  "info": "Resonator elemen Havoc dengan senjata Gauntlets. Sarung tangan untuk pertarungan jarak dekat yang agresif."
+ },
+ {
+  "nama": "Phoebe",
+  "bintang": 5,
+  "atribut": "Spectro",
+  "senjata": "Rectifier",
+  "info": "Resonator elemen Spectro dengan senjata Rectifier. Alat penyalur energi untuk serangan jarak jauh dan dukungan."
+ },
+ {
+  "nama": "Brant",
+  "bintang": 5,
+  "atribut": "Fusion",
+  "senjata": "Sword",
+  "info": "Resonator elemen Fusion dengan senjata Sword. Pedang cepat dengan kombo serangan lincah."
+ },
+ {
+  "nama": "Cantarella",
+  "bintang": 5,
+  "atribut": "Havoc",
+  "senjata": "Rectifier",
+  "info": "Resonator elemen Havoc dengan senjata Rectifier. Alat penyalur energi untuk serangan jarak jauh dan dukungan."
+ },
+ {
+  "nama": "Zani",
+  "bintang": 5,
+  "atribut": "Spectro",
+  "senjata": "Gauntlets",
+  "info": "Resonator elemen Spectro dengan senjata Gauntlets. Sarung tangan untuk pertarungan jarak dekat yang agresif."
+ },
+ {
+  "nama": "Ciaccona",
+  "bintang": 5,
+  "atribut": "Aero",
+  "senjata": "Pistols",
+  "info": "Resonator elemen Aero dengan senjata Pistols. Dua pistol untuk serangan jarak jauh yang cepat."
+ },
+ {
+  "nama": "Cartethyia",
+  "bintang": 5,
+  "atribut": "Aero",
+  "senjata": "Sword",
+  "info": "Resonator elemen Aero dengan senjata Sword. Pedang cepat dengan kombo serangan lincah."
+ },
+ {
+  "nama": "Lupa",
+  "bintang": 5,
+  "atribut": "Fusion",
+  "senjata": "Broadblade",
+  "info": "Resonator elemen Fusion dengan senjata Broadblade. Pedang lebar yang berat, serangan kuat dan jangkauan luas."
+ },
+ {
+  "nama": "Phrolova",
+  "bintang": 5,
+  "atribut": "Havoc",
+  "senjata": "Rectifier",
+  "info": "Resonator elemen Havoc dengan senjata Rectifier. Alat penyalur energi untuk serangan jarak jauh dan dukungan."
+ },
+ {
+  "nama": "Augusta",
+  "bintang": 5,
+  "atribut": "Electro",
+  "senjata": "Broadblade",
+  "info": "Resonator elemen Electro dengan senjata Broadblade. Pedang lebar yang berat, serangan kuat dan jangkauan luas."
+ },
+ {
+  "nama": "Iuno",
+  "bintang": 5,
+  "atribut": "Aero",
+  "senjata": "Gauntlets",
+  "info": "Resonator elemen Aero dengan senjata Gauntlets. Sarung tangan untuk pertarungan jarak dekat yang agresif."
+ },
+ {
+  "nama": "Galbrena",
+  "bintang": 5,
+  "atribut": "Fusion",
+  "senjata": "Pistols",
+  "info": "Resonator elemen Fusion dengan senjata Pistols. Dua pistol untuk serangan jarak jauh yang cepat."
+ },
+ {
+  "nama": "Qiuyuan",
+  "bintang": 5,
+  "atribut": "Aero",
+  "senjata": "Sword",
+  "info": "Resonator elemen Aero dengan senjata Sword. Pedang cepat dengan kombo serangan lincah."
+ },
+ {
+  "nama": "Chisa",
+  "bintang": 5,
+  "atribut": "Havoc",
+  "senjata": "Broadblade",
+  "info": "Resonator elemen Havoc dengan senjata Broadblade. Pedang lebar yang berat, serangan kuat dan jangkauan luas."
+ }
+]

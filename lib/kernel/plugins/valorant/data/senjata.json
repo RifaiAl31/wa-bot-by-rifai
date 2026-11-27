@@ -1,0 +1,110 @@
+[
+ {
+  "nama": "Classic",
+  "kategori": "Sidearm",
+  "harga": 0,
+  "info": "Pistol gratis dengan mode tembak burst yang berguna."
+ },
+ {
+  "nama": "Shorty",
+  "kategori": "Sidearm",
+  "harga": 150,
+  "info": "Shotgun pendek yang murah untuk jarak sangat dekat."
+ },
+ {
+  "nama": "Frenzy",
+  "kategori": "Sidearm",
+  "harga": 450,
+  "info": "Pistol otomatis dengan rate of fire tinggi."
+ },
+ {
+  "nama": "Ghost",
+  "kategori": "Sidearm",
+  "harga": 500,
+  "info": "Pistol akurat dan ada peredam."
+ },
+ {
+  "nama": "Sheriff",
+  "kategori": "Sidearm",
+  "harga": 800,
+  "info": "Revolver damage besar, akurat jarak jauh."
+ },
+ {
+  "nama": "Stinger",
+  "kategori": "SMG",
+  "harga": 1100,
+  "info": "SMG cepat untuk jarak dekat dengan damage lumayan."
+ },
+ {
+  "nama": "Spectre",
+  "kategori": "SMG",
+  "harga": 1600,
+  "info": "SMG serbaguna dengan peredam."
+ },
+ {
+  "nama": "Bucky",
+  "kategori": "Shotgun",
+  "harga": 850,
+  "info": "Shotgun pompa dengan damage besar jarak dekat."
+ },
+ {
+  "nama": "Judge",
+  "kategori": "Shotgun",
+  "harga": 1850,
+  "info": "Shotgun otomatis dengan rate of fire tinggi."
+ },
+ {
+  "nama": "Bulldog",
+  "kategori": "Rifle",
+  "harga": 2050,
+  "info": "Rifle murah dengan mode burst dan zoom."
+ },
+ {
+  "nama": "Guardian",
+  "kategori": "Rifle",
+  "harga": 2250,
+  "info": "Rifle semi-otomatis dengan damage besar tembakan kepala."
+ },
+ {
+  "nama": "Phantom",
+  "kategori": "Rifle",
+  "harga": 2900,
+  "info": "Rifle dengan peredam, recoil mudah dan tembakan tidak terlihat."
+ },
+ {
+  "nama": "Vandal",
+  "kategori": "Rifle",
+  "harga": 2900,
+  "info": "Rifle damage besar, satu tembakan ke kepala bisa membunuh."
+ },
+ {
+  "nama": "Marshal",
+  "kategori": "Sniper",
+  "harga": 950,
+  "info": "Sniper murah, cepat berpindah posisi."
+ },
+ {
+  "nama": "Outlaw",
+  "kategori": "Sniper",
+  "harga": 2400,
+  "info": "Sniper dengan dua peluru per magazen."
+ },
+ {
+  "nama": "Operator",
+  "kategori": "Sniper",
+  "harga": 4700,
+  "info": "Sniper terkuat, satu tembakan hampir selalu membunuh."
+ },
+ {
+  "nama": "Ares",
+  "kategori": "Machine Gun",
+  "harga": 1600,
+  "info": "Senjata mesin dengan magazen besar."
+ },
+ {
+  "nama": "Odin",
+  "kategori": "Machine Gun",
+  "harga": 3200,
+  "info": "Senjata mesin damage tinggi dan magazen sangat besar."
+ }
+]

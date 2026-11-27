@@ -1,0 +1,2 @@
+// fitur tambahan WhatsApp Bot (fun/werewolf)
+module.exports = require('../../lib/adapter/e9.js').plugin("fun/werewolf", {"command":["werewolf","werewolfhelp","ww","wwcek","wwcreate","wwheal","wwhelp","wwjaga","wwjoin","wwkill","wwlanjut","wwleave","wwplayers","wwracun","wwrole","wwroles","wwshoot","wwskip","wwstart","wwstop","wwvote"],"category":"fun","desc":"Fitur werewolf","usage":".werewolf"})

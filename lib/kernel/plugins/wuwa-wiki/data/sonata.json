@@ -1,0 +1,82 @@
+[
+ {
+  "nama": "Freezing Frost",
+  "bonus2": "Glacio DMG +10%",
+  "bonus5": "Glacio DMG naik saat memakai Basic dan Heavy Attack."
+ },
+ {
+  "nama": "Molten Rift",
+  "bonus2": "Fusion DMG +10%",
+  "bonus5": "Fusion DMG naik besar setelah Resonance Skill."
+ },
+ {
+  "nama": "Void Thunder",
+  "bonus2": "Electro DMG +10%",
+  "bonus5": "Electro DMG menumpuk setelah Heavy Attack atau Resonance Skill."
+ },
+ {
+  "nama": "Sierra Gale",
+  "bonus2": "Aero DMG +10%",
+  "bonus5": "Aero DMG naik besar setelah Intro Skill."
+ },
+ {
+  "nama": "Celestial Light",
+  "bonus2": "Spectro DMG +10%",
+  "bonus5": "Spectro DMG naik besar setelah Intro Skill."
+ },
+ {
+  "nama": "Sun-sinking Eclipse",
+  "bonus2": "Havoc DMG +10%",
+  "bonus5": "Havoc DMG naik besar setelah Intro Skill."
+ },
+ {
+  "nama": "Rejuvenating Glow",
+  "bonus2": "Healing Bonus +10%",
+  "bonus5": "ATK seluruh tim naik setelah menyembuhkan."
+ },
+ {
+  "nama": "Moonlit Clouds",
+  "bonus2": "Energy Regen +10%",
+  "bonus5": "ATK resonator berikutnya naik setelah Outro Skill."
+ },
+ {
+  "nama": "Lingering Tunes",
+  "bonus2": "ATK +10%",
+  "bonus5": "Outro Skill DMG naik besar."
+ },
+ {
+  "nama": "Frosty Resolve",
+  "bonus2": "Resonance Skill DMG +12%",
+  "bonus5": "Glacio DMG dan Resonance Skill DMG naik setelah Skill."
+ },
+ {
+  "nama": "Eternal Radiance",
+  "bonus2": "Spectro DMG +10%",
+  "bonus5": "CRIT Rate naik saat musuh punya Spectro Frazzle."
+ },
+ {
+  "nama": "Midnight Veil",
+  "bonus2": "Havoc DMG +10%",
+  "bonus5": "Havoc DMG naik besar setelah Outro Skill."
+ },
+ {
+  "nama": "Empyrean Anthem",
+  "bonus2": "Energy Regen +10%",
+  "bonus5": "Coordinated Attack DMG naik untuk tim."
+ },
+ {
+  "nama": "Tidebreaking Courage",
+  "bonus2": "Energy Regen +10%",
+  "bonus5": "ATK naik, dan Electro DMG naik bila Energy Regen cukup tinggi."
+ },
+ {
+  "nama": "Gusts of Welkin",
+  "bonus2": "Aero DMG +10%",
+  "bonus5": "Aero Erosion musuh menambah damage tim."
+ },
+ {
+  "nama": "Windward Pilgrimage",
+  "bonus2": "Aero DMG +10%",
+  "bonus5": "CRIT Rate naik terhadap musuh yang terkena Aero Erosion."
+ }
+]

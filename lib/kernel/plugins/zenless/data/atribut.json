@@ -1,0 +1,32 @@
+[
+ {
+  "nama": "Physical",
+  "anomali": "Assault",
+  "info": "Atribut serangan fisik langsung."
+ },
+ {
+  "nama": "Fire",
+  "anomali": "Burn",
+  "info": "Memberi damage berkelanjutan (bakar)."
+ },
+ {
+  "nama": "Ice",
+  "anomali": "Shatter",
+  "info": "Memperlambat musuh dan bisa menghancurkan lewat ledakan es."
+ },
+ {
+  "nama": "Electric",
+  "anomali": "Shock",
+  "info": "Menyebabkan sengatan yang menambah damage tim."
+ },
+ {
+  "nama": "Ether",
+  "anomali": "Corruption",
+  "info": "Melemahkan musuh dan memberi damage berkelanjutan."
+ },
+ {
+  "nama": "Frost",
+  "anomali": "Frostbite",
+  "info": "Atribut es khusus yang menumpuk efek Frostbite."
+ }
+]

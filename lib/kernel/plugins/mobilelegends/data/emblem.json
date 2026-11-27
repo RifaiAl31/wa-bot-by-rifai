@@ -1,0 +1,37 @@
+[
+ {
+  "nama": "Common",
+  "fokus": "Dasar",
+  "info": "Emblem serbaguna untuk semua hero."
+ },
+ {
+  "nama": "Tank",
+  "fokus": "Tank",
+  "info": "Menambah HP dan pertahanan, cocok untuk tank dan support tertentu."
+ },
+ {
+  "nama": "Assassin",
+  "fokus": "Assassin",
+  "info": "Menambah kecepatan gerak dan penetrasi, cocok untuk assassin."
+ },
+ {
+  "nama": "Mage",
+  "fokus": "Mage",
+  "info": "Menambah damage sihir dan penetrasi sihir, cocok untuk mage."
+ },
+ {
+  "nama": "Marksman",
+  "fokus": "Marksman",
+  "info": "Menambah kecepatan serang dan crit, cocok untuk marksman."
+ },
+ {
+  "nama": "Fighter",
+  "fokus": "Fighter",
+  "info": "Menambah damage dan pertahanan seimbang, cocok untuk fighter."
+ },
+ {
+  "nama": "Support",
+  "fokus": "Support",
+  "info": "Menambah efek heal dan cooldown, cocok untuk support."
+ }
+]

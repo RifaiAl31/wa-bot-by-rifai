@@ -1,0 +1,144 @@
+// owner/ambilfile — satu file: metadata + kode fitur (gabungan dari engine7/plugins/owner/ambilfile.js)
+const __vx = require("../../lib/adapter/e7.js")
+const __meta = {
+  "name": "ambilfile",
+  "command": [
+    "ambilfile",
+    "getfile",
+    "downloadfile"
+  ],
+  "category": "owner",
+  "desc": "Ambil file dari project bot tanpa perlu .js",
+  "usage": ".ambilfile <nama file>",
+  "owner": true,
+  "group": false,
+  "private": false,
+  "premium": false,
+  "cooldown": 5,
+  "energi": 0,
+  "needs": {
+    "apikeys": [],
+    "scrapers": [],
+    "assets": []
+  }
+}
+const __vdir = require('path').join(__dirname, "../../lib/ext/plugins/owner").split('\\').join('/')
+module.exports = __vx.plugin("owner/ambilfile", __meta, async function () {
+  const __dirname = __vdir, __filename = __vdir + '/ambilfile.js'
+  const __vxDef = (m) => (m && m.__esModule ? m.default : m);
+  const __vxExports = {};
+  const fs = __vxDef(require("fs"));
+  const path = __vxDef(require("path"));
+  const pluginConfig = {
+      name: "ambilfile",
+      alias: ["getfile","downloadfile"],
+      category: "owner",
+      description: "Ambil file dari project bot tanpa perlu .js",
+      usage: ".ambilfile <nama file>",
+      example: ".ambilfile config",
+      isOwner: true,
+      cooldown: 5,
+      isEnabled: true
+  }
+  
+  // scan semua folder
+  function findFile(dir, name){
+      const files = fs.readdirSync(dir)
+  
+      for(const file of files){
+  
+          const full = path.join(dir,file)
+          const stat = fs.statSync(full)
+  
+          if(stat.isDirectory()){
+              const result = findFile(full,name)
+              if(result) return result
+          }else{
+  
+              const base = file.replace(/\.[^/.]+$/,"")
+  
+              if(base.toLowerCase() === name.toLowerCase()){
+                  return full
+              }
+          }
+      }
+  
+      return null
+  }
+  
+  async function handler(m,{ sock }){
+  
+      let input = m.text?.trim()
+  
+      if(!input){
+          return m.reply(
+  `╭━━〔 💖 WhatsApp Bot AMBIL FILE 💖 〕━━⬣
+  ┃ Darling masukkan nama file~
+  ┃
+  ┃ Contoh:
+  ┃ .ambilfile config
+  ┃ .ambilfile handler
+  ┃ .ambilfile gpt
+  ╰━━━━━━━━━━━━━━━━⬣`
+          )
+      }
+  
+      m.react("⏳")
+  
+      try{
+  
+          const root = process.cwd()
+  
+          const found = findFile(root,input)
+  
+          if(!found){
+              m.react("❌")
+              return m.reply(`❌ File *${input}* tidak ditemukan 🗿`)
+          }
+  
+          const fileName = path.basename(found)
+          const time = new Date().toLocaleTimeString()
+  
+          const ui =
+  `╭━━〔 💖 WhatsApp Bot DOWNLOAD FILE 💖 〕━━⬣
+  ┃ Darling aku temukan filenya~
+  ┃
+  ┃ 📦 Nama : ${fileName}
+  ┃ 📂 Path : ${found.replace(root,"")}
+  ┃ ⏰ Waktu : ${time}
+  ╰━━━━━━━━━━━━━━━━⬣`
+  
+          await m.reply(ui)
+  
+          await sock.sendMessage(
+              m.chat,
+              {
+                  document: fs.readFileSync(found),
+                  fileName: fileName,
+                  mimetype: "application/octet-stream"
+              }
+          )
+  
+          m.react("✅")
+  
+      }catch(e){
+  
+          console.log(e)
+  
+          m.react("❌")
+  
+          return m.reply(
+  `╭━━〔 ❌ WhatsApp Bot SYSTEM ❌ 〕━━⬣
+  ┃
+  ┃ ${e.message}
+  ╰━━━━━━━━━━━━━━━━⬣`
+          )
+      }
+  }
+  
+  
+  
+  Object.defineProperty(__vxExports, "config", { enumerable: true, get: () => pluginConfig });
+  Object.defineProperty(__vxExports, "handler", { enumerable: true, get: () => handler });
+  return __vxExports
+})

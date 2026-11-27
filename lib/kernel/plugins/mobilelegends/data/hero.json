@@ -1,0 +1,308 @@
+[
+ {
+  "nama": "Layla",
+  "role": "Marksman",
+  "lane": "Gold Lane",
+  "info": "Jarak serangan sangat jauh, lemah di awal tapi kuat di late game."
+ },
+ {
+  "nama": "Miya",
+  "role": "Marksman",
+  "lane": "Gold Lane",
+  "info": "Marksman dasar dengan serangan cepat dan kemampuan menghilang dari target."
+ },
+ {
+  "nama": "Claude",
+  "role": "Marksman",
+  "lane": "Gold Lane",
+  "info": "Marksman dengan mobilitas dan damage beruntun, kuat saat bersama klon."
+ },
+ {
+  "nama": "Granger",
+  "role": "Marksman",
+  "lane": "Gold Lane",
+  "info": "Marksman burst dengan peluru jarak jauh dan damage besar."
+ },
+ {
+  "nama": "Beatrix",
+  "role": "Marksman",
+  "lane": "Gold Lane",
+  "info": "Bisa berganti-ganti senjata dengan jangkauan dan gaya tembak berbeda."
+ },
+ {
+  "nama": "Brody",
+  "role": "Marksman",
+  "lane": "Gold Lane",
+  "info": "Marksman dengan burst dan kontrol dekat, kuat di jarak sedang."
+ },
+ {
+  "nama": "Bruno",
+  "role": "Marksman",
+  "lane": "Gold Lane",
+  "info": "Marksman dengan damage serangan dasar sangat besar."
+ },
+ {
+  "nama": "Wanwan",
+  "role": "Marksman",
+  "lane": "Gold Lane",
+  "info": "Marksman gesit dengan banyak serangan beruntun, butuh penguasaan mekanik."
+ },
+ {
+  "nama": "Lesley",
+  "role": "Marksman",
+  "lane": "Gold Lane",
+  "info": "Sniper dengan burst besar, rapuh bila terdekat."
+ },
+ {
+  "nama": "Karrie",
+  "role": "Marksman",
+  "lane": "Gold Lane",
+  "info": "Marksman yang kuat melawan tank dengan damage persentase HP."
+ },
+ {
+  "nama": "Yi Sun-shin",
+  "role": "Marksman/Assassin",
+  "lane": "Jungle",
+  "info": "Marksman jungle dengan mobilitas tinggi dan damage jarak jauh."
+ },
+ {
+  "nama": "Alucard",
+  "role": "Fighter/Assassin",
+  "lane": "EXP Lane/Jungle",
+  "info": "Lifesteal kuat, bagus untuk membuntuti dan bertahan lama."
+ },
+ {
+  "nama": "Zilong",
+  "role": "Fighter/Assassin",
+  "lane": "EXP Lane/Jungle",
+  "info": "Rush cepat ke musuh, damage serangan dasar kuat."
+ },
+ {
+  "nama": "Balmond",
+  "role": "Fighter",
+  "lane": "EXP Lane/Jungle",
+  "info": "Damage area besar dan tahan banting, mudah dimainkan."
+ },
+ {
+  "nama": "Chou",
+  "role": "Fighter",
+  "lane": "EXP Lane",
+  "info": "Banyak crowd control dan mobilitas, tapi butuh penguasaan skill."
+ },
+ {
+  "nama": "Paquito",
+  "role": "Fighter",
+  "lane": "EXP Lane",
+  "info": "Fighter agresif dengan kombo pukulan beruntun."
+ },
+ {
+  "nama": "Yu Zhong",
+  "role": "Fighter",
+  "lane": "EXP Lane",
+  "info": "Tahan banting dengan damage area yang kuat, bisa berubah wujud naga."
+ },
+ {
+  "nama": "Esmeralda",
+  "role": "Mage/Tank",
+  "lane": "EXP Lane",
+  "info": "Menyerap shield dan punya sustain kuat, tahan lama di lane."
+ },
+ {
+  "nama": "Silvanna",
+  "role": "Fighter/Mage",
+  "lane": "EXP Lane",
+  "info": "Kombinasi crowd control dan burst jarak dekat."
+ },
+ {
+  "nama": "Tigreal",
+  "role": "Tank",
+  "lane": "Roam",
+  "info": "Tank klasik, crowd control area yang kuat untuk memulai teamfight."
+ },
+ {
+  "nama": "Franco",
+  "role": "Tank",
+  "lane": "Roam",
+  "info": "Hook jarak jauh untuk menarik musuh ke tim."
+ },
+ {
+  "nama": "Akai",
+  "role": "Tank/Fighter",
+  "lane": "Roam",
+  "info": "Tank dengan crowd control area dan mobilitas."
+ },
+ {
+  "nama": "Johnson",
+  "role": "Tank",
+  "lane": "Roam",
+  "info": "Tank dengan mobil yang bisa menabrak dan memberi crowd control."
+ },
+ {
+  "nama": "Atlas",
+  "role": "Tank",
+  "lane": "Roam",
+  "info": "Tank dengan crowd control luas dan inisiasi kuat."
+ },
+ {
+  "nama": "Khufra",
+  "role": "Tank",
+  "lane": "Roam",
+  "info": "Tank anti mobilitas, mengunci musuh yang suka melompat."
+ },
+ {
+  "nama": "Grock",
+  "role": "Tank",
+  "lane": "Roam/EXP Lane",
+  "info": "Tank dengan dinding yang mengurung musuh dan damage besar."
+ },
+ {
+  "nama": "Estes",
+  "role": "Support",
+  "lane": "Roam",
+  "info": "Penyembuh utama yang sangat membantu tim bertahan."
+ },
+ {
+  "nama": "Angela",
+  "role": "Support",
+  "lane": "Roam",
+  "info": "Menempel ke rekan untuk memberi heal dan buff."
+ },
+ {
+  "nama": "Rafaela",
+  "role": "Support",
+  "lane": "Roam",
+  "info": "Support heal dengan crowd control dan kecepatan."
+ },
+ {
+  "nama": "Diggie",
+  "role": "Support",
+  "lane": "Roam",
+  "info": "Support dengan pembersihan efek buruk dan crowd control."
+ },
+ {
+  "nama": "Mathilda",
+  "role": "Support/Assassin",
+  "lane": "Roam",
+  "info": "Support dengan percepatan dan serangan menyerang dari belakang."
+ },
+ {
+  "nama": "Floryn",
+  "role": "Support",
+  "lane": "Roam",
+  "info": "Heal dari jauh untuk tim di seluruh map."
+ },
+ {
+  "nama": "Eudora",
+  "role": "Mage",
+  "lane": "Mid Lane",
+  "info": "Burst sangat besar lewat sengatan listrik, rapuh."
+ },
+ {
+  "nama": "Aurora",
+  "role": "Mage",
+  "lane": "Mid Lane",
+  "info": "Mage dengan crowd control es dan burst area."
+ },
+ {
+  "nama": "Kagura",
+  "role": "Mage",
+  "lane": "Mid Lane",
+  "info": "Mage dengan payung dan burst, mobilitas tinggi."
+ },
+ {
+  "nama": "Lunox",
+  "role": "Mage",
+  "lane": "Mid Lane",
+  "info": "Bisa berganti mode cahaya dan kegelapan, damage tinggi."
+ },
+ {
+  "nama": "Pharsa",
+  "role": "Mage",
+  "lane": "Mid Lane",
+  "info": "Mage jarak jauh dengan serangan area besar."
+ },
+ {
+  "nama": "Vale",
+  "role": "Mage",
+  "lane": "Mid Lane",
+  "info": "Mage dengan kontrol area angin dan damage kuat."
+ },
+ {
+  "nama": "Cecilion",
+  "role": "Mage",
+  "lane": "Mid Lane",
+  "info": "Mage yang makin kuat seiring kill dan damage besar."
+ },
+ {
+  "nama": "Harith",
+  "role": "Mage/Assassin",
+  "lane": "Mid Lane",
+  "info": "Mage lincah dengan kecepatan dan burst jarak dekat."
+ },
+ {
+  "nama": "Valentina",
+  "role": "Mage",
+  "lane": "Mid Lane",
+  "info": "Bisa meniru skill ultimate musuh."
+ },
+ {
+  "nama": "Xavier",
+  "role": "Mage",
+  "lane": "Mid Lane",
+  "info": "Mage dengan serangan jauh dan kontrol area luas."
+ },
+ {
+  "nama": "Gusion",
+  "role": "Assassin",
+  "lane": "Jungle",
+  "info": "Assassin burst dengan dagger yang bisa dilempar."
+ },
+ {
+  "nama": "Lancelot",
+  "role": "Assassin",
+  "lane": "Jungle",
+  "info": "Assassin gesit dengan banyak skill dasar yang kebal serangan."
+ },
+ {
+  "nama": "Fanny",
+  "role": "Assassin",
+  "lane": "Jungle",
+  "info": "Assassin tersulit dengan kabel untuk melompat di map."
+ },
+ {
+  "nama": "Hayabusa",
+  "role": "Assassin",
+  "lane": "Jungle",
+  "info": "Assassin dengan bayangan, kuat menyerang dari belakang."
+ },
+ {
+  "nama": "Ling",
+  "role": "Assassin",
+  "lane": "Jungle",
+  "info": "Assassin yang bergerak di dinding dan kuat memburu musuh."
+ },
+ {
+  "nama": "Natalia",
+  "role": "Assassin",
+  "lane": "Jungle",
+  "info": "Assassin yang bisa menyembunyikan diri dan kuat menyerang senyap."
+ },
+ {
+  "nama": "Saber",
+  "role": "Assassin",
+  "lane": "Jungle",
+  "info": "Assassin one-shot dengan pedang dan crowd control tertentu."
+ },
+ {
+  "nama": "Karina",
+  "role": "Assassin",
+  "lane": "Jungle",
+  "info": "Assassin dengan burst tinggi dan kemampuan menyapu musuh."
+ },
+ {
+  "nama": "Selena",
+  "role": "Assassin/Mage",
+  "lane": "Mid Lane/Jungle",
+  "info": "Bisa berubah jadi macan kumbang, crowd control kuat."
+ }
+]

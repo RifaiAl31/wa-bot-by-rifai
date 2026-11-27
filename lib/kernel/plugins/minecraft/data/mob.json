@@ -1,0 +1,218 @@
+[
+ {
+  "nama": "Zombie",
+  "tipe": "Hostile",
+  "hp": 20,
+  "info": "Muncul di tempat gelap dan malam hari, terbakar di siang hari. Bisa menyerbu desa dan memecahkan pintu kayu."
+ },
+ {
+  "nama": "Skeleton",
+  "tipe": "Hostile",
+  "hp": 20,
+  "info": "Menembak panah dari jauh, terbakar di siang hari. Menjatuhkan tulang dan panah."
+ },
+ {
+  "nama": "Creeper",
+  "tipe": "Hostile",
+  "hp": 20,
+  "info": "Meledak saat mendekati pemain. Menjatuhkan gunpowder dan takut pada kucing."
+ },
+ {
+  "nama": "Spider",
+  "tipe": "Hostile",
+  "hp": 16,
+  "info": "Bisa memanjat dinding, netral di siang hari. Menjatuhkan string dan mata laba-laba."
+ },
+ {
+  "nama": "Enderman",
+  "tipe": "Neutral",
+  "hp": 40,
+  "info": "Marah bila ditatap langsung. Bisa teleport dan membawa blok. Menjatuhkan ender pearl."
+ },
+ {
+  "nama": "Witch",
+  "tipe": "Hostile",
+  "hp": 26,
+  "info": "Melempar ramuan. Muncul di rawa dan dari serangan petir ke villager."
+ },
+ {
+  "nama": "Blaze",
+  "tipe": "Hostile",
+  "hp": 20,
+  "info": "Ada di Nether Fortress, menembakkan bola api. Menjatuhkan blaze rod."
+ },
+ {
+  "nama": "Ghast",
+  "tipe": "Hostile",
+  "hp": 10,
+  "info": "Melayang di Nether dan menembak bola api yang bisa dipantulkan. Menjatuhkan ghast tear."
+ },
+ {
+  "nama": "Wither Skeleton",
+  "tipe": "Hostile",
+  "hp": 20,
+  "info": "Ada di Nether Fortress, memberi efek wither. Sesekali menjatuhkan tengkorak."
+ },
+ {
+  "nama": "Ender Dragon",
+  "tipe": "Boss",
+  "hp": 200,
+  "info": "Boss di dimensi The End. Dikalahkan setelah menghancurkan End Crystal."
+ },
+ {
+  "nama": "Wither",
+  "tipe": "Boss",
+  "hp": 300,
+  "info": "Boss yang dipanggil dari soul sand dan tiga tengkorak wither skeleton. Menjatuhkan nether star."
+ },
+ {
+  "nama": "Warden",
+  "tipe": "Hostile",
+  "hp": 500,
+  "info": "Hidup di Deep Dark, buta tapi peka suara dan getaran. Sangat berbahaya."
+ },
+ {
+  "nama": "Villager",
+  "tipe": "Passive",
+  "hp": 20,
+  "info": "Penduduk desa yang bisa berdagang menggunakan emerald."
+ },
+ {
+  "nama": "Iron Golem",
+  "tipe": "Neutral",
+  "hp": 100,
+  "info": "Pelindung desa dan bisa dibuat dari blok besi dan labu."
+ },
+ {
+  "nama": "Piglin",
+  "tipe": "Neutral",
+  "hp": 16,
+  "info": "Penghuni Nether yang menyukai emas. Marah bila pemain tidak memakai armor emas."
+ },
+ {
+  "nama": "Hoglin",
+  "tipe": "Hostile",
+  "hp": 40,
+  "info": "Hewan ternak Nether yang menyerang pemain. Menjatuhkan daging babi dan kulit."
+ },
+ {
+  "nama": "Drowned",
+  "tipe": "Hostile",
+  "hp": 20,
+  "info": "Zombie yang hidup di air, kadang membawa trident."
+ },
+ {
+  "nama": "Phantom",
+  "tipe": "Hostile",
+  "hp": 20,
+  "info": "Muncul jika pemain tidak tidur selama tiga malam. Menyerang dari udara."
+ },
+ {
+  "nama": "Slime",
+  "tipe": "Hostile",
+  "hp": 16,
+  "info": "Ukuran bisa besar, kecil, atau sedang. Pecah menjadi slime lebih kecil. Ada di rawa dan chunk khusus."
+ },
+ {
+  "nama": "Guardian",
+  "tipe": "Hostile",
+  "hp": 30,
+  "info": "Penjaga bawah laut di Ocean Monument, menembakkan laser."
+ },
+ {
+  "nama": "Shulker",
+  "tipe": "Hostile",
+  "hp": 30,
+  "info": "Hidup di End City, menembakkan proyektil yang membuat pemain melayang."
+ },
+ {
+  "nama": "Evoker",
+  "tipe": "Hostile",
+  "hp": 24,
+  "info": "Ada di Woodland Mansion dan raid. Memanggil vex dan rahang taring. Menjatuhkan Totem of Undying."
+ },
+ {
+  "nama": "Vindicator",
+  "tipe": "Hostile",
+  "hp": 24,
+  "info": "Pasukan raid yang membawa kapak."
+ },
+ {
+  "nama": "Pillager",
+  "tipe": "Hostile",
+  "hp": 24,
+  "info": "Pasukan raid yang membawa panah silang."
+ },
+ {
+  "nama": "Ravager",
+  "tipe": "Hostile",
+  "hp": 100,
+  "info": "Binatang besar yang ditunggangi pillager saat raid. Merusak daun dan tanaman."
+ },
+ {
+  "nama": "Cow",
+  "tipe": "Passive",
+  "hp": 10,
+  "info": "Menjatuhkan daging sapi dan kulit, bisa diperah memakai bucket."
+ },
+ {
+  "nama": "Pig",
+  "tipe": "Passive",
+  "hp": 10,
+  "info": "Menjatuhkan daging babi dan bisa dinaiki dengan pelana."
+ },
+ {
+  "nama": "Sheep",
+  "tipe": "Passive",
+  "hp": 8,
+  "info": "Menghasilkan wol dan bisa dicukur memakai shears."
+ },
+ {
+  "nama": "Chicken",
+  "tipe": "Passive",
+  "hp": 4,
+  "info": "Bertelur dan menjatuhkan ayam serta bulu."
+ },
+ {
+  "nama": "Wolf",
+  "tipe": "Neutral",
+  "hp": 8,
+  "info": "Bisa dijinakkan dengan tulang. Saat jinak punya HP 40."
+ },
+ {
+  "nama": "Cat",
+  "tipe": "Passive",
+  "hp": 10,
+  "info": "Bisa dijinakkan dengan ikan mentah dan menakuti creeper."
+ },
+ {
+  "nama": "Horse",
+  "tipe": "Passive",
+  "hp": "15-30",
+  "info": "Bisa dijinakkan dan dinaiki, kecepatan dan lompatannya bervariasi."
+ },
+ {
+  "nama": "Axolotl",
+  "tipe": "Passive",
+  "hp": 14,
+  "info": "Hidup di gua berair, membantu menyerang mob bawah laut."
+ },
+ {
+  "nama": "Allay",
+  "tipe": "Passive",
+  "hp": 20,
+  "info": "Mengumpulkan item sejenis yang diberikan. Ada di Pillager Outpost dan Woodland Mansion."
+ },
+ {
+  "nama": "Bee",
+  "tipe": "Neutral",
+  "hp": 10,
+  "info": "Menyerbuk bunga dan membuat madu. Marah saat sarangnya diganggu."
+ },
+ {
+  "nama": "Strider",
+  "tipe": "Passive",
+  "hp": 20,
+  "info": "Berjalan di atas lava dan bisa dinaiki dengan pelana serta warped fungus on a stick."
+ }
+]

@@ -1,0 +1,102 @@
+// group/tam — satu file: metadata + kode fitur (gabungan dari engine3/plugins/group/tam.js)
+const __vx = require("../../lib/adapter/e3.js")
+const __meta = {
+  "name": "tam",
+  "command": [
+    "tam",
+    "topactive",
+    "topmember"
+  ],
+  "category": "group",
+  "desc": "Lihat top member paling aktif di grup",
+  "usage": ".tam <jumlah>",
+  "owner": false,
+  "group": true,
+  "private": false,
+  "premium": false,
+  "admin": false,
+  "botAdmin": false,
+  "cooldown": 10,
+  "energi": 0,
+  "needs": {
+    "apikeys": [],
+    "scrapers": [],
+    "assets": []
+  }
+}
+const __vdir = require('path').join(__dirname, "../../lib/ext/plugins/group").split('\\').join('/')
+module.exports = __vx.plugin("group/tam", __meta, async function () {
+  const __dirname = __vdir, __filename = __vdir + '/tam.js'
+  const __vxDef = (m) => (m && m.__esModule ? m.default : m);
+  const __vxExports = {};
+  const { getDatabase } = require("../../lib/ext/src/lib/vanxone-database.js");
+  const { generateWAMessageFromContent } = require("../../lib/ext/src/lib/baileys.js");
+  const config = __vxDef(require("../../lib/ext/config.e3.js"));
+  const { saluranCtx } = require("../../lib/ext/src/lib/vanxone-context.js");
+  
+  const pluginConfig = {
+    name: "tam",
+    alias: ["topactive", "topmember"],
+    category: "group",
+    description: "Lihat top member paling aktif di grup",
+    usage: ".tam <jumlah>",
+    example: ".tam 10",
+    isOwner: false,
+    isPremium: false,
+    isGroup: true,
+    isPrivate: false,
+    isAdmin: false,
+    cooldown: 10,
+    energi: 0,
+    isEnabled: true,
+  };
+  
+  async function handler(m, { sock }) {
+    const db = getDatabase();
+    const limit = Math.min(Math.max(parseInt(m.text) || 10, 1), 20);
+    const group = db.getGroup(m.chat) || {};
+    const chatName = group.name || "Grup";
+    const chatStats = group.chatStats || {};
+  
+    const sorted = Object.entries(chatStats)
+      .map(([jid, d]) => ({ jid, count: d.count || 0, name: d.name || null }))
+      .sort((a, b) => b.count - a.count)
+      .slice(0, limit);
+  
+    if (!sorted.length) {
+      return m.reply(
+        `📊 *ᴛᴏᴘ ᴀᴄᴛɪᴠᴇ ᴍᴇᴍʙᴇʀ*\n\n` + `- Belum ada data aktivitas di grup ini`,
+      );
+    }
+  
+    const pollVotes = sorted.map((u, i) => {
+      const rank = i + 1;
+      const user = db.getUser(u.jid);
+      const name = u.name || user?.name || u.jid.split("@")[0];
+      return {
+        optionName: `${rank}. ${name}${i === 0 ? " 🏆" : ""}`,
+        optionVoteCount: u.count,
+      };
+    });
+  
+    const content = {
+      pollResultSnapshotMessage: {
+        name: `top ${limit} member active all time!\nat ${chatName}`,
+        pollVotes,
+        pollType: 0,
+        contextInfo: {
+          ...saluranCtx(),
+        },
+      },
+    };
+  
+    const msg = generateWAMessageFromContent(m.chat, content, {});
+    await sock.relayMessage(m.chat, msg.message, { messageId: msg.key.id });
+  }
+  
+  
+  
+  Object.defineProperty(__vxExports, "config", { enumerable: true, get: () => pluginConfig });
+  Object.defineProperty(__vxExports, "handler", { enumerable: true, get: () => handler });
+  return __vxExports
+})

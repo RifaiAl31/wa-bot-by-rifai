@@ -1,0 +1,50 @@
+[
+ {
+  "nama": "Flicker",
+  "info": "Teleport jarak pendek untuk kabur atau menyerang."
+ },
+ {
+  "nama": "Sprint",
+  "info": "Menambah kecepatan gerak sementara."
+ },
+ {
+  "nama": "Purify",
+  "info": "Menghapus efek buruk dan kebal crowd control sesaat."
+ },
+ {
+  "nama": "Execute",
+  "info": "Memberi damage murni besar ke musuh yang HP-nya rendah."
+ },
+ {
+  "nama": "Retribution",
+  "info": "Wajib untuk jungler, mengambil monster dengan cepat."
+ },
+ {
+  "nama": "Revitalize",
+  "info": "Memulihkan HP dan memberi shield pada tim."
+ },
+ {
+  "nama": "Petrify",
+  "info": "Memberi stun pada musuh di sekitar."
+ },
+ {
+  "nama": "Vengeance",
+  "info": "Mengembalikan damage ke musuh dan mengurangi damage diterima."
+ },
+ {
+  "nama": "Arrival",
+  "info": "Teleport ke menara atau area tertentu."
+ },
+ {
+  "nama": "Aegis",
+  "info": "Memberi shield sementara."
+ },
+ {
+  "nama": "Inspire",
+  "info": "Menambah kecepatan serang dan memulihkan HP saat dipakai."
+ },
+ {
+  "nama": "Flameshot",
+  "info": "Melontarkan serangan jarak jauh yang mendorong musuh."
+ }
+]

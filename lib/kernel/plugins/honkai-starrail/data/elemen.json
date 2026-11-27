@@ -1,0 +1,37 @@
+[
+ {
+  "nama": "Physical",
+  "efek": "Bleed",
+  "info": "Menyebabkan luka yang memberi damage berkelanjutan sesuai HP musuh."
+ },
+ {
+  "nama": "Fire",
+  "efek": "Burn",
+  "info": "Membakar musuh dan memberi damage berkelanjutan."
+ },
+ {
+  "nama": "Ice",
+  "efek": "Freeze",
+  "info": "Membekukan musuh sehingga tidak bisa bergerak sementara."
+ },
+ {
+  "nama": "Lightning",
+  "efek": "Shock",
+  "info": "Menyengat musuh dan memberi damage berkelanjutan."
+ },
+ {
+  "nama": "Wind",
+  "efek": "Wind Shear",
+  "info": "Memberi damage berkelanjutan yang menumpuk."
+ },
+ {
+  "nama": "Quantum",
+  "efek": "Entanglement",
+  "info": "Membuat musuh terjerat dan menambah damage saat diserang."
+ },
+ {
+  "nama": "Imaginary",
+  "efek": "Imprisonment",
+  "info": "Memenjarakan musuh sehingga giliran dan kecepatannya turun."
+ }
+]

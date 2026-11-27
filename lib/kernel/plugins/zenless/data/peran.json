@@ -1,0 +1,26 @@
+[
+ {
+  "nama": "Attack",
+  "info": "Penghasil damage utama di tim."
+ },
+ {
+  "nama": "Stun",
+  "info": "Mengumpulkan gauge stun musuh agar tim bisa menyerang dengan damage lebih besar."
+ },
+ {
+  "nama": "Anomaly",
+  "info": "Memicu dan menumpuk efek anomali elemen pada musuh."
+ },
+ {
+  "nama": "Support",
+  "info": "Memberi buff dan membantu tim bertahan atau menyerang lebih kuat."
+ },
+ {
+  "nama": "Defense",
+  "info": "Menjaga tim dan menahan serangan, juga bisa menyerap damage."
+ },
+ {
+  "nama": "Rupture",
+  "info": "Fokus pada damage besar berdasarkan HP, bukan serangan dasar."
+ }
+]
