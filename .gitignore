@@ -17,4 +17,6 @@ plugins/tools/.cache/
 bin/cookies.txt
 *.cookies.txt
 cookies.txt
+*.swp
+*.swo
 .DS_Store
