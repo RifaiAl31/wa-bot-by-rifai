@@ -1,6 +1,7 @@
 // Vercel (Hobby/Free) proxy: frontend statis di Vercel, API tetap di VPS tempat bot jalan.
 // BACKEND_URL = https://<domain-vps-atau-tunnel>/  (hanya dibaca di server, tidak dikirim ke browser).
-export const config = { runtime: 'nodejs20.x' }
+// CommonJS murni: jangan pakai `export const config` (campur ESM/CJS) dan jangan pakai
+// `nodejs20.x` — Vercel build menolak keduanya. Runtime yang didukung: nodejs.
 
 const BACKEND = String(process.env.BACKEND_URL || process.env.DASHBOARD_BACKEND_URL || '').replace(/\/+$/, '')
 
@@ -45,3 +46,5 @@ module.exports = async (req, res) => {
     json(res, 502, { error: 'Backend WhatsApp tidak dapat dijangkau dari Vercel. Periksa BACKEND_URL dan tunnel/VPS.', detail: err.name })
   }
 }
+module.exports.config = { runtime: 'nodejs' }
+

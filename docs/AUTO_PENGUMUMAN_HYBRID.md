@@ -56,6 +56,13 @@ Akses lokal: `http://IP-VPS:3000/dashboard`. Untuk produksi, pasang HTTPS (Cloud
 
 `web/api/[...path].js` meneruskan semua `/api/*` ke VPS, termasuk cookie HttpOnly dan header `x-csrf-token`. `BACKEND_URL` hanya ada di sisi server Vercel, tidak pernah dikirim ke browser. Frontend tidak menyimpan password, token, session Baileys, atau kredensial bot.
 
+Root Directory project Vercel **harus** `web` (bukan root repo). Kalau tidak, Vercel meng-clone seluruh repo dan menginstall 1000+ dependency bot, lalu gagal dengan `api-upload-free` / `unsupported runtime nodejs20.x`. Bisa dicek/diubah dengan:
+
+```bash
+cd web
+npx vercel project update wa-bot-by-rifai-web --root-directory web --framework other --node-version 24.x
+```
+
 Jika `BACKEND_URL` kosong, proxy mengembalikan 502 dengan pesan konfigurasi. Jika VPS sedang mati, dashboard tetap tampil tapi kirim manual/retry akan gagal dengan jelas (tidak ada jadwal yang diklaim).
 
 ## 3. Command WhatsApp (fitur lama tetap ada)

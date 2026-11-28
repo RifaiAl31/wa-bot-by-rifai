@@ -20,3 +20,5 @@ cookies.txt
 *.swp
 *.swo
 .DS_Store
+.vercel
+web/.env.local
