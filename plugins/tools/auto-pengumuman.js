@@ -3,11 +3,7 @@
 'use strict'
 const data = require('../../lib/autoAnnouncementData')
 const flow = require('../../lib/autoAnnouncementFlow')
-
-function dashboardUrl() {
-  if (process.env.DASHBOARD_PUBLIC_URL) return String(process.env.DASHBOARD_PUBLIC_URL).replace(/\/+$/, '') + '/dashboard'
-  return `http://localhost:${process.env.DASHBOARD_PORT || 3000}/dashboard`
-}
+const webUrl = require('../../lib/announcementWebUrl')
 
 function help(prefix) {
   const s = data.stats()
@@ -23,7 +19,8 @@ function help(prefix) {
     `${prefix}auto-pengumuman hapus AN1 — hapus agenda`,
     `${prefix}auto-pengumuman pause AN1 — hentikan sementara`,
     `${prefix}auto-pengumuman resume AN1 — aktifkan kembali`,
-    `${prefix}auto-pengumuman bot — tautan dashboard (admin saja)`,
+    `${prefix}auto-web — tautan dashboard (admin saja, diset dari WA)`,
+    `${prefix}auto-pengumuman bot — alias lama dari perintah di atas`,
     '',
     'Wizard: hari → tanggal → judul → isi → jam kegiatan → waktu kirim → jam kirim → pengulangan → format → grup tujuan → konfirmasi.',
     'Jawab dengan pesan biasa (tanpa titik). Saat konfirmasi: ya / edit judul <teks> / batal.',
@@ -53,8 +50,8 @@ module.exports = {
   command: ['auto-pengumuman'],
   category: 'tools',
   desc: 'Agenda pengumuman otomatis: wizard, jadwal, poster, dashboard web, dan arsip permanen',
-  usage: 'tambah | list | detail AN1 | hapus AN1 | pause AN1 | resume AN1 | bot',
-  run: async ({ sock, msg, from, sender, args, prefix, reply, isOwner }) => {
+  usage: 'tambah | list | detail AN1 | hapus AN1 | pause AN1 | resume AN1 | bot (alias .auto-web)',
+  run: async ({ sock, msg, from, sender, args, prefix, reply, isOwner, isAdmin }) => {
     const sub = String(args[0] || '').trim().toLowerCase()
     const rest = args.slice(1)
     if (!sub || ['help', 'bantuan', '?'].includes(sub)) return reply(help(prefix))
@@ -63,15 +60,19 @@ module.exports = {
       return flow.startAdd({ sock, msg, from, sender, body: '', text: '', prefix })
     }
     if (sub === 'bot') {
-      if (!isOwner) return reply('🔒 Tautan dashboard hanya untuk admin/owner bot.')
+      if (!isOwner && !isAdmin) return reply('🔒 Tautan dashboard hanya untuk admin/owner bot.')
+      const base = webUrl.get()
+      if (!base) return reply(`URL dashboard belum diatur. Ketik ${prefix}auto-web set https://nama-project.vercel.app`)
       return reply([
         '🌐 *DASHBOARD AUTO PENGUMUMAN*',
         '',
-        dashboardUrl(),
+        webUrl.dashboardLink(base),
         '',
         'Login memakai password admin yang diset di VPS (DASHBOARD_PASSWORD).',
         'Dashboard memakai sesi WhatsApp dan database yang SAMA dengan bot — tidak ada koneksi kedua.',
         'Jangan bagikan tautan atau password ini ke orang lain.',
+        '',
+        `Perintah baru: ${prefix}auto-web`,
       ].join('\n'))
     }
     if (sub === 'list') {

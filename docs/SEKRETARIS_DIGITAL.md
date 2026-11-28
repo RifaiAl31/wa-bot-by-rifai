@@ -24,7 +24,8 @@ Auto Pengumuman:
 - `.auto-pengumuman hapus AN1`
 - `.auto-pengumuman pause AN1`
 - `.auto-pengumuman resume AN1`
-- `.auto-pengumuman bot` (tautan dashboard; admin/owner saja)
+- `.auto-web` (tautan dashboard; admin saja — `.auto-web set <url>` untuk menyimpan URL Vercel dari WA)
+- `.auto-pengumuman bot` (alias lama `.auto-web`)
 
 Sistem Hybrid WhatsApp + Web Dashboard (login admin, CRUD, upload gambar, preview, jadwal sekali/relatif, template, riwayat, retry aman) ada di `docs/AUTO_PENGUMUMAN_HYBRID.md`. Frontend bisa di-host gratis di Vercel; bot/API tetap di VPS karena Baileys butuh proses permanen.
 

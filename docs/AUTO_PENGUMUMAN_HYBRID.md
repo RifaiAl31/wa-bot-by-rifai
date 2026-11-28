@@ -68,7 +68,13 @@ Jika `BACKEND_URL` kosong, proxy mengembalikan 502 dengan pesan konfigurasi. Jik
 | `.auto-pengumuman detail AN1` | Detail + isi lengkap. |
 | `.auto-pengumuman hapus AN1` | Hapus agenda. |
 | `.auto-pengumuman pause AN1` / `resume AN1` | Jeda/aktifkan agenda. |
-| `.auto-pengumuman bot` | **Admin/owner saja**: tautan dashboard + pengingat login. Non-admin ditolak. |
+| `.auto-pengumuman bot` | Alias lama; sama dengan `.auto-web`. |
+| `.auto-web` | **Admin/owner/group admin**: tautan dashboard. Jika URL belum diatur, perintah ini memberi cara menyetelnya. |
+| `.auto-web set https://nama-project.vercel.app` | Admin: simpan URL dashboard dari WhatsApp (tanpa edit `.env`). Tersimpan di `database/dashboard-url.json`. |
+| `.auto-web status` | Admin: lihat sumber URL (`.env` atau WhatsApp) dan tautan akhir. |
+| `.auto-web reset` | Admin: hapus URL yang pernah diset dari WhatsApp. |
+
+URL dashboard diambil berurutan dari `DASHBOARD_PUBLIC_URL`, `DASHBOARD_VERCEL_URL`, lalu file hasil `.auto-web set`. Ini mengatasi masalah tautan `localhost` bila `.env` belum diisi. Tetap set `DASHBOARD_PASSWORD` di VPS agar login dashboard aktif.
 
 Wizard masih menerima `batal`, `ya`, dan `edit judul|isi|jam|kirim|format|ulang|grup|tanggal` seperti sebelumnya. Pengumuman yang dibuat dari WhatsApp langsung muncul di dashboard, dan sebaliknya, karena keduanya membaca file yang sama.
 

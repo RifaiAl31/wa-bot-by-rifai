@@ -11,6 +11,10 @@ process.env.AUTO_ANNOUNCEMENT_DATA_DIR = path.join(dir, 'auto')
 process.env.CATATAN_DATA_DIR = path.join(dir, 'catatan')
 process.env.ANNOUNCEMENT_DATA_DIR = path.join(dir, 'ann')
 process.env.ANNOUNCEMENT_MEDIA_DIR = path.join(dir, 'media')
+process.env.DASHBOARD_URL_FILE = path.join(dir, 'dashboard-url.json')
+delete process.env.DASHBOARD_PUBLIC_URL
+delete process.env.DASHBOARD_VERCEL_URL
+delete process.env.VERCEL_URL
 delete process.env.NOTE_VISION_URL
 delete process.env.GEMINI_API_KEY
 
@@ -234,16 +238,53 @@ test('alur catatan: dua halaman dianalisis, dikoreksi, disimpan, lalu jadi pengu
 
 test('plugin .auto-pengumuman menampilkan status/panduan dan membatasi tautan dashboard', async () => {
   autoData._resetForTests()
+  process.env.DASHBOARD_PUBLIC_URL = 'https://contoh-lama.vercel.app/'
   const plugin = require('../plugins/tools/auto-pengumuman')
   const s = sock()
-  const base = { sock: s, from: GROUP, sender: ADMIN, prefix: '.', msg: ctx(s, '.auto-pengumuman').msg }
-  await plugin.run({ ...base, args: [], reply: (t) => s.sendMessage(GROUP, { text: String(t) }) })
-  assert.match(texts(s), /AUTO PENGUMUMAN/)
-  assert.match(texts(s), /auto-pengumuman bot/)
-  assert.match(texts(s), /Agenda: 0/)
+  try {
+    const base = { sock: s, from: GROUP, sender: ADMIN, prefix: '.', msg: ctx(s, '.auto-pengumuman').msg }
+    await plugin.run({ ...base, args: [], reply: (t) => s.sendMessage(GROUP, { text: String(t) }) })
+    assert.match(texts(s), /AUTO PENGUMUMAN/)
+    assert.match(texts(s), /auto-web/)
+    assert.match(texts(s), /Agenda: 0/)
 
-  await plugin.run({ ...base, args: ['bot'], isOwner: true, reply: (t) => s.sendMessage(GROUP, { text: String(t) }) })
-  assert.match(s.sent.at(-1).content.text, /DASHBOARD AUTO PENGUMUMAN/)
-  await plugin.run({ ...base, args: ['bot'], isOwner: false, reply: (t) => s.sendMessage(GROUP, { text: String(t) }) })
+    await plugin.run({ ...base, args: ['bot'], isOwner: true, reply: (t) => s.sendMessage(GROUP, { text: String(t) }) })
+    assert.match(s.sent.at(-1).content.text, /DASHBOARD AUTO PENGUMUMAN/)
+    assert.match(s.sent.at(-1).content.text, /https:\/\/contoh-lama\.vercel\.app\/dashboard/)
+    await plugin.run({ ...base, args: ['bot'], isOwner: false, reply: (t) => s.sendMessage(GROUP, { text: String(t) }) })
+    assert.match(s.sent.at(-1).content.text, /admin\/owner/)
+  } finally {
+    delete process.env.DASHBOARD_PUBLIC_URL
+  }
+})
+
+test('perintah .auto-web menyetel dan menampilkan tautan dashboard', async () => {
+  const plugin = require('../plugins/tools/auto-web')
+  const s = sock()
+  const base = { sock: s, from: GROUP, sender: ADMIN, prefix: '.', msg: ctx(s, '.auto-web').msg }
+  const reply = (t) => s.sendMessage(GROUP, { text: String(t) })
+
+  await plugin.run({ ...base, args: ['set', 'https://project-baru.vercel.app/'], isOwner: true, reply })
+  assert.match(s.sent.at(-1).content.text, /https:\/\/project-baru\.vercel\.app\/dashboard/)
+  s.sent.length = 0
+
+  await plugin.run({ ...base, args: [], isOwner: true, reply })
+  assert.match(s.sent.at(-1).content.text, /https:\/\/project-baru\.vercel\.app\/dashboard/)
+  assert.doesNotMatch(s.sent.at(-1).content.text, /localhost/)
+  s.sent.length = 0
+
+  await plugin.run({ ...base, args: ['status'], isOwner: true, isAdmin: true, reply })
+  assert.match(s.sent.at(-1).content.text, /Sumber: whatsapp/)
+  s.sent.length = 0
+
+  await plugin.run({ ...base, args: [], isOwner: false, reply })
   assert.match(s.sent.at(-1).content.text, /admin\/owner/)
+  s.sent.length = 0
+
+  await plugin.run({ ...base, args: ['set', 'bukan-url'], isOwner: true, reply })
+  assert.match(s.sent.at(-1).content.text, /URL tidak valid/)
+  s.sent.length = 0
+
+  await plugin.run({ ...base, args: ['reset'], isOwner: true, reply })
+  assert.match(s.sent.at(-1).content.text, /dihapus/)
 })
