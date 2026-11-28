@@ -25,6 +25,8 @@ const { handleAntiLink } = require("./lib/antilink.js")
 const { handleParticipants } = require("./lib/groups.js")
 const { isBanned, handleAfk, handleBadWord, isMutedFor } = require("./lib/guard.js")
 const { startScheduler } = require("./lib/scheduler.js")
+// Dashboard web memakai proses & socket yang sama dengan bot (bukan koneksi WhatsApp kedua).
+const webDashboard = require("./lib/announcementWeb.js")
 
 const logger = pino({ level: 'silent' })
 const pluginDir = path.join(__dirname, 'plugins')
@@ -259,6 +261,7 @@ async function startBot() {
   sock.ev.on('connection.update', ({ connection, lastDisconnect }) => {
     if (connection === 'open') {
       console.log(`[${config.botName}] terhubung sebagai ${sock.user?.id}`)
+      webDashboard.setSock(sock) // kirim manual/retry dari web memakai socket ini
       startScheduler(sock)
       for (const h of hooks) if (typeof h.init === 'function') Promise.resolve().then(() => h.init(sock)).catch((err) => console.log('[HOOK] init', h.name, err.message))
       require("./lib/voip.js").init(sock).catch(() => {})
@@ -512,7 +515,8 @@ async function startBot() {
 }
 
 // Satu folder session = satu proses. Dua proses sekaligus merusak sesi enkripsi (Bad MAC).
-{
+// Mode SKIP_WHATSAPP=1 hanya menyalakan dashboard untuk perawatan, tanpa menyentuh sesi.
+if (process.env.SKIP_WHATSAPP !== '1') {
   const lockDir = path.join(__dirname, config.sessionDir)
   fs.mkdirSync(lockDir, { recursive: true })
   const lock = require("./lib/singleton.js").acquire(path.join(lockDir, '.bot.pid'))
@@ -531,7 +535,9 @@ async function startBot() {
 }
 
 loadPlugins()
-startBot()
+if (process.env.DASHBOARD_ENABLED !== '0') webDashboard.start()
+if (process.env.SKIP_WHATSAPP !== '1') startBot()
+else console.log('[BOT] SKIP_WHATSAPP=1 — WhatsApp tidak dijalankan, dashboard saja.')
 
 process.on('unhandledRejection', (err) => console.log('[unhandledRejection]', err))
 process.on('uncaughtException', (err) => console.log('[uncaughtException]', err))

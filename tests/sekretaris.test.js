@@ -231,3 +231,19 @@ test('alur catatan: dua halaman dianalisis, dikoreksi, disimpan, lalu jadi pengu
     await new Promise((resolve) => server.close(resolve))
   }
 })
+
+test('plugin .auto-pengumuman menampilkan status/panduan dan membatasi tautan dashboard', async () => {
+  autoData._resetForTests()
+  const plugin = require('../plugins/tools/auto-pengumuman')
+  const s = sock()
+  const base = { sock: s, from: GROUP, sender: ADMIN, prefix: '.', msg: ctx(s, '.auto-pengumuman').msg }
+  await plugin.run({ ...base, args: [], reply: (t) => s.sendMessage(GROUP, { text: String(t) }) })
+  assert.match(texts(s), /AUTO PENGUMUMAN/)
+  assert.match(texts(s), /auto-pengumuman bot/)
+  assert.match(texts(s), /Agenda: 0/)
+
+  await plugin.run({ ...base, args: ['bot'], isOwner: true, reply: (t) => s.sendMessage(GROUP, { text: String(t) }) })
+  assert.match(s.sent.at(-1).content.text, /DASHBOARD AUTO PENGUMUMAN/)
+  await plugin.run({ ...base, args: ['bot'], isOwner: false, reply: (t) => s.sendMessage(GROUP, { text: String(t) }) })
+  assert.match(s.sent.at(-1).content.text, /admin\/owner/)
+})

@@ -17,13 +17,16 @@ Arsip catatan:
 - `.catatan pengumuman CAT001` → pilih nomor kategori 1–10; judul & isi otomatis diisi dari arsip ke wizard Auto Pengumuman.
 
 Auto Pengumuman:
-- `.auto-pengumuman` (bantuan)
+- `.auto-pengumuman` (ringkasan + daftar + status + panduan)
 - `.auto-pengumuman tambah` (wizard)
 - `.auto-pengumuman list`
 - `.auto-pengumuman detail AN1`
 - `.auto-pengumuman hapus AN1`
 - `.auto-pengumuman pause AN1`
 - `.auto-pengumuman resume AN1`
+- `.auto-pengumuman bot` (tautan dashboard; admin/owner saja)
+
+Sistem Hybrid WhatsApp + Web Dashboard (login admin, CRUD, upload gambar, preview, jadwal sekali/relatif, template, riwayat, retry aman) ada di `docs/AUTO_PENGUMUMAN_HYBRID.md`. Frontend bisa di-host gratis di Vercel; bot/API tetap di VPS karena Baileys butuh proses permanen.
 
 Wizard `.auto-pengumuman tambah` bertanya berurutan:
 hari → tanggal (atau `depan`) → judul → isi → jam kegiatan → pilihan kirim (1=7 hari sebelum, 2=1 hari sebelum, 3=hari kegiatan) → jam kirim → pengulangan (1=sekali, 2=tiap minggu) → format (1=teks, 2=poster, 3=teks+poster) → grup tujuan → konfirmasi.

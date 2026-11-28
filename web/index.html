@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>Dashboard Auto Pengumuman</title>
+  <base href="/dashboard/">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div id="toast-root" class="toast-root" aria-live="polite"></div>
+
+  <!-- ===================== LOGIN ===================== -->
+  <section id="login-view" class="login-view">
+    <div class="login-card">
+      <div class="login-brand">
+        <div class="brand-mark">📢</div>
+        <h1>Auto Pengumuman</h1>
+        <p class="muted">Panel administrasi WhatsApp</p>
+      </div>
+      <form id="login-form" autocomplete="off">
+        <label for="login-password">Kata sandi admin</label>
+        <input id="login-password" name="password" type="password" required autocomplete="current-password" placeholder="Masukkan kata sandi">
+        <p id="login-error" class="form-error" role="alert" hidden></p>
+        <button id="login-submit" class="btn btn-primary btn-block" type="submit">Masuk</button>
+      </form>
+      <p id="login-notice" class="login-notice" hidden></p>
+    </div>
+  </section>
+
+  <!-- ===================== APP ===================== -->
+  <div id="app-view" class="app" hidden>
+    <header class="topbar">
+      <div class="topbar-brand">
+        <span class="brand-mark small">📢</span>
+        <div>
+          <strong>Auto Pengumuman</strong>
+          <span class="muted small-text">Panel administrasi</span>
+        </div>
+      </div>
+      <div class="topbar-right">
+        <span id="wa-status" class="badge badge-muted">Memeriksa WhatsApp…</span>
+        <button id="logout-btn" class="btn btn-ghost btn-sm" type="button">Keluar</button>
+      </div>
+    </header>
+
+    <main class="main">
+      <nav class="tabs" aria-label="Menu utama">
+        <button class="tab active" type="button" data-tab="overview">Ringkasan</button>
+        <button class="tab" type="button" data-tab="announcements">Pengumuman</button>
+        <button class="tab" type="button" data-tab="history">Riwayat</button>
+        <button class="tab" type="button" data-tab="templates">Template</button>
+        <button class="tab" type="button" data-tab="audit">Log Audit</button>
+      </nav>
+
+      <!-- Ringkasan -->
+      <section id="tab-overview" class="tab-panel">
+        <div class="section-head">
+          <div>
+            <h2>Ringkasan</h2>
+            <p class="muted">Kondisi pengumuman dan koneksi WhatsApp saat ini.</p>
+          </div>
+          <button class="btn btn-ghost btn-sm" type="button" data-action="refresh">Muat ulang data</button>
+        </div>
+        <div id="stats-grid" class="stats-grid"></div>
+        <div class="panel-grid">
+          <div class="panel">
+            <h3>Status WhatsApp</h3>
+            <div id="wa-detail" class="wa-detail">Memeriksa…</div>
+          </div>
+          <div class="panel">
+            <h3>Tautan dashboard</h3>
+            <p id="public-url" class="muted">—</p>
+            <p class="hint">Tautan publik dapat dibagikan kepada admin lain.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Pengumuman -->
+      <section id="tab-announcements" class="tab-panel" hidden>
+        <div class="section-head">
+          <div>
+            <h2>Pengumuman</h2>
+            <p class="muted">Kelola jadwal, penerima, dan pengiriman pesan.</p>
+          </div>
+          <button id="new-ann-btn" class="btn btn-primary" type="button">+ Pengumuman baru</button>
+        </div>
+        <div class="toolbar">
+          <input id="ann-search" type="search" placeholder="Cari judul atau isi…" aria-label="Cari pengumuman">
+          <select id="ann-filter" aria-label="Filter status">
+            <option value="all">Semua status</option>
+            <option value="draft">Draft</option>
+            <option value="active">Aktif</option>
+            <option value="paused">Jeda</option>
+          </select>
+        </div>
+        <div id="ann-list" class="ann-list"></div>
+      </section>
+
+      <!-- Riwayat -->
+      <section id="tab-history" class="tab-panel" hidden>
+        <div class="section-head">
+          <div>
+            <h2>Riwayat pengiriman</h2>
+            <p class="muted">Status setiap proses kirim, termasuk detail kegagalan.</p>
+          </div>
+          <button class="btn btn-ghost btn-sm" type="button" data-action="refresh">Muat ulang data</button>
+        </div>
+        <div id="history-list"></div>
+      </section>
+
+      <!-- Template -->
+      <section id="tab-templates" class="tab-panel" hidden>
+        <div class="section-head">
+          <div>
+            <h2>Template pesan</h2>
+            <p class="muted">Simpan teks yang sering dipakai lalu pakai di editor.</p>
+          </div>
+        </div>
+        <div class="panel">
+          <form id="template-form">
+            <input id="template-id" type="hidden">
+            <div class="form-grid">
+              <div class="field">
+                <label for="template-name">Nama template</label>
+                <input id="template-name" required maxlength="120" placeholder="Contoh: Pengumuman rapat">
+              </div>
+              <div class="field">
+                <label for="template-body">Isi pesan</label>
+                <textarea id="template-body" rows="4" required placeholder="Tulis isi pesan…"></textarea>
+              </div>
+            </div>
+            <div class="form-actions">
+              <button class="btn btn-primary" type="submit" id="template-submit">Simpan template</button>
+              <button class="btn btn-ghost" type="button" id="template-reset" hidden>Batal edit</button>
+            </div>
+          </form>
+        </div>
+        <div id="template-list" class="template-list"></div>
+      </section>
+
+      <!-- Audit -->
+      <section id="tab-audit" class="tab-panel" hidden>
+        <div class="section-head">
+          <div>
+            <h2>Log audit admin</h2>
+            <p class="muted">Catatan aktivitas administrasi (baca saja).</p>
+          </div>
+        </div>
+        <div id="audit-list"></div>
+      </section>
+    </main>
+  </div>
+
+  <!-- ===================== EDITOR ===================== -->
+  <div id="editor-modal" class="modal" hidden>
+    <div class="modal-backdrop" data-action="close-editor"></div>
+    <div class="modal-dialog modal-wide" role="dialog" aria-modal="true" aria-label="Editor pengumuman">
+      <div class="modal-head">
+        <h2 id="editor-title">Pengumuman baru</h2>
+        <button class="icon-btn" type="button" data-action="close-editor" aria-label="Tutup">✕</button>
+      </div>
+      <form id="editor-form" autocomplete="off">
+        <div class="modal-body">
+          <div class="form-grid">
+            <div class="field span-2">
+              <label for="f-title">Judul</label>
+              <input id="f-title" required maxlength="200" placeholder="Judul pengumuman">
+            </div>
+            <div class="field span-2">
+              <label for="f-body">Isi pesan</label>
+              <textarea id="f-body" rows="5" required placeholder="Isi pengumuman…"></textarea>
+            </div>
+            <div class="field">
+              <label for="f-eventDate">Tanggal kegiatan</label>
+              <input id="f-eventDate" type="date" required>
+            </div>
+            <div class="field">
+              <label for="f-eventTime">Jam kegiatan</label>
+              <input id="f-eventTime" type="time" required>
+            </div>
+            <div class="field span-2">
+              <label for="f-location">Lokasi <span class="muted">(opsional)</span></label>
+              <input id="f-location" placeholder="Contoh: Masjid Al-Falah">
+            </div>
+            <div class="field">
+              <label for="f-format">Format pesan</label>
+              <select id="f-format">
+                <option value="text">Teks saja</option>
+                <option value="poster">Poster saja</option>
+                <option value="both">Teks + poster</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="f-mode">Mode jadwal</label>
+              <select id="f-mode">
+                <option value="relative">Relatif sebelum kegiatan</option>
+                <option value="once">Sekali (waktu tertentu)</option>
+              </select>
+            </div>
+            <div class="field" id="rel-fields">
+              <label for="f-offsetDays">Kirim</label>
+              <select id="f-offsetDays">
+                <option value="7">7 hari sebelum</option>
+                <option value="1">1 hari sebelum</option>
+                <option value="0">Pada hari kegiatan</option>
+              </select>
+            </div>
+            <div class="field" id="rel-time-field">
+              <label for="f-sendTime">Jam kirim (WIB)</label>
+              <input id="f-sendTime" type="time" required>
+            </div>
+            <div class="field span-2" id="once-field" hidden>
+              <label for="f-scheduleAt">Waktu kirim sekali (WIB)</label>
+              <input id="f-scheduleAt" type="datetime-local">
+            </div>
+            <div class="field span-2">
+              <label>Grup tujuan</label>
+              <div class="targets-box">
+                <label class="check-row"><input id="f-all-groups" type="checkbox"> <strong>Pilih semua grup</strong></label>
+                <div id="f-groups" class="groups-grid"></div>
+              </div>
+            </div>
+            <div class="field span-2">
+              <label for="f-image">Gambar poster <span class="muted">(JPG/PNG/WebP, maks 5MB)</span></label>
+              <input id="f-image" type="file" accept="image/jpeg,image/png,image/webp">
+              <div id="f-image-preview" class="image-preview"></div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-foot">
+          <button class="btn btn-ghost" type="button" data-action="close-editor">Batal</button>
+          <button class="btn btn-ghost" type="button" data-action="preview-editor">Preview</button>
+          <button class="btn btn-secondary" type="button" data-action="save-draft">Simpan Draft</button>
+          <button class="btn btn-secondary" type="button" data-action="save-active">Simpan &amp; Aktifkan</button>
+          <button class="btn btn-primary" type="button" data-action="send-now" id="editor-send-now" hidden>Kirim Sekarang</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- ===================== PREVIEW ===================== -->
+  <div id="preview-modal" class="modal" hidden>
+    <div class="modal-backdrop" data-action="close-preview"></div>
+    <div class="modal-dialog" role="dialog" aria-modal="true" aria-label="Preview pesan">
+      <div class="modal-head">
+        <h2>Preview pesan WhatsApp</h2>
+        <button class="icon-btn" type="button" data-action="close-preview" aria-label="Tutup">✕</button>
+      </div>
+      <div class="modal-body">
+        <div id="preview-image" class="preview-image"></div>
+        <div id="preview-content" class="whatsapp-preview"></div>
+        <div id="preview-meta" class="preview-meta"></div>
+      </div>
+      <div class="modal-foot">
+        <button class="btn btn-primary" type="button" data-action="close-preview">Tutup</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===================== KONFIRMASI ===================== -->
+  <div id="confirm-modal" class="modal" hidden>
+    <div class="modal-backdrop" data-action="confirm-cancel"></div>
+    <div class="modal-dialog modal-sm" role="alertdialog" aria-modal="true" aria-label="Konfirmasi">
+      <div class="modal-head"><h2>Konfirmasi</h2></div>
+      <div class="modal-body"><p id="confirm-text"></p></div>
+      <div class="modal-foot">
+        <button class="btn btn-ghost" type="button" data-action="confirm-cancel">Batal</button>
+        <button class="btn btn-danger" type="button" id="confirm-ok">Ya, lanjutkan</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="./app.js" defer></script>
+</body>
+</html>
