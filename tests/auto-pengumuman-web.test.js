@@ -14,6 +14,7 @@ process.env.DASHBOARD_AUTH_FILE = path.join(dir, 'auth.json')
 process.env.DASHBOARD_PASSWORD = 'rahasia-admin-test'
 process.env.DASHBOARD_PORT = '0'
 process.env.DASHBOARD_HOST = '127.0.0.1'
+process.env.AUTO_ANNOUNCEMENT_SEED = '0'
 delete process.env.DASHBOARD_ALLOWED_ORIGIN
 delete process.env.DASHBOARD_COOKIE_SECURE
 
@@ -121,7 +122,43 @@ test('CRUD pengumuman lewat web langsung terbaca oleh lapisan WhatsApp', async (
   assert.equal(data.get(id), null)
 })
 
-test('upload gambar: validasi tipe, ukuran, dan path', async () => {
+test('endpoint kalender, pengaturan, preview, dan kendali jadwal', async () => {
+  const created = await api('/api/announcements', { method: 'POST', body: {
+    scheduleName: 'Pengumuman D', title: 'Jadwal Uji', body: 'Isi.',
+    eventDate: '2026-12-21', startDate: '2026-12-21', weekday: 1,
+    targets: [GROUP], format: 'text', mode: 'relative', repeat: 'forever',
+    offsetDays: 1, sendTime: '19:00', eventTime: '09:00', status: 'draft', is_active: 0,
+  } })
+  assert.equal(created.status, 200, JSON.stringify(created.json))
+  const id = created.json.item.id
+
+  const calendar = await api('/api/calendar?weeks=2')
+  assert.equal(calendar.status, 200)
+  assert.ok(Array.isArray(calendar.json.items))
+
+  const preview = await api('/api/preview', { method: 'POST', body: {
+    title: 'Rapat', body: 'Hadiri.', eventDate: '2026-12-21', eventTime: '09:00', location: 'Balai',
+  } })
+  assert.equal(preview.status, 200)
+  assert.match(preview.json.text, /📢 \*Rapat\*/)
+  assert.match(preview.json.text, /Lokasi: Balai/)
+
+  const before = await api('/api/settings')
+  assert.equal(before.json.settings.catchUp, 'skip')
+  const changed = await api('/api/settings', { method: 'PATCH', body: { catchUp: 'review', maxPending: 9 } })
+  assert.equal(changed.json.settings.catchUp, 'review')
+  assert.equal(changed.json.settings.maxPending, 9)
+
+  const next = await api(`/api/schedules/${id}/next`)
+  assert.equal(next.status, 200)
+  assert.equal(next.json.next.eventDate, '2026-12-21')
+  const active = await api(`/api/schedules/${id}/activate`, { method: 'POST', body: {} })
+  assert.equal(active.json.item.status, 'active')
+  assert.equal(active.json.item.nextSendDate, '2026-12-20')
+  assert.equal(data.get(id).is_active, 1)
+})
+
+test('unggah gambar: validasi tipe, ukuran, dan path', async () => {
   const png = Buffer.concat([Buffer.from('89504e470d0a1a0a', 'hex'), Buffer.alloc(64, 1)])
   const boundary = '----vitestboundary'
   const part = Buffer.concat([

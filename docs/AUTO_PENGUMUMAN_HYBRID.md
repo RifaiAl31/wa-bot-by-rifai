@@ -2,6 +2,25 @@
 
 Fitur ini **mengembangkan** sistem `.auto-pengumuman` yang sudah ada di project ini. Tidak ada project baru, tidak ada koneksi WhatsApp kedua, dan tidak ada database kedua: WhatsApp command, scheduler, dan dashboard memakai satu proses, satu socket Baileys, dan satu file `database/auto-announcements.json`.
 
+## RIFAI ANNOUNCEMENT MANAGER (mode lokal, Tanpa Vercel)
+
+Dashboard berjalan di dalam proses bot yang sama, memakai `node:http` (project ini **tidak** memakai Express) pada `DASHBOARD_PORT` default 3000. Alur: Browser → dashboard → API lokal → scheduler → socket Baileys → grup WhatsApp. Tidak ada `BACKEND_URL`, tidak ada backend eksternal, dan tidak ada koneksi WhatsApp kedua. Integrasi socket memakai `webDashboard.setSock(sock)` yang dipanggil saat koneksi `open`.
+
+Fitur utama mode lokal:
+
+- Tiga jadwal awal `Pengumuman A/B/C` dibuat sekali saat dashboard pertama kali start, semua berstatus **draft** dan belum memiliki grup tujuan, jadi tidak mengirim apa pun sebelum admin mengisi dan mengaktifkan. Jadwal lain tetap bisa ditambahkan tanpa batas.
+- Mode pengulangan: `Sekali`, `Setiap minggu`, dan `Selamanya`. Dua mode terakhir berjalan terus sampai admin menekan Jeda/Hapus.
+- Waktu kirim: `Sehari sebelumnya` (`offsetDays: 1`) atau `Pada hari kegiatan` (`offsetDays: 0`), dengan jam individual per jadwal. Format lama `offsetDays: 7` tetap diterima sebagai kompatibilitas.
+- Semua tanggal dihitung oleh `lib/announcementScheduleEngine.js` memakai `Date.UTC`, aman lintas minggu/bulan/tahun/Minggu. Admin tidak pernah mengedit tanggal mingguan secara manual.
+- Satu scheduler 10 detik yang sudah ada (`lib/scheduler.js`) memanggil `tickAutoAnnouncements`. Dijaga oleh flag `ticking` agar tidak bertumpuk, dan `setSock` tidak membuat interval baru.
+- Anti-double: kunci eksekusi unik `id|eventDate|sendDate|sendTime`, lock `claimed`, dan rekonsiliasi klaim yang mati saat restart (ditandai gagal + perlu retry manual, tidak dikirim ulang otomatis).
+- Catch-up per jadwal: `SKIP` (default, tandai missed), `SEND_WHEN_ONLINE` (antrean dikirim saat bot kembali online), `MANUAL_REVIEW` (tunggu approve). Jumlah antrean dibatasi `maxPending`.
+- Riwayat menyimpan `snapshot` judul/isi/gambar/grup pada saat kirim, sehingga mengubah template tidak mengubah riwayat lama.
+
+Endpoint baru: `GET /api/calendar?weeks=2`, `GET|PATCH /api/settings`, `POST /api/preview`, `GET /api/schedules/:id/next`, `POST /api/schedules/:id/activate|pause|approve`, `GET /api/groups`.
+
+Untuk akses publik, Cloudflare Tunnel boleh dipakai, tetapi bukan kebutuhan: buka `http://IP-VPS:3000/dashboard` atau tunnel ke port 3000. Tidak perlu mengubah kode atau env `BACKEND_URL`.
+
 ## Arsitektur (penting soal Vercel)
 
 ```

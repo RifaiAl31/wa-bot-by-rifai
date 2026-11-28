@@ -27,7 +27,7 @@ Auto Pengumuman:
 - `.auto-web` (tautan dashboard; admin saja — `.auto-web set <url>` untuk menyimpan URL Vercel dari WA)
 - `.auto-pengumuman bot` (alias lama `.auto-web`)
 
-Sistem Hybrid WhatsApp + Web Dashboard (login admin, CRUD, upload gambar, preview, jadwal sekali/relatif, template, riwayat, retry aman) ada di `docs/AUTO_PENGUMUMAN_HYBRID.md`. Frontend bisa di-host gratis di Vercel; bot/API tetap di VPS karena Baileys butuh proses permanen.
+Sistem Hybrid WhatsApp + Web Dashboard (login admin, CRUD, upload gambar, preview, jadwal sekali/relatif/forever, template, riwayat, retry aman) ada di `docs/AUTO_PENGUMUMAN_HYBRID.md`. Dashboard lokal bernama RIFAI ANNOUNCEMENT MANAGER berjalan di port 3000 dalam proses bot yang sama, dengan tiga jadwal awal A/B/C, kalender, dan pengaturan catch-up. Frontend Vercel/proxy lama tidak diperlukan untuk mode lokal. Bot/API tetap di VPS karena Baileys butuh proses permanen.
 
 Wizard `.auto-pengumuman tambah` bertanya berurutan:
 hari → tanggal (atau `depan`) → judul → isi → jam kegiatan → pilihan kirim (1=7 hari sebelum, 2=1 hari sebelum, 3=hari kegiatan) → jam kirim → pengulangan (1=sekali, 2=tiap minggu) → format (1=teks, 2=poster, 3=teks+poster) → grup tujuan → konfirmasi.
